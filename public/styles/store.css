@@ -25,24 +25,31 @@ a{
     display: flex;
     justify-content: center;
     width: 80%;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid rgb(182, 174, 174);
+    border-bottom: 1px solid rgb(182, 174, 174);
     padding-top: 2px;
-    padding-bottom: 3px;
+    padding-bottom: px;
     margin-top: 30px;
 }
 
 .header__button{
     font-size: 15px;
-    padding: 10px;
+    padding: 13px;
+    padding-bottom: 16px;
     cursor: pointer;
     color: rgb(119, 116, 116);
+
 }
 
 .header__button:hover{
-    background-color: whitesmoke;
+    transition: 0.1s;
+    transition-timing-function: ease-out 1s;
+    border-bottom: 2px solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-bottom: 2px;
+    
+
 
     color: black;
 
