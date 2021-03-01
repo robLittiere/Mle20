@@ -16,6 +16,10 @@ body {
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header_bottom{
     align-self: center;
     display: flex;
