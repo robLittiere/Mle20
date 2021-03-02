@@ -1,7 +1,8 @@
 #banner {
     margin: 0;
-    height: 7%;
-    max-height: 73px;
+    height: 32px;
+    margin-bottom: 30px;
+
 
     background-color: black;
     color: white;
@@ -12,12 +13,14 @@
 }
 
 .bannerContain {
-    align-items: center;
-
     font-size: 6px;
-
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.bannerContain:hover{
+    cursor: pointer;
 }
 
 .bannerContain img{

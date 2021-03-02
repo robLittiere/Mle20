@@ -18,9 +18,14 @@ a{
     border-top: 1px solid rgb(182, 174, 174);
     border-bottom: 1px solid rgb(182, 174, 174);
     padding-top: 2px;
-    padding-bottom: px;
-    margin-top: 30px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 
 .header__button{
     font-size: 15px;
@@ -38,9 +43,88 @@ a{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-bottom: 2px;
-    
-
-
     color: black;
 
+}
+
+#store__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+
+}
+
+#experience__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+}
+
+#company__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+}
+
+#conciergerie__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+}
+
+#partner__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+}
+
+#contact__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+}
+
+
+#infos__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+}
+.popup__button{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.popup__button:hover{
+    color: rgb(134, 131, 131);
 }
