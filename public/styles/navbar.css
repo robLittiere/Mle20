@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 
-.header__container > img {
+#logo {
     align-self: center;
     width: 7%;
     margin-bottom: 40px;
@@ -63,8 +63,11 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 15em;
+    padding-bottom: 0.5em;
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
+
+
     background-color: white;
     z-index: 999;
 
@@ -77,8 +80,11 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 15em;
+    padding-bottom: 0.5em;
+
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
+
     background-color: white;
     z-index: 999;
 }
@@ -89,8 +95,11 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 15em;
+    padding-bottom: 0.5em;
+
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
+
     background-color: white;
     z-index: 999;
 
@@ -103,8 +112,11 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 15em;
+    padding-bottom: 0.5em;
+
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
+
     background-color: white;
     z-index: 999;
 
@@ -117,8 +129,11 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 15em;
+    padding-bottom: 0.5em;
+
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
+
     background-color: white;
     z-index: 999;
 
@@ -131,8 +146,11 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 9em;
+    padding-bottom: 0.5em;
+
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
+
     background-color: white;
     z-index: 999;
 
@@ -144,7 +162,9 @@ a{
     flex-direction: column;
     position: absolute;
     padding-left: 5px;
-    padding-right: 0.2em;
+    padding-right: 20px;
+    padding-bottom: 0.5em;
+
     border-left: 0.5px solid rgb(182, 174, 174);
     border-right: 0.5px solid rgb(182, 174, 174);
     background-color: white;
