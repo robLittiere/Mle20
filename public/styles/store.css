@@ -4,15 +4,122 @@
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.store__container{
-    margin-top: 20px;
-    height: 2000px;
+#storeContain {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 30px;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+	max-width: 200px;
+
 }
+
+.storeElement {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid white;
+	transition: .3s ease-in-out;
+}
+
+.storeElement:hover {
+  border-top: 1px solid rgb(182, 174, 174);
+}
+
+.storeElement:hover .elementImg{
+  opacity: 0.5;
+}
+
+/*map css*/
+
+.elementName {
+  display: flex;
+  justify-content: center;
+}
+
+.elementVintage {
+  display: flex;
+  justify-content: center;
+}
+
+.elementPrice {
+  display: flex;
+  justify-content: center;
+}
+
+.priceButton {
+  background-color: cornflowerblue;
+}
+
+.elementImg {
+  margin-top: 30px;
+  transition: .3s ease-in-out;
+}
+
+.storeElement img{
+  width: 150px;
+  height: 145px;
+}
+
+/* button css*/
+
+a {
+  font-size: 12px;
+  padding: 5px 3px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid rgb(189,183,107);
+  /*background-color: rgb(128,0,0);*/
+  position: relative;
+  overflow: hidden;
+
+  margin-bottom: 5px;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(189, 183, 107, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+.elementImg .btnImg {
+  position: absolute;
+  margin-right: 500px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
 
