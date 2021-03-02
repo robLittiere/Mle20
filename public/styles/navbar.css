@@ -128,7 +128,7 @@ a{
     flex-direction: column;
     position: absolute;
     padding-left: 5px;
-    padding-right: 15em;
+    padding-right: 10.5em;
     padding-bottom: 0.5em;
 
     border-left: 0.5px solid rgb(182, 174, 174);
@@ -145,7 +145,7 @@ a{
     flex-direction: column;
     position: absolute;
     padding-left: 5px;
-    padding-right: 9em;
+    padding-right: 8em;
     padding-bottom: 0.5em;
 
     border-left: 0.5px solid rgb(182, 174, 174);
@@ -166,6 +166,8 @@ a{
     padding-bottom: 0.5em;
 
     border-left: 0.5px solid rgb(182, 174, 174);
+    border-right: 0.5px solid rgb(182, 174, 174);
+
     background-color: white;
     z-index: 999;
 
