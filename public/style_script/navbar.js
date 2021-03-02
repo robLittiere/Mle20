@@ -8,7 +8,7 @@ window.onscroll = function() {myFunction()
 var navbar = document.getElementsByClassName("navbar")[0];
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+var sticky = navbar.offsetTop + 10;
 
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
@@ -65,6 +65,19 @@ $( ".store__container" ).mouseover(function() {
   $('.header_bottom').css('border-bottom', '1px solid gray')
 
 });
+
+
+$( ".home__container" ).mouseover(function() {
+    $( "#store__popup" ).css('display', 'none');
+    $( "#experience__popup" ).css('display', 'none');
+    $( "#company__popup" ).css('display', 'none');
+    $( "#conciergerie__popup" ).css('display', 'none');
+    $( "#partner__popup" ).css('display', 'none');
+    $( "#contact__popup" ).css('display', 'none');
+    $( "#infos__popup" ).css('display', 'none');
+    $('.header_bottom').css('border-bottom', '1px solid gray')
+  
+  });
 
 
 $( ".header__top" ).mouseover(function() {
