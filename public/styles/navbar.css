@@ -14,10 +14,11 @@ a{
     align-self: center;
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     border-top: 1px solid rgb(182, 174, 174);
     border-bottom: 1px solid rgb(182, 174, 174);
     padding-top: 2px;
+    background-color: white;
 }
 
 .sticky {
@@ -47,14 +48,19 @@ a{
 
 }
 
+.navbar{
+    background-color: white;
+}
+
 #store__popup{
     display: none;
     flex-direction: column;
     position: absolute;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 15px;
     margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
 
 }
 
@@ -66,6 +72,8 @@ a{
     padding-right: 5px;
     margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
 }
 
 #company__popup{
@@ -76,6 +84,8 @@ a{
     padding-right: 5px;
     margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
 }
 
 #conciergerie__popup{
@@ -86,6 +96,8 @@ a{
     padding-right: 5px;
     margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
 }
 
 #partner__popup{
@@ -96,6 +108,8 @@ a{
     padding-right: 5px;
     margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
 }
 
 #contact__popup{
@@ -106,6 +120,8 @@ a{
     padding-right: 5px;
     margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
 }
 
 
@@ -116,7 +132,10 @@ a{
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 15px;
+    margin-left: 5px;
     border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
 }
 .popup__button{
     color: black;
@@ -127,4 +146,9 @@ a{
 
 .popup__button:hover{
     color: rgb(134, 131, 131);
+}
+
+.popup{
+    width: 100%;
+    background-color: white;
 }
