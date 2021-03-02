@@ -103,7 +103,7 @@ a {
     transparent
   );
   transition: all 650ms;
-}
+} 
 
 .btn:hover:before {
   left: 100%;
