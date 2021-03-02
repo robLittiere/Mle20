@@ -15,13 +15,14 @@ var sticky = navbar.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
-    $( "#store__popup" ).css('margin-top', '0px');
-    $( "#experience__popup" ).css('margin-top', '0px');
-    $( "#company__popup" ).css('margin-top', '0px');
-    $( "#conciergerie__popup" ).css('margin-top', '0px');
-    $( "#partner__popup" ).css('margin-top', '0px');
-    $( "#contact__popup" ).css('margin-top', '0px');
-    $( "#infos__popup" ).css('margin-top', '0px');
+    $( "#store__popup" ).css('margin-top', '-2px');
+    $( "#experience__popup" ).css('margin-top', '-2px');
+    $( "#company__popup" ).css('margin-top', '-2px');
+    $( "#conciergerie__popup" ).css('margin-top', '-2px');
+    $( "#partner__popup" ).css('margin-top', '-2px');
+    $( "#contact__popup" ).css('margin-top', '-2px');
+    $( "#infos__popup" ).css('margin-top', '-2px');
+
     
 
 
@@ -35,6 +36,7 @@ function myFunction() {
     $( "#partner__popup" ).css('margin-top', '15px');
     $( "#contact__popup" ).css('margin-top', '15px');
     $( "#infos__popup" ).css('margin-top', '15px');
+
   }
 }
 
@@ -88,7 +90,7 @@ $('#store__button').hover(
         
         $('#store__popup').css('display', 'flex')
         $('#store__popup').css('left', position.left )
-        $('#store__popup').css('top', position.top + 47)
+        $('#store__popup').css('top', position.top + 53)
 
         $('.header_bottom').css('border-bottom', '0px')
         
@@ -102,7 +104,7 @@ $('#experience__button').hover(
         let position = $('#experience__button').position();
         $('#experience__popup').css('display', 'flex')
         $('#experience__popup').css('left', position.left)
-        $('#experience__popup').css('top', position.top + 47)
+        $('#experience__popup').css('top', position.top + 53)
         $('.header_bottom').css('border-bottom', '0px')
         
     }
@@ -115,7 +117,7 @@ $('#company__button').hover(
         let position = $('#company__button').position();
         $('#company__popup').css('display', 'flex')
         $('#company__popup').css('left', position.left)
-        $('#company__popup').css('top', position.top + 47)
+        $('#company__popup').css('top', position.top + 53)
         $('.header_bottom').css('border-bottom', '0px')
         
     }
@@ -129,7 +131,7 @@ $('#conciergerie__button').hover(
         let position = $('#conciergerie__button').position();
         $('#conciergerie__popup').css('display', 'flex')
         $('#conciergerie__popup').css('left', position.left)
-        $('#conciergerie__popup').css('top', position.top + 47)
+        $('#conciergerie__popup').css('top', position.top + 53)
         $('.header_bottom').css('border-bottom', '0px')
         
     }
@@ -143,7 +145,7 @@ $('#partner__button').hover(
         let position = $('#partner__button').position();
         $('#partner__popup').css('display', 'flex')
         $('#partner__popup').css('left', position.left)
-        $('#partner__popup').css('top', position.top + 47)
+        $('#partner__popup').css('top', position.top + 53)
         $('.header_bottom').css('border-bottom', '0px')
         
     }
@@ -157,7 +159,7 @@ $('#contact__button').hover(
         let position = $('#contact__button').position();
         $('#contact__popup').css('display', 'flex')
         $('#contact__popup').css('left', position.left)
-        $('#contact__popup').css('top', position.top + 47)
+        $('#contact__popup').css('top', position.top + 53)
         $('.header_bottom').css('border-bottom', '0px')
         
     }
@@ -171,7 +173,7 @@ $('#infos__button').hover(
         let position = $('#infos__button').position();
         $('#infos__popup').css('display', 'flex')
         $('#infos__popup').css('left', position.left)
-        $('#infos__popup').css('top', position.top + 47)
+        $('#infos__popup').css('top', position.top + 53)
         $('.header_bottom').css('border-bottom', '0px')
         
     }

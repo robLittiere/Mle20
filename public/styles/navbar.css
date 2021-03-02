@@ -14,7 +14,6 @@ a{
     align-self: center;
     display: flex;
     justify-content: center;
-    width: 100%;
     border-top: 1px solid rgb(182, 174, 174);
     border-bottom: 1px solid rgb(182, 174, 174);
     padding-top: 2px;
@@ -24,12 +23,12 @@ a{
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
 
 .header__button{
     font-size: 15px;
+    font-weight: 400;
     padding: 13px;
     padding-bottom: 16px;
     cursor: pointer;
@@ -41,14 +40,12 @@ a{
     transition: 0.1s;
     transition-timing-function: ease-out 1s;
     border-bottom: 2px solid black;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding-bottom: 2px;
     color: black;
 
 }
 
 .navbar{
+    align-self: center;
     background-color: white;
 }
 
@@ -58,7 +55,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 15px;
-    margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
@@ -70,7 +66,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
@@ -82,7 +77,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
@@ -94,7 +88,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
@@ -106,7 +99,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
@@ -118,7 +110,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
@@ -131,8 +122,6 @@ a{
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 15px;
-    margin-left: 5px;
     border-left: 0.5px solid rgb(182, 174, 174);
     background-color: white;
 
