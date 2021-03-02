@@ -8,7 +8,7 @@ window.onscroll = function() {myFunction()
 var navbar = document.getElementsByClassName("navbar")[0];
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop + 10;
+var sticky = navbar.offsetTop;
 
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
@@ -105,7 +105,7 @@ $('#store__button').hover(
         $('#store__popup').css('left', position.left )
         $('#store__popup').css('top', position.top + 53)
 
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );
@@ -118,7 +118,7 @@ $('#experience__button').hover(
         $('#experience__popup').css('display', 'flex')
         $('#experience__popup').css('left', position.left)
         $('#experience__popup').css('top', position.top + 53)
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );
@@ -131,7 +131,7 @@ $('#company__button').hover(
         $('#company__popup').css('display', 'flex')
         $('#company__popup').css('left', position.left)
         $('#company__popup').css('top', position.top + 53)
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );
@@ -145,7 +145,7 @@ $('#conciergerie__button').hover(
         $('#conciergerie__popup').css('display', 'flex')
         $('#conciergerie__popup').css('left', position.left)
         $('#conciergerie__popup').css('top', position.top + 53)
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );
@@ -159,7 +159,7 @@ $('#partner__button').hover(
         $('#partner__popup').css('display', 'flex')
         $('#partner__popup').css('left', position.left)
         $('#partner__popup').css('top', position.top + 53)
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );
@@ -173,7 +173,7 @@ $('#contact__button').hover(
         $('#contact__popup').css('display', 'flex')
         $('#contact__popup').css('left', position.left)
         $('#contact__popup').css('top', position.top + 53)
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );
@@ -187,7 +187,7 @@ $('#infos__button').hover(
         $('#infos__popup').css('display', 'flex')
         $('#infos__popup').css('left', position.left)
         $('#infos__popup').css('top', position.top + 53)
-        $('.header_bottom').css('border-bottom', '0px')
+        $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
 );

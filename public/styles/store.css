@@ -71,7 +71,7 @@ body {
 
 /* button css*/
 
-a {
+.store__container a {
   font-size: 12px;
   padding: 5px 3px;
   color: black;
@@ -79,7 +79,7 @@ a {
   text-align: center;
 }
 
-.btn {
+.store__container .btn {
   text-decoration: none;
   border: 1px solid rgb(189,183,107);
   /*background-color: rgb(128,0,0);*/
@@ -89,7 +89,7 @@ a {
   margin-bottom: 5px;
 }
 
-.btn:before {
+.store__container .btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -105,7 +105,7 @@ a {
   transition: all 650ms;
 } 
 
-.btn:hover:before {
+.store__container .btn:hover:before {
   left: 100%;
 }
 
