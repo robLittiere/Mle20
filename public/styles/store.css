@@ -75,7 +75,6 @@ body {
   font-size: 12px;
   padding: 5px 3px;
   color: black;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -103,7 +102,7 @@ body {
     transparent
   );
   transition: all 650ms;
-}
+} 
 
 .store__container .btn:hover:before {
   left: 100%;
