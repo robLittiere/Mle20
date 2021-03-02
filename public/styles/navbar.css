@@ -1,0 +1,143 @@
+
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.header_bottom{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(182, 174, 174);
+    border-bottom: 1px solid rgb(182, 174, 174);
+    padding-top: 2px;
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+
+.header__button{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 13px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    color: rgb(119, 116, 116);
+
+}
+
+.header__button:hover{
+    transition: 0.1s;
+    transition-timing-function: ease-out 1s;
+    border-bottom: 2px solid black;
+    color: black;
+
+}
+
+.navbar{
+    align-self: center;
+    background-color: white;
+}
+
+#store__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 15px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+
+#experience__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+
+#company__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+
+#conciergerie__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+
+#partner__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+
+#contact__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+
+
+#infos__popup{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-left: 0.5px solid rgb(182, 174, 174);
+    background-color: white;
+
+}
+.popup__button{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.popup__button:hover{
+    color: rgb(134, 131, 131);
+}
+
+.popup{
+    width: 100%;
+    background-color: white;
+}

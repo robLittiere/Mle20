@@ -1,0 +1,30 @@
+#banner {
+    margin: 0;
+    height: 32px;
+    margin-bottom: 30px;
+
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bannerContain {
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bannerContain:hover{
+    cursor: pointer;
+}
+
+.bannerContain img{
+    width: 25px;
+    height: 20px;
+    padding-left: 4px;
+}
