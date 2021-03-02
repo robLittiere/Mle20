@@ -10,6 +10,12 @@ a{
     text-decoration: none;
 }
 
+.header__container > img {
+    align-self: center;
+    width: 7%;
+    margin-bottom: 40px;
+  }
+
 .header_bottom{
     align-self: center;
     display: flex;
