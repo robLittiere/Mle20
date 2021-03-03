@@ -2,11 +2,11 @@ document.addEventListener( 'DOMContentLoaded', function () {
     let splide = new Splide( '.splide', {
         type : 'loop',
         drag: true,
-        autoplay: true,
+        autoplay: false,
         pauseOnHover: false,
         interval: 5000,
         speed: 400,
-        heightRatio: 0.4,
+        heightRatio: 0.45,
         cover      : true,
         rewind: true,
         classes: {

@@ -10,9 +10,15 @@ a{
     text-decoration: none;
 }
 
+.logo__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #logo {
     align-self: center;
-    width: 6%;
+    width: 9%;
     margin-bottom: 40px;
   }
 
@@ -53,6 +59,7 @@ a{
 }
 
 .navbar{
+    width: 80%;
     align-self: center;
     background-color: white;
 }

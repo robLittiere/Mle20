@@ -31,7 +31,7 @@ function myFunction() {
 
   } else {
     navbar.classList.remove("sticky");
-    $('.navbar').css('width', '70%');
+    $('.navbar').css('width', '80%');
 
     $( "#store__popup" ).css('margin-top', '15px');
     $( "#experience__popup" ).css('margin-top', '15px');
@@ -69,6 +69,19 @@ $( ".store__container" ).mouseover(function() {
   $('.header_bottom').css('border-bottom', '1px solid gray')
 
 });
+
+$( ".logo__container" ).mouseover(function() {
+    $( "#store__popup" ).css('display', 'none');
+    $( "#experience__popup" ).css('display', 'none');
+    $( "#company__popup" ).css('display', 'none');
+    $( "#conciergerie__popup" ).css('display', 'none');
+    $( "#partner__popup" ).css('display', 'none');
+    $( "#contact__popup" ).css('display', 'none');
+    $( "#infos__popup" ).css('display', 'none');
+    $('.header_bottom').css('border-bottom', '1px solid gray')
+  
+  });
+
 
 
 $( ".home__container" ).mouseover(function() {
