@@ -11,77 +11,109 @@ body {
 }
 
 #storeContain {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 13.1%;
   margin-top: 30px;
   display: grid;
   align-content: center;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 60px;
-	max-width: 200px;
+  grid-gap: 40px;
+	max-width: 400px;
 
 }
 
 .storeElement {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 
   border: 1px solid white;
-	transition: .3s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 .storeElement:hover {
   border-top: 1px solid rgb(182, 174, 174);
 }
 
-.storeElement:hover .elementImg{
-  opacity: 0.5;
-}
-
 /*map css*/
+
+.elementDescription {
+  font-size: 20px;
+}
 
 .elementName {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(240, 209, 33);
+}
+
+.region {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.elementAppellation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
 .elementVintage {
   display: flex;
   justify-content: center;
+
+  margin-top: 10px;
+
+  font-size: 20px;
 }
 
 .elementPrice {
   display: flex;
   justify-content: center;
-}
 
-.priceButton {
-  background-color: cornflowerblue;
+  margin-top: 10px;
 }
 
 .elementImg {
   margin-top: 30px;
+  min-width: 100px;
   transition: .3s ease-in-out;
 }
 
 .storeElement img{
-  width: 150px;
-  height: 145px;
+  width: 325px;
+  height: 355px;
 }
 
 /* button css*/
 
 .store__container a {
-  font-size: 12px;
-  padding: 5px 3px;
-  color: black;
+  font-size: 15px;
+  padding: 5px 8px;
+  color: white;
   text-align: center;
 }
 
 .store__container .btn {
   text-decoration: none;
-  border: 1px solid rgb(189,183,107);
-  /*background-color: rgb(128,0,0);*/
+  border: 2px solid rgb(144, 12, 63);
+  background-color: rgb(144, 12, 63);
+  position: relative;
+  overflow: hidden;
+
+  margin-bottom: 5px;
+}
+
+.store__container .btn:hover {
+  text-decoration: none;
+  border: 2px solid rgb(144, 12, 63);
+  background-color: white;
+  color: rgb(144, 12, 63);
+
   position: relative;
   overflow: hidden;
 
@@ -95,10 +127,13 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
+
+  background-color: white;
+  color: black;
   background: linear-gradient(
     120deg,
     transparent,
-    rgba(189, 183, 107, 0.4),
+    rgba(144, 12, 63, 0.4),
     transparent
   );
   transition: all 650ms;
@@ -121,6 +156,74 @@ body {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/* image button */
+
+.imageButton {
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -160px;
+
+  text-align: center;
+}
+
+.elementImg:hover .image {
+  opacity: 0.3;
+}
+
+.elementImg:hover .imageButton {
+  opacity: 1;
+}
+
+.imageButton:hover .text{
+  transition: .5s ease;
+  background-color: white;
+  color: rgb(144, 12, 63);
+  border: 1px solid rgb(144, 12, 63);
+}
+
+.text {
+  transition: .5s ease;
+
+  background-color: rgb(144, 12, 63);
+  color: white;
+  border: none;
+
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*know more pop-up*/
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4);
+}
+  
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #888;
+  width: 30%;
+  max-width: 25%;
+  text-align: center;
+}
+
 
 
 
