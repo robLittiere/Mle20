@@ -1,0 +1,69 @@
+/* Footer */
+.pageFooter{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+.footerTitle{
+    text-decoration: underline rgb(155, 155, 155);
+    font-size: 18px;
+    color: rgb(155, 155, 155);
+    line-height: 130%;
+}
+li{
+    line-height: 150%;
+    list-style :none
+}
+.footerBtn{
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+.footerBtn:hover{
+    text-decoration: underline rgb(180, 180, 180);
+    color: rgb(180, 180, 180);
+}
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5%;
+    max-width: 30%;
+    padding: 3px;
+}
+label{
+    color: rgb(180, 180, 180);
+}
+#newsLetter{
+    max-width: 70%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: medium;
+    border: solid rgb(0, 0, 0);
+}
+.confirmNews{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: medium;
+    border: solid rgb(0, 0, 0);
+    background-color: black;
+    color: rgb(180, 180, 180);
+}
+.confirmNews:hover{
+    border: solid rgb(180, 180, 180);
+    background-color: rgb(180, 180, 180);
+    color: black;
+}
+.legislation{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 18%;
+    margin-bottom: 2.5%;
+    margin-top: 1%;
+    font-size: small;
+    border: solid black;
+}
+#legislationLogo{
+    height: 45%;
+    width: 45%;
+    border: none;
+    padding: 5px;
+}
