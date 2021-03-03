@@ -1,14 +1,13 @@
 
 // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()
-    console.log(window.pageYOffset)
-    console.log(sticky)};
+window.onscroll = function() {myFunction()};
+    
 
 // Get the navbar
 var navbar = document.getElementsByClassName("navbar")[0];
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop + 160;
+var sticky = navbar.offsetTop + 88;
 
 
 
@@ -17,6 +16,7 @@ var sticky = navbar.offsetTop + 160;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
+    $('.navbar').css('width', '100%');
     $( "#store__popup" ).css('margin-top', '-2px');
     $( "#experience__popup" ).css('margin-top', '-2px');
     $( "#company__popup" ).css('margin-top', '-2px');
@@ -31,6 +31,8 @@ function myFunction() {
 
   } else {
     navbar.classList.remove("sticky");
+    $('.navbar').css('width', '70%');
+
     $( "#store__popup" ).css('margin-top', '15px');
     $( "#experience__popup" ).css('margin-top', '15px');
     $( "#company__popup" ).css('margin-top', '15px');

@@ -1,0 +1,49 @@
+.slide__container{
+    width: 100%;
+    z-index: 20;
+  }
+  
+  .splide__slide {
+    z-index: 1;
+    cursor: grab;
+  }
+  
+  .splide__slide .slide1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 20;
+  
+  }
+  
+  .slide1{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  .caption1{
+    position: absolute;
+    font-size: 3em;
+    top: 10%;
+    left: 10%;
+    color: white;
+    padding-top: 20px;
+    border-top: 1px solid white;
+  
+  }  
+  
+  .caption2{
+    position: absolute;
+    font-size: 3em;
+    top: 10%;
+    left: 60%;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }  
+  
+  .caption2 p{
+    font-size: 0.5em;
+    padding: 2px;
+  }
