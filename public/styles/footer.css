@@ -2,6 +2,7 @@
 .pageFooter{
     background-color: rgb(0, 0, 0);
     display: flex;
+    justify-content: space-evenly;
 }
 .footerTitle{
     text-decoration: underline rgb(155, 155, 155);
@@ -9,7 +10,7 @@
     color: rgb(155, 155, 155);
     line-height: 130%;
 }
-li{
+footer li{
     line-height: 150%;
     list-style :none
 }
