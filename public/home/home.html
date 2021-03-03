@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Prata&display=swap" rel="stylesheet">
     <link href="../styles/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Mle20</title>
 </head>
@@ -143,6 +144,23 @@
      </div>   
      
      <div class="home__container">
+        <div class="slide__container">
+            <div id="image-slider" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="../assets/slider.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="../assets/slider2.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="../assets/slider3.jpg">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
 
 
      </div>
@@ -150,7 +168,10 @@
 
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script type="text/javascript" src="../style_script/home.js"></script>
 <script type="text/javascript" src="../style_script/navbar.js"></script>
+<script type="text/javascript" src="../style_script/slideshow.js"></script>
+
 
 </html>

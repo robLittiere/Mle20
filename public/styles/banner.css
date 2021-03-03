@@ -16,7 +16,7 @@
     font-size: 7px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .bannerContain:hover{
