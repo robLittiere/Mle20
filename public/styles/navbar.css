@@ -46,9 +46,8 @@ a{
 }
 
 .header__button:hover{
-    transition: 0.1s;
-    transition-timing-function: ease-out 1s;
     border-bottom: 2px solid rgb(185, 13, 13);
+    transition: .5s ease-in-out;
     color: black;
 
 }

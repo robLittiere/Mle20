@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: 'Prata';
+  background-color: white;
+
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,21 +60,52 @@ body {
 #over18Years{
   background-color: rgb(179, 179, 179);
 }
-
-.slide__container{
+.baseline__container{
   width: 100%;
-  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9em;
 }
 
-.splide__slide {
-  z-index: 1;
+.small__title{
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
 
+  border: 1px solid rgb(184, 182, 182);
 }
 
-.splide__slide img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 20;
-
+.small__title h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: rgb(204, 69, 69)
 }
+
+.baseline__container{
+  font-family: 'Lato';
+  font-weight: 300;
+}
+
+.baseline{
+  padding: 20px;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baseline__title {
+  font-size: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
+.baseline__description{
+  padding: 2em;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
