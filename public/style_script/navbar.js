@@ -97,7 +97,7 @@ $( ".home__container" ).mouseover(function() {
   });
 
 
-$( ".about__container" ).mouseover(function() {
+$( ".global__container" ).mouseover(function() {
     /* If we hover the store container, we hide navbar popups*/
     $( "#store__popup" ).css('display', 'none');
     $( "#experience__popup" ).css('display', 'none');

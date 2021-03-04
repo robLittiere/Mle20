@@ -10,7 +10,54 @@ background-color: white;
 -moz-osx-font-smoothing: grayscale;
 }
 
-.about__container{
-    margin-top: 1em;
+.global__container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-weight: 300;
+    margin-top: 10em;
     height: 2000px;
 }
+
+.about__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__baseline{
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.about__baseline h1{
+    font-size: 3em;
+    color: black;
+    font-weight: 400;
+}
+
+.card__container{
+    padding-top: 6em;
+    align-self: center;
+    width: 80%;
+    display: flex;
+    justify-content:space-evenly;
+}     
+
+.description__container{
+    width: 50%;
+    text-align: justify;
+    
+
+}
+
+.description__container{
+    padding: 2em;
+}
+
+.description__title h3{
+    text-align: left;
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
