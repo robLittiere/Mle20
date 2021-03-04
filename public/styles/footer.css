@@ -44,17 +44,20 @@ footer label{
     padding: 3px;
 }
 .newsLetter{
-    margin-left: -33%;
+    outline: none;
+    margin-left: -35%;
+    border-radius: 3px;
     margin-top: 10%;
     margin-bottom: 45%;
+    border: 0px;
     font-size: medium;
-    border: 1px solid rgba(0, 0, 0, 0.884);
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(255, 255, 255);
 }
 footer ::placeholder{
     color: white;
 }
 .confirmNews{
+    transition: all 0.3s ease-in-out;
     font-size: medium;
     margin-top: 10%;
     margin-bottom: 45%;
@@ -62,13 +65,12 @@ footer ::placeholder{
     max-width: 20%;
     border: 1px solid rgb(0, 0, 0);
     background-color: black;
-    color: rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
 }
 .confirmNews:hover{
     margin-left: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(180, 180, 180);
-    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(119, 38, 38);
 }
 .legislation{
     display: flex;
