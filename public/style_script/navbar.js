@@ -97,16 +97,16 @@ $( ".home__container" ).mouseover(function() {
   });
 
 
-$( ".header__top" ).mouseover(function() {
+$( ".about__container" ).mouseover(function() {
     /* If we hover the store container, we hide navbar popups*/
-  $( "#store__popup" ).css('display', 'none');
-  $( "#experience__popup" ).css('display', 'none');
-  $( "#company__popup" ).css('display', 'none');
-  $( "#conciergerie__popup" ).css('display', 'none');
-  $( "#partner__popup" ).css('display', 'none');
-  $( "#contact__popup" ).css('display', 'none');
-  $( "#infos__popup" ).css('display', 'none');
-  $('.header_bottom').css('border-bottom', '1px solid gray')
+    $( "#store__popup" ).css('display', 'none');
+    $( "#experience__popup" ).css('display', 'none');
+    $( "#company__popup" ).css('display', 'none');
+    $( "#conciergerie__popup" ).css('display', 'none');
+    $( "#partner__popup" ).css('display', 'none');
+    $( "#contact__popup" ).css('display', 'none');
+    $( "#infos__popup" ).css('display', 'none');
+    $('.header_bottom').css('border-bottom', '1px solid gray')
 
 });
 /* Store button // Bouton boutique */
@@ -114,7 +114,22 @@ $( ".header__top" ).mouseover(function() {
 $('#store__button').hover(
     function() {
         /* First we get the position offset of our navbar since its sticky, it will change */
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
+
+        let position = $('#store__button').position();
+        
+        $('#store__popup').css('display', 'flex')
+        $('#store__popup').css('left', position.left )
+        $('#store__popup').css('top', position.top + 53)
+
+        $('.header_bottom').css('border-bottom', '1px solid white')
+        
+    }
+);
+
+
+$('#store__button').hover(
+    function() {
+        /* First we get the position offset of our navbar since its sticky, it will change */
 
         let position = $('#store__button').position();
         
@@ -130,7 +145,6 @@ $('#store__button').hover(
 /* Experience button // Bouton Dégustations et expérience */
 $('#experience__button').hover(
     function() {
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
         let position = $('#experience__button').position();
         $('#experience__popup').css('display', 'flex')
         $('#experience__popup').css('left', position.left)
@@ -143,7 +157,6 @@ $('#experience__button').hover(
 /* Company button // Bouton Espace Entreprise */
 $('#company__button').hover(
     function() {
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
         let position = $('#company__button').position();
         $('#company__popup').css('display', 'flex')
         $('#company__popup').css('left', position.left)
@@ -156,8 +169,6 @@ $('#company__button').hover(
 /* Conciergerie button // Bouton Conciergerie */
 $('#conciergerie__button').hover(
     function() {
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
-
         let position = $('#conciergerie__button').position();
         $('#conciergerie__popup').css('display', 'flex')
         $('#conciergerie__popup').css('left', position.left)
@@ -170,8 +181,6 @@ $('#conciergerie__button').hover(
 /* Partner button // Bouton Partenaires */
 $('#partner__button').hover(
     function() {
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
-
         let position = $('#partner__button').position();
         $('#partner__popup').css('display', 'flex')
         $('#partner__popup').css('left', position.left)
@@ -184,8 +193,6 @@ $('#partner__button').hover(
 /* Contact button // Bouton Contact */
 $('#contact__button').hover(
     function() {
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
-
         let position = $('#contact__button').position();
         $('#contact__popup').css('display', 'flex')
         $('#contact__popup').css('left', position.left)
@@ -198,8 +205,6 @@ $('#contact__button').hover(
 /* Infos button // Bouton Qui Sommes-nous */
 $('#infos__button').hover(
     function() {
-        var topPos = $(".header_bottom")[0].getBoundingClientRect().top + $(window)['scrollTop']();
-
         let position = $('#infos__button').position();
         $('#infos__popup').css('display', 'flex')
         $('#infos__popup').css('left', position.left)

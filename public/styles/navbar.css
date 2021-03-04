@@ -23,6 +23,7 @@ a{
   }
 
 .header_bottom{
+    transition: border-bottom 0.4s ease-in-out;
     align-self: center;
     display: flex;
     justify-content: center;

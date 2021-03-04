@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+  }
+  
+body {
+margin: 0;
+font-family: 'Prata';
+background-color: white;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.about__container{
+    margin-top: 1em;
+    height: 2000px;
+}
