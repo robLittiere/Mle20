@@ -28,3 +28,42 @@
     height: 20px;
     padding-left: 4px;
 }
+
+#delivery img{
+    width: 37px;
+    height: 32px;
+}
+
+#tapeForSearch {
+    margin-left: 15%;
+}
+
+.enterEmail{
+    outline: none;
+    margin-left: -35%;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 45%;
+    border: 0px;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+}
+
+.confirmSearch{
+    transition: all 0.3s ease-in-out;
+    font-size: medium;
+    margin-top: -10%;
+    margin-bottom: 45%;
+    margin-left: 5px;
+    max-width: 20%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.confirmSearch:hover{
+    border-radius: 2px;
+    margin-left: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: grey;
+}
