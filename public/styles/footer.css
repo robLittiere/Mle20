@@ -1,13 +1,13 @@
 /* Footer */
 .pageFooter{
-    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgb(182, 174, 174);;
+    background-color: rgb(133, 133, 133);
     display: flex;
-    justify-content: space-evenly;
 }
 .footerTitle{
-    text-decoration: underline rgb(155, 155, 155);
+    padding: 1px;
     font-size: 18px;
-    color: rgb(155, 155, 155);
+    color: white;
     line-height: 130%;
 }
 footer li{
@@ -15,40 +15,58 @@ footer li{
     list-style :none
 }
 .footerBtn{
+    padding: 2px;
     color: rgb(255, 255, 255);
     font-size: small;
 }
 .footerBtn:hover{
-    text-decoration: underline rgb(180, 180, 180);
-    color: rgb(180, 180, 180);
+    color: rgb(204, 89, 89);
 }
 .footerColumn{
     display: flex;
     flex-direction: column;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 1.5%;
+    max-width: 60%;
+    padding: 3px;
+}
+footer label{
+    color: rgb(180, 180, 180);
+}
+.footerColumnNews{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-top: 10px;
     margin-left: 1.5%;
     max-width: 30%;
     padding: 3px;
 }
-label{
-    color: rgb(180, 180, 180);
-}
-#newsLetter{
-    max-width: 70%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+.newsLetter{
+    margin-left: -33%;
+    margin-top: 10%;
+    margin-bottom: 45%;
     font-size: medium;
-    border: solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.884);
+    background-color: rgb(133, 133, 133);
+}
+footer ::placeholder{
+    color: white;
 }
 .confirmNews{
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
     font-size: medium;
-    border: solid rgb(0, 0, 0);
+    margin-top: 10%;
+    margin-bottom: 45%;
+    margin-left: 5px;
+    max-width: 20%;
+    border: 1px solid rgb(0, 0, 0);
     background-color: black;
     color: rgb(180, 180, 180);
 }
 .confirmNews:hover{
-    border: solid rgb(180, 180, 180);
+    margin-left: 5px;
+    border: 1px solid rgb(0, 0, 0);
     background-color: rgb(180, 180, 180);
     color: black;
 }
@@ -57,11 +75,18 @@ label{
     flex-direction: row;
     background-color: white;
     max-width: 18%;
+    margin-left: 1%;
     margin-bottom: 2.5%;
     margin-top: 1%;
+    height: 10%;
     font-size: small;
-    border: solid black;
+    border: 1px solid black;
 }
+#law{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
 #legislationLogo{
     height: 45%;
     width: 45%;
