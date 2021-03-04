@@ -3,11 +3,11 @@
 }
 
 body {
-    margin: 0;
-    font-family: 'Prata';
+  margin: 0;
+  font-family: 'Prata';
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #storeContain {
@@ -314,9 +314,11 @@ body {
 
 #cartContain{
   display: grid;
-  align-content: center;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0px;
+}
+
+#cartContain a{
+  margin-top: 60px;
 }
 
 #mySidenav {
@@ -342,7 +344,8 @@ body {
 
 
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 5%;
+  filter: none;
 }
 
 .sidenav a {
