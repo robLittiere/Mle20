@@ -68,6 +68,7 @@ footer ::placeholder{
     color: rgb(255, 255, 255);
 }
 .confirmNews:hover{
+    border-radius: 2px;
     margin-left: 5px;
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(119, 38, 38);
