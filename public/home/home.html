@@ -296,7 +296,8 @@
 <footer class="pageFooter">
     <div class="legislation">
         <img id="legislationLogo" src="../assets/Logo_de_la_Republique_française_(1999).svg.png" alt="Logo de la République française">
-        <p>L'abus d'alcool est dangereux pour la santé, consommez avec modération.</p>
+        
+        <p id="law">L'abus d'alcool est dangereux pour la santé, consommez avec modération.</p>
     </div>
     <div class="footerColumn">
         <ul>
@@ -349,7 +350,7 @@
             </li>
         </ul>
     </div>
-    <div id="footerColumn">
+    <div class="footerColumn">
         <ul>
             <li>
                 <h2 class="footerTitle">Juridique :</h2>
@@ -365,10 +366,12 @@
             </li>
         </ul>
     </div>
-    <div id="footerColumn">
-        <label class="footerTitle" for="newsLetter">Newsletter :</label>
+    <div class="footerColumnNews">
+        <label class="footerTitle" for="newsLetter">
+            <h2 class="footerTitle">Newsletter :</h2>
+        </label>
         <br>
-        <input type="email" id="newsLetter" name="q" placeholder="entrez votre mail..">
+        <input type="email" class="newsLetter" name="q" placeholder="entrez votre mail..">
         <button class="confirmNews">ok</button>
     </div>
 </footer>
