@@ -25,18 +25,27 @@
 }
 
 .footerBanner__icono{
+    align-self: center;
     display: flex;
     justify-content: space-evenly;
-    height: 300px;
+    width: 80%;
 }
 
 .footerBanner__item{
+    padding: 12px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     
 }
 
+.description__icono{
+    padding-bottom: 2em;
+}
+
 .footerBanner__item h3{
+    padding-bottom: 2em;
     font-style: 'Lato light';
     font-size: 1.3em;
     font-weight: 300;
@@ -44,9 +53,8 @@
 }
 
 .footerBanner__icono p{
-    text-align: center;
+    text-align: justify;
     font-size: 0.9em;
-
     font-style: 'Lato light';
     font-weight: 300;
 }
