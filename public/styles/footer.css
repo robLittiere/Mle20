@@ -20,7 +20,7 @@ footer li{
     font-size: small;
 }
 .footerBtn:hover{
-    color: rgb(204, 89, 89);
+    color: rgb(209, 54, 54);
 }
 .footerColumn{
     display: flex;
