@@ -1,4 +1,4 @@
-ScrollReveal({reset: false});
+ScrollReveal({reset: true});
 
 
 ScrollReveal().reveal('.scrollImage__anchor', { delay: 70, distance: '25%',

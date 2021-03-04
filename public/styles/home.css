@@ -199,19 +199,17 @@ body {
 }
 .content__right img{
   transition: all 0.5s ease-in-out;
-
   width: 100%;
   object-fit:cover;
   
 }
 
+
 .content__right img:hover{
   transform: scale(1.2);
-  filter: brightness(130%);
-
-
-  
+  filter: brightness(130%);  
 }
+
 
 .content__title__inverted{
   flex: 0.2;
