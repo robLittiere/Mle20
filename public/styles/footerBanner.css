@@ -1,0 +1,52 @@
+.footer__banner{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerBanner__bottom{
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(231, 228, 228);
+
+    flex-direction: column;
+    width: 100%;
+}
+
+.footerBanner__title{
+    align-self: center;
+    padding-bottom: 2em;
+}
+
+.footerBanner__title h1{
+    font-style: 'Lato light';
+    font-weight: 300;
+}
+
+.footerBanner__icono{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.footerBanner__item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerBanner__item h3{
+    font-style: 'Lato light';
+    font-size: 1.3em;
+    font-weight: 300;
+    
+}
+
+.footerBanner__icono p{
+    text-align: center;
+    font-size: 0.9em;
+
+    font-style: 'Lato light';
+    font-weight: 300;
+}

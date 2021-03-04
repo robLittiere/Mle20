@@ -2,7 +2,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     let splide = new Splide( '.splide', {
         type : 'loop',
         drag: true,
-        autoplay: false,
+        autoplay: true,
         pauseOnHover: false,
         interval: 5000,
         speed: 400,

@@ -26,8 +26,8 @@ a{
     align-self: center;
     display: flex;
     justify-content: center;
-    border-top: 1px solid rgb(182, 174, 174);
-    border-bottom: 1px solid rgb(182, 174, 174);
+    border-top: 1px solid rgb(192, 184, 184);
+    border-bottom: 1px solid rgb(192, 184, 184);
     padding-top: 2px;
     background-color: white;
 }
