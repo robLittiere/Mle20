@@ -201,7 +201,7 @@ body {
 /*know more pop-up*/
 
 #popup {
-  display: none; 
+  display: flex; 
   position: fixed; 
   padding-top: 100px; 
   left: 0;
@@ -214,16 +214,61 @@ body {
   background-color: rgba(0,0,0,0.4);
 }
 
+#popupImgContain {
+  width: 125px;
+  height: 155px;
+}
+
+#popupText {
+  font-size: 12px;
+  margin: 5%;
+
+  display: block;
+  justify-content: space-around;
+}
+
+#popupDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+#popupTextName {
+  margin-bottom: 40px;
+
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(240, 209, 33);
+}
+
 .popupContent {
-  border: 10px solid rgb(144, 12, 63);
   background-color: #fefefe;
+  border: 1px solid black;
+
   margin: auto;
-  padding: 15px;
-  border: 1px solid #888;
-  width: 30%;
-  max-width: 25%;
+  padding: 35px;
+  width: 50%;
   text-align: center;
 }
+
+.closeText {
+  transition: .5s ease;
+
+  background-color: rgb(144, 12, 63);
+  color: white;
+  border: none;
+
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.closePopup:hover .closeText{
+  transition: .5s ease;
+  background-color: white;
+  color: rgb(144, 12, 63);
+  border: 1px solid rgb(144, 12, 63);
+}
+
+
 
 
 
