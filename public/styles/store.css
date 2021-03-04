@@ -201,7 +201,7 @@ body {
 /*know more pop-up*/
 
 #popup {
-  display: flex; 
+  display: none; 
   position: fixed; 
   padding-top: 100px; 
   left: 0;
@@ -222,6 +222,7 @@ body {
 #popupText {
   font-size: 12px;
   margin: 5%;
+  margin-top: 10%;
 
   display: block;
   justify-content: space-around;
@@ -230,6 +231,7 @@ body {
 #popupDescription {
   display: flex;
   justify-content: space-between;
+  
 }
 
 #popupTextName {
@@ -240,17 +242,7 @@ body {
   border-bottom: 1px solid rgb(240, 209, 33);
 }
 
-.popupContent {
-  background-color: #fefefe;
-  border: 1px solid black;
-
-  margin: auto;
-  padding: 35px;
-  width: 50%;
-  text-align: center;
-}
-
-.closeText {
+#popupBtn {
   transition: .5s ease;
 
   background-color: rgb(144, 12, 63);
@@ -259,14 +251,39 @@ body {
 
   font-size: 16px;
   padding: 16px 32px;
+
+  margin-left: 13%;
 }
 
-.closePopup:hover .closeText{
+#closePopupBtn {
+  margin-top: 30px;
+}
+
+#popupBtn:hover {
   transition: .5s ease;
+
   background-color: white;
   color: rgb(144, 12, 63);
   border: 1px solid rgb(144, 12, 63);
 }
+
+.popupContent {
+  background-color: #fefefe;
+  border: 1px solid black;
+
+  margin: auto;
+  padding: 35px;
+  width: 50%;
+  height: 40%;
+  text-align: center;
+}
+
+.popupImg { 
+  margin-top: 10%;
+}
+
+
+
 
 
 
