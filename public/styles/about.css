@@ -119,3 +119,21 @@ background-color: white;
       height: 650px;
     }
   }
+
+
+
+@media (max-width: 750px) {
+    .item__container {
+        flex-direction: column;
+    }
+    .image__container{
+        order: 1;
+        margin-bottom: 5%;
+        height: 400px;
+    }
+
+    .description__container{
+        order: 2;
+    }
+
+  }
