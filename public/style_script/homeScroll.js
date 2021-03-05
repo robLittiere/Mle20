@@ -16,4 +16,10 @@ origin: 'right', scale: '0.8'
 });
 
 
+ScrollReveal().reveal('.footer__banner', { delay: 50, distance: '10%',
+origin: 'bottom',
+});
 
+ScrollReveal().reveal('.storeElement', { delay: 40, distance: '15%',
+origin: 'bottom',
+});
