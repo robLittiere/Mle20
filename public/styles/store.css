@@ -10,9 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 #storeContain {
-  margin-left: 13.1%;
   margin-top: 30px;
+  margin-left: 20%;
   margin-bottom: 10%;
   display: grid;
   align-content: center;

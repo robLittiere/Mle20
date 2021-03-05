@@ -9,6 +9,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         heightRatio: 0.45,
         cover      : true,
         rewind: true,
+        arrows: false,
         classes: {
             arrows: 'splide__arrows your-class-arrows',
             arrow : 'splide__arrow your-class-arrow',

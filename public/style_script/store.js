@@ -37,4 +37,3 @@ document.getElementById("popupBtn").addEventListener("click", function() {
     modal.style.display = "none";
 });
 
-
