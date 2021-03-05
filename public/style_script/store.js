@@ -27,7 +27,7 @@ for ( i = 0; i < addToCart.length; i++) {
         // ajoute le nouvel élément créé et son contenu dans le DOM
         sidenav.insertBefore(elem, currentDiv);
         sidenav.insertBefore(newDiv, currentDiv);
-        console.log("ici");
+        document.getElementById("mySidenav").style.width = "400px";
     });
 }
 
