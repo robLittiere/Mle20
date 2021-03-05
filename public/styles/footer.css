@@ -2,6 +2,8 @@
 .pageFooter{
     padding-top: 3em;
     border-top: 1px solid rgb(182, 174, 174);
+    margin-top: 2%;
+    border-top: 1px solid rgb(182, 174, 174);;
     background-color: rgb(190, 190, 190);
     display: flex;
 }
@@ -13,7 +15,9 @@
 }
 footer li{
     line-height: 150%;
-    list-style :none
+    list-style :none;
+    color: white;
+    font-size: small;
 }
 .footerBtn{
     padding: 2px;
@@ -27,9 +31,10 @@ footer li{
     display: flex;
     flex-direction: column;
     margin: 5px;
-    margin-top: 10px;
-    margin-left: 1.5%;
-    max-width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    max-width: 13%;
     padding: 3px;
 }
 footer label{
@@ -44,6 +49,7 @@ footer label{
     max-width: 30%;
     padding: 3px;
 }
+/* Newsletter part */
 .newsLetter{
     outline: none;
     margin-left: -35%;
@@ -74,6 +80,7 @@ footer ::placeholder{
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(119, 38, 38);
 }
+/* Legislation part */
 .legislation{
     display: flex;
     flex-direction: row;
@@ -97,4 +104,11 @@ footer ::placeholder{
     border: none;
     padding: 5px;
     object-fit: cover;
+}
+/* Contact part */
+.socialLogo {
+    height: 15%;
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 5px;
 }
