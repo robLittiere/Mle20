@@ -36,5 +36,5 @@ function disableScroll() {
 } 
 //Function to enable scrolling
 function enableScroll() { 
-  window.onscroll = function() {}; 
+  window.onscroll = function() {fix_navbar()}; 
 } 

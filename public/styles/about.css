@@ -16,7 +16,7 @@ background-color: white;
     font-family: 'Lato';
     font-weight: 300;
     margin-top: 10em;
-    height: 2000px;
+    height: 100%;
 }
 
 .about__container{
@@ -36,28 +36,86 @@ background-color: white;
     font-weight: 400;
 }
 
-.card__container{
+.item__container{
     padding-top: 6em;
     align-self: center;
     width: 80%;
+    height: 470px;
     display: flex;
-    justify-content:space-evenly;
 }     
 
 .description__container{
-    width: 50%;
+    width: 100%;
     text-align: justify;
     
 
 }
 
 .description__container{
-    padding: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
+
+.description__text{
+    width: 80%;
+}
+
+
+.description__title{
+    padding-bottom: 2em;
+
+}
+
 
 .description__title h3{
     text-align: left;
     font-size: 2em;
-    padding-bottom: 2em;
+    width: 80%;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(124, 19, 19) ;
 }
 
+.image__container{
+    width: 100%;
+}
+
+.image__container img{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.portrait__container{
+    height: 2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    .item__container {
+      height: 650px;
+    }
+  }
