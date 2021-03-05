@@ -64,7 +64,7 @@
                 <div id="panier" class="bannerContain">
 
                     <div class="bannerTexte">
-                        <span style="font-size:15px;cursor:pointer" onclick="openNav()"> panier </span>
+                        <span style="font-size:15px;cursor:pointer" onclick="openNav()" > panier </span>
                     </div>
 
                     <div>
@@ -77,6 +77,10 @@
                         <div id="cartContain">
                             <a href="#" class="cart" id="cartEnd"></a>
                         </div>
+                    </div>
+
+                    <div id="sidenavBlur">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     </div>
 
                 </div>
@@ -522,12 +526,15 @@
 
     <script>
         function openNav() {
-          document.getElementById("mySidenav").style.width = "400px";
+          document.getElementById("mySidenav").style.width = "20%";
+          document.getElementById("sidenavBlur").style.width = "80%";
         }
         
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("sidenavBlur").style.width = "0px";
         }
+
     </script>
 
 </body>

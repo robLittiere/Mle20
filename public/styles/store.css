@@ -13,6 +13,7 @@ body {
 #storeContain {
   margin-left: 13.1%;
   margin-top: 30px;
+  margin-bottom: 10%;
   display: grid;
   align-content: center;
   grid-template-columns: repeat(3, 1fr);
@@ -371,6 +372,26 @@ body {
 @media screen and (max-height: 650px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+#sidenavBlur {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  overflow-x: hidden;
+  font-size: 20px;
+  color: #818181;
+  background-color: rgba(0,0,0,0.4);
+  filter: blur(4px);
+
+
+  transition: 0.5s;
+  padding-top: 5%;
+  filter: none;
 }
 
 
