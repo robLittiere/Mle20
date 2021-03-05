@@ -16,4 +16,6 @@ origin: 'right', scale: '0.8'
 });
 
 
-
+ScrollReveal().reveal('.footer__banner', { delay: 50, distance: '10%',
+origin: 'bottom',
+});
