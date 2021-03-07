@@ -6,29 +6,33 @@ window.onscroll = function() {fix_navbar()};
 // Get the navbar
 var navbar = document.getElementsByClassName("navbar")[0];
 
-// Get the offset position of the navbar
+// Get the offset position of the navbar, we'll modify this to choose manually when we want the navbar to get sticky
 var sticky = navbar.offsetTop + 88;
 
 
 
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+/**
+ * Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+ **/
 function fix_navbar() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-    $('.navbar').css('width', '100%');
-    $( "#store__popup" ).css('margin-top', '-2px');
-    $( "#experience__popup" ).css('margin-top', '-2px');
-    $( "#company__popup" ).css('margin-top', '-2px');
-    $( "#conciergerie__popup" ).css('margin-top', '-2px');
-    $( "#partner__popup" ).css('margin-top', '-2px');
-    $( "#contact__popup" ).css('margin-top', '-2px');
-    $( "#infos__popup" ).css('margin-top', '-2px');
+    //If we reach our sticky position
+    if (window.pageYOffset >= sticky) {
+        //We change manually some navbar items styles, specificall the margins.
+        navbar.classList.add("sticky")
+        $('.navbar').css('width', '100%');
+        $( "#store__popup" ).css('margin-top', '-2px');
+        $( "#experience__popup" ).css('margin-top', '-2px');
+        $( "#company__popup" ).css('margin-top', '-2px');
+        $( "#conciergerie__popup" ).css('margin-top', '-2px');
+        $( "#partner__popup" ).css('margin-top', '-2px');
+        $( "#contact__popup" ).css('margin-top', '-2px');
+        $( "#infos__popup" ).css('margin-top', '-2px');
 
     
 
 
-
+    //If we dont we correct the styles. We add margin simply to make it more beautiful
   } else {
     navbar.classList.remove("sticky");
     $('.navbar').css('width', '80%');
@@ -48,7 +52,11 @@ function fix_navbar() {
 
 /* Buttons mouseovers */
 $( ".header__button" ).mouseover(function() {
-    /* For every button, if we hover on them, we hide popups except the popup linked to the button we're hovering */
+    /* For every button, if we hover on them, we hide popups except the popup linked to the button we're hovering 
+    * We'll repeat this code for every button on the navbar
+    * We put a display none on all the buttons so when we hover them nothing shows but the one we're hovering. 
+    * We know this because the "display: none" will be overrided by the other mouseovers.
+    */
     $( "#store__popup" ).css('display', 'none');
     $( "#experience__popup" ).css('display', 'none');
     $( "#company__popup" ).css('display', 'none');
@@ -58,15 +66,18 @@ $( ".header__button" ).mouseover(function() {
     $( "#infos__popup" ).css('display', 'none');
   });
 
+
+    //We hide the popup displays whenever we hover another container that is not the navbar on the page
+    //This is basically how we get our navbar effect
 $( ".store__container" ).mouseover(function() {
-  $( "#store__popup" ).css('display', 'none');
-  $( "#experience__popup" ).css('display', 'none');
-  $( "#company__popup" ).css('display', 'none');
-  $( "#conciergerie__popup" ).css('display', 'none');
-  $( "#partner__popup" ).css('display', 'none');
-  $( "#contact__popup" ).css('display', 'none');
-  $( "#infos__popup" ).css('display', 'none');
-  $('.header_bottom').css('border-bottom', '1px solid gray')
+    $( "#store__popup" ).css('display', 'none');
+    $( "#experience__popup" ).css('display', 'none');
+    $( "#company__popup" ).css('display', 'none');
+    $( "#conciergerie__popup" ).css('display', 'none');
+    $( "#partner__popup" ).css('display', 'none');
+    $( "#contact__popup" ).css('display', 'none');
+    $( "#infos__popup" ).css('display', 'none');
+    $('.header_bottom').css('border-bottom', '1px solid gray')
 
 });
 
@@ -83,7 +94,6 @@ $( ".logo__container" ).mouseover(function() {
   });
 
 
-
 $( ".home__container" ).mouseover(function() {
     $( "#store__popup" ).css('display', 'none');
     $( "#experience__popup" ).css('display', 'none');
@@ -98,7 +108,6 @@ $( ".home__container" ).mouseover(function() {
 
 
 $( ".global__container" ).mouseover(function() {
-    /* If we hover the store container, we hide navbar popups*/
     $( "#store__popup" ).css('display', 'none');
     $( "#experience__popup" ).css('display', 'none');
     $( "#company__popup" ).css('display', 'none');
@@ -109,18 +118,23 @@ $( ".global__container" ).mouseover(function() {
     $('.header_bottom').css('border-bottom', '1px solid gray')
 
 });
-/* Store button // Bouton boutique */
 
+/**
+ * Right here, we'll have all our button hover effects
+ * When we hover a button; we'll change the display of its according popup
+ * We will get the button position to display perfectly the popup right under the button
+ */
+
+/* Store button // Bouton boutique */
 $('#store__button').hover(
     function() {
-        /* First we get the position offset of our navbar since its sticky, it will change */
-
+        //We get the position of one button
         let position = $('#store__button').position();
-        
+        //We change the popup display and we set its position
         $('#store__popup').css('display', 'flex')
         $('#store__popup').css('left', position.left )
         $('#store__popup').css('top', position.top + 53)
-
+        //We changer our header border to create smooth effect
         $('.header_bottom').css('border-bottom', '1px solid white')
         
     }
@@ -129,14 +143,13 @@ $('#store__button').hover(
 
 $('#store__button').hover(
     function() {
-        /* First we get the position offset of our navbar since its sticky, it will change */
-
+        //We get the position of one button
         let position = $('#store__button').position();
-        
+        //We change the popup display and we set its position
         $('#store__popup').css('display', 'flex')
         $('#store__popup').css('left', position.left )
         $('#store__popup').css('top', position.top + 53)
-
+        //We changer our header border to create smooth effect
         $('.header_bottom').css('border-bottom', '1px solid white')
         
     }

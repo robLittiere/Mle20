@@ -1,3 +1,9 @@
+
+/**
+ * Simple hover animations
+ * Zoom on photo when we hover it, and add grayscale filter on the other one
+ */
+
 $( "#image1" ).hover(
     function() {
         $('#image1').css( "transform", "scale(1.04)" );
@@ -13,7 +19,6 @@ $( "#image1" ).hover(
 $( "#image2" ).hover(
     function() {
         $('#image2').css( "transform", "scale(1.04)" );
-
         $('#image1').css( "filter", "grayscale(70%)" );
     }, function() {
         $('#image2').css( "transform", "scale(1)" );

@@ -97,30 +97,9 @@ background-color: white;
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**
+*This is our media queries for responsive web
+**/
 @media (max-width: 900px) {
     .item__container {
       height: 650px;
