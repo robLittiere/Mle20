@@ -27,7 +27,7 @@ background-color: white;
 
 .about__baseline{
     padding-bottom: 1em;
-    border-bottom: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(124, 19, 19);
 }
 
 .about__baseline h1{
@@ -46,8 +46,7 @@ background-color: white;
 
 .description__container{
     width: 100%;
-    text-align: justify;
-    
+    text-align: justify;   
 
 }
 
@@ -91,11 +90,138 @@ background-color: white;
 
 .portrait__container{
     margin-top: 10em;
-    height: 2000px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.profile{
+    margin-top: 6em;
+    border-bottom: 1px solid rgb(124, 19, 19);;
+}
+
+.profilePicture {
+    display: flex;
+    justify-content: center;
+}
+
+.Picture {
+    width: 60%;
+    height: auto;
+}
+
+.profileDescription {
+    text-align: center;
+    text-justify: inter-word;
+    margin-top: 20px;
+}
+
+.portrait_description {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+
+    transition: 1s ease;
+    border: 2px solid rgb(124, 19, 19);
+    padding: 20px;
+
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.portrait_description {
+    margin-bottom: 5em;
+    width: 50%;
+
+    background-color: rgb(36, 36, 36);
+    color: rgb(247, 242, 242);
+    border: 2px solid rgb(36, 36, 36);
+}
+
+.profile__container {
+    margin-top: 1em;
+}
+
+.comite_de_selection {
+    margin-bottom: 500px;
+}
+
+.comite_selection {
+    margin-bottom: 5%;
+}
+
+.colaborateur_content{
+    padding: 5em;
+}
+
+.colaborateur{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+
+.profile_colaborateur {
+    width: 15%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.picture_colaborateur:hover .overlay{
+    opacity: 1;
+}
+
+.picture_colaborateur {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+    transition: 1s ease;
+    border-radius: 50%;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.profile_description {
+    text-align: center;
+    border-bottom: solid 1px  rgb(124, 19, 19);
+
+    font-size: 20px;
+}
+
+.description_right {
+    width: 50%;
+    text-align: center;
+    text-justify: inter-word;
+    padding-top: 30px;
+    margin: 3em;
+
+    transition: 1s ease;
+    border: 2px solid rgb(124, 19, 19);
+
+    background-color: rgb(36, 36, 36);
+    color: rgb(247, 242, 242);
+    border: 2px solid rgb(36, 36, 36);
+}
+
+.colaborateur:hover .picture_colaborateur{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.colaborateur:hover .description_right{
+    background-color: white;
+    color: rgb(36, 36, 36);
+    border: 2px solid rgb(124, 19, 19);
+}
+
+.portrait_description:hover{
+    background-color: white;
+    color: rgb(36, 36, 36);
+    border: 2px solid rgb(124, 19, 19);
+}
+
 
 /**
 *This is our media queries for responsive web
