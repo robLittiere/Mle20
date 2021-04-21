@@ -13,10 +13,10 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Prata&display=swap" rel="stylesheet">
-    <link href="../styles/contact.css" rel="stylesheet">
+    <link href="../styles/Partenariat.css" rel="stylesheet">
     <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Mle20 Contact</title>
+    <title>Mle20 Partenariat</title>
 </head>
 <body>
 
@@ -80,9 +80,9 @@
                 <a href="#" id="experience__button" class="header__button">Degustations & Expériences</a>
                 <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
                 <a href="#" id="conciergerie__button" class="header__button">Conciergerie</a>
-                <a href="../Partenariat/Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
+                <a href="Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
                 <a href="../home/about.html" id="infos__button" class="header__button">Qui sommes nous ?</a>
-                <a href="contact.html" id="contact__button" class="header__button">Contacts</a>
+                <a href="../contact/contact.html" id="contact__button" class="header__button">Contacts</a>
 
             </div>    
 
@@ -127,7 +127,7 @@
             </div>
             <div id="partner__popup">
                 <a href="#" class="popup__button">Bulles de l'Aube</a>
-                <a href="#" class="popup__button">DoYouMovember</a>
+                <a href="movember.html" class="popup__button">DoYouMovember</a>
                 <a href="#" class="popup__button">Patriwine</a>
                 <a href="#" class="popup__button">Terra Hominis</a>
                 <a href="#" class="popup__button">Cookcoeur</a>
@@ -150,98 +150,80 @@
                 <a href="#" class="popup__button">Comité de sélection</a>
             </div>
         </div>
-     </div>  
+     </div>
+
   
 
     <!--here we put the global contact container-->
      
     <div class="home__container">
-        <div class="banner">
-            <img src="../assets/slider2.jpg" alt="photo verre">
-        </div>  
-        
-        
+
         <div class="baseline__container">
             <div class="baseline__divider">
                 <div class="small__title">
-                    <h1>AIDE ET CONTACT</h1>
+                    <h1>PARTENARIAT</h1>
     
                 </div>
                 <div class="baseline">
                     <div class="baseline__title">
-                        <p> Besoin d'aide envoyez-nous un message !</p>
+                        <p>Découvrez ici nos partenaires !</p>
                     </div>
                     <div class="baseline__description">
-                        <p> Ci-dessous un formulaire de contact qu'il suffit de remplir et de nous envoyer en un clic.<br>
-                        Nous Répondrons dans les plus brefs délais à votre demande.</p>
+                        <p> 
+                            Ici texte description pour partenariat.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!--here we put the form container-->
-        <div id="formulaire"></div>
-        <div class="content__container">
-            <div class="content__left scrollContent__anchor">
-                <div class="content__title">
-                    <h2>FORMULAIRE</h2>
-                </div>
-                <div class="content__input">
-                    <label for="fname">Nom</label>
-                    <input type="text" id="fname" name="fname" value="">
-                    <label for="lname">Prénom</label>
-                    <input type="text" id="lname" name="lname" value="">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" value="">
-                    <label for="mess">Message</label>
-                    <textarea type="text" id="message" name="message" placeholder="Entrer votre message..."></textarea>
-                </div>
-                <div class="content__button">
-                    <a href="#" class="brk-btn">ENVOYER VOTRE MESSAGE</a>
-                </div>
+        <!--<div class="partner_container">
+            <div class="logoM20">
+                <img id="logoMovember" src="../assets/LogoMovember.png" alt="logo DoYouMovember" width="10%" height="10%">
+                <img src="../assets/LogoMle20.png" alt="Logo MLe20" width="10%" height="10%">
+                <img id="logoLeoube" src="../assets/logoLeoube.png" alt="logo Léoube" width="10%" height="10%">
             </div>
-            <div class="content__right scrollImage__anchor">
-                <img  src="../assets/slider3.jpg"  alt="slider3">
+            <div class="logo_partner">
+                <img id="logoBulleDeLAube" src="../assets/bullesdelaube.jpg" alt="logo Bulles de l'Aube" width="9%" height="9%">
             </div>
+        </div>-->
+        <div class="partner_container">
+            <figure id="movemberLogo" class="snip">
+                <img src="../assets/LogoMovember.png" alt="logoMovember">
+                <figcaption>
+                    <h3>DoYouMovember</h3>
+                    <button>
+                        <p>Cliquez ici pour en savoir plus</p>
+                        <a href="movember.html"></a>
+                    </button>
+                </figcaption>
+                
+            </figure>
+
+            <figure id="leoubeLogo" class="snip">
+                <img src="../assets/logoLeoube.png" alt="logoLeoube">
+                <figcaption>
+                    <h3>CHÂTEAU LÉOUBE</h3>
+                    <button>
+                        <p>Cliquez ici pour en savoir plus</p>
+                        <a href="#"></a>
+                    </button>
+                </figcaption>
+                
+            </figure>
+
+            <figure id="logoBulleDeLAube" class="snip">
+                <img src="../assets/bullesdelaube.jpg" alt="logoBulleDeLAube">
+                <figcaption>
+                    <h3>BULLE DE LAUBE</h3>
+                    <button>
+                        <p>Cliquez ici pour en savoir plus</p>
+                        <a href="#"></a>
+                    </button>
+                </figcaption>
+                
+            </figure>
         </div>
-
-
-
-
-
-        <div class="content__container">
-            <div class="content__right">
-                <img src="../assets/imagechamp.jpg" alt="imagechamp">
-            </div>
-            <div class="content__leftInverted scrollContent__anchor">
-                <div class="content__title">
-                    <h2>CONTACT</h2>
-                </div>
-                <div class="content__description">
-                    <p>
-                    Toute l'équipe de M LE 20.COM reste à votre disposition pour répondre à toutes vos questions.<br>
-                    <br>
-                    Du lundi au vendredi<br>
-                    au &nbsp;&nbsp;06 98 74 61 40 <br>
-                    <br>
-                     Nous contactez par Email&nbsp;&nbsp;: <br>
-                     mle20.contact@gmail.com
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-     </div>
-
-     
+     </div> 
 
 </div>
 
@@ -370,6 +352,7 @@
 <script type="text/javascript" src="../style_script/contact.js"></script>
 <script type="text/javascript" src="../style_script/navbar.js"></script>
 <script type="text/javascript" src="../style_script/slideshow.js"></script>
+<script type="text/javascript" src="../style_script/Partenariat.js"></script>
 
 
 </html>

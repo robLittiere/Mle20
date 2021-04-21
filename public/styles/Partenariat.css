@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+}
+body {
+margin: 0;
+font-family: 'Prata';
+background-color: white;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.home__container{
+  padding-top: 5%;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.baseline__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lato';
+  font-weight: 300;
+  padding-top: 9em;
+}
+.small__title{
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(184, 182, 182);
+}
+.small__title h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: rgb(231, 88, 88)
+}
+.baseline{
+  padding: 20px;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.baseline__title {
+  font-size: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(173, 172, 172);
+}
+.baseline__description{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+.baseline__divider{
+  padding-bottom: 5em;
+  align-self: center;
+  width: 80%;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip {
+  font-family: 'Prata';
+  position: relative;
+  overflow: hidden;
+  min-width: 230px;
+  max-width: 315px;
+  width: 25%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.snip *,
+.snip *:before,
+.snip *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.snip img {
+  width: calc(90%);
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+.snip figcaption {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+  padding: 5px 40px;
+  opacity: 0;
+}
+.snip h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #c0392b;
+}
+.snip button{
+  font-family: 'Lato light';
+  font-size: 0.9em;
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-out 0.05s;
+  -webkit-transition: all 0.5s ease-in-out 0.05s;
+  background-color: rgb(39, 38, 38);
+  padding: 12px;
+}
+.snip p {
+  font-weight: 400;
+  margin: 0;
+  font-size: 0.9em;
+  color: white;
+}
+.snip a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip:hover img,
+.snip.hover img {
+  zoom: 1;
+  filter: alpha(opacity=30);
+  -webkit-opacity: 0.1;
+  opacity: 0.1;
+  border: 1px solid rgb(151, 151, 151);
+  
+}
+.snip:hover figcaption,
+.snip.hover figcaption {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.snip button:hover  {
+  color: black;
+  background-color: #c0392b;
+}
+.partner_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12%;
+}
+
+#logoBulleDeLAube img{
+  width: 70%;
+  height: auto;
+}

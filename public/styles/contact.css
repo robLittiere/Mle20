@@ -129,14 +129,6 @@ background-color: white;
     display: flex;
 
   }
-  
-  .content__button a:hover{
-    color: black;
-    background-color: #ffa1a1;
-  
-  
-  }
-  
   .content__button a{
     font-family: 'Lato light';
     font-size: 0.9em;
@@ -149,7 +141,12 @@ background-color: white;
     padding: 12px;
     
   }
+  .content__button a:hover{
+    color: black;
+    background-color: #ffa1a1;
   
+  
+  }
   .content__left{
     display: flex;
     flex: 0.5;
