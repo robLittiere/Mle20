@@ -100,7 +100,7 @@ background-color: white;
   font-weight: 700;
   color: #c0392b;
 }
-.snip button{
+.partenaireBtn{
   font-family: 'Lato light';
   font-size: 0.9em;
   align-self: center;
@@ -110,6 +110,8 @@ background-color: white;
   -webkit-transition: all 0.5s ease-in-out 0.05s;
   background-color: rgb(39, 38, 38);
   padding: 12px;
+
+
 }
 .snip p {
   font-weight: 400;
@@ -139,7 +141,7 @@ background-color: white;
   transform: translateY(-50%);
   opacity: 1;
 }
-.snip button:hover  {
+.partenaireBtn:hover  {
   color: black;
   background-color: #c0392b;
 }
