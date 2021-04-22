@@ -15,7 +15,7 @@ background-color: white;
     flex-direction: column;
     font-family: 'Lato';
     font-weight: 300;
-    margin-top: 10em;
+    margin-top: 5%;
     height: 100%;
 }
 
@@ -26,7 +26,7 @@ background-color: white;
 }
 
 .about__baseline{
-    padding-bottom: 1em;
+    padding-bottom: 1%;
     border-bottom: 1px solid rgb(124, 19, 19);
 }
 
@@ -37,7 +37,8 @@ background-color: white;
 }
 
 .item__container{
-    padding-top: 6em;
+    padding-top: 5%;
+    margin-bottom: 5%;
     align-self: center;
     width: 80%;
     height: 470px;
@@ -51,8 +52,8 @@ background-color: white;
 }
 
 .description__container{
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 .description__text{
@@ -61,7 +62,7 @@ background-color: white;
 
 
 .description__title{
-    padding-bottom: 2em;
+    padding-bottom: 2%;
 
 }
 
@@ -70,7 +71,7 @@ background-color: white;
     text-align: left;
     font-size: 2em;
     width: 80%;
-    padding-bottom: 1em;
+    padding-bottom: 2%;
     border-bottom: 1px solid rgb(124, 19, 19) ;
 }
 
@@ -88,18 +89,6 @@ background-color: white;
     display: block;
 }
 
-.portrait__container{
-    margin-top: 10em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.profile{
-    margin-top: 6em;
-    border-bottom: 1px solid rgb(124, 19, 19);;
-}
-
 .profilePicture {
     display: flex;
     justify-content: center;
@@ -110,70 +99,41 @@ background-color: white;
     height: auto;
 }
 
-.profileDescription {
-    text-align: center;
-    text-justify: inter-word;
-    margin-top: 20px;
-}
-
-.portrait_description {
-    display: flex;
-    justify-content: center;
-    margin-top: 4em;
-
-    transition: 1s ease;
-    border: 2px solid rgb(124, 19, 19);
-    padding: 20px;
-
-    text-align: center;
-    text-justify: inter-word;
-}
-
-.portrait_description {
-    margin-bottom: 5em;
-    width: 50%;
-
-    background-color: rgb(36, 36, 36);
-    color: rgb(247, 242, 242);
-    border: 2px solid rgb(36, 36, 36);
-}
-
-.profile__container {
-    margin-top: 1em;
-}
-
 .comite_de_selection {
     margin-bottom: 500px;
 }
 
 .comite_selection {
     margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 .colaborateur_content{
-    padding: 5em;
+    padding: 1%;
 }
 
 .colaborateur{
     display: flex;
     justify-content: space-around;
-    margin-top: 5em;
-    margin-bottom: 10em;
+    margin-top: 2%;
 }
 
 .profile_colaborateur {
     width: 15%;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .picture_colaborateur:hover .overlay{
     opacity: 1;
 }
 
+.picture_profile_colaborateur{
+    padding-left: 20%;
+}
+
 .picture_colaborateur {
-    width: 100%;
+    width: 70%;
     height: auto;
+    margin-top: 35%;
     margin-bottom: 30px;
 
     transition: 1s ease;
@@ -185,17 +145,22 @@ background-color: white;
 
 .profile_description {
     text-align: center;
-    border-bottom: solid 1px  rgb(124, 19, 19);
 
     font-size: 20px;
 }
 
+
+.profile_description p{
+    border-bottom: solid 1px rgb(124, 19, 19);
+}
+
 .description_right {
+    font-size: 15px;
     width: 50%;
-    text-align: center;
+    text-align: left;
     text-justify: inter-word;
-    padding-top: 30px;
-    margin: 3em;
+    padding: 2%;
+    margin: 3%;
 
     transition: 1s ease;
     border: 2px solid rgb(124, 19, 19);
@@ -211,12 +176,6 @@ background-color: white;
 }
 
 .colaborateur:hover .description_right{
-    background-color: white;
-    color: rgb(36, 36, 36);
-    border: 2px solid rgb(124, 19, 19);
-}
-
-.portrait_description:hover{
     background-color: white;
     color: rgb(36, 36, 36);
     border: 2px solid rgb(124, 19, 19);
