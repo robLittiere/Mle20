@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/banner.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/footerBanner.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet" href="../styles/movember.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Prata&display=swap" rel="stylesheet">
-    <link href="../styles/Partenariat.css" rel="stylesheet">
     <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Mle20</title>
+    <title>DoYouMovember</title>
 </head>
-<body>
 
-    <!--here we put the header-->
+
+<body>
+    
+     <!--here we put the header-->
     <div class="header__container">
         <div class="header__top">
             <!--top header-->
@@ -32,21 +36,18 @@
 
                     <div class="bannerTexte">
                         <h1>Découvrir M Le 20</h1>
-                    </div> 
+                    </div>
                 </div>
                 <div id="help&contact" class="bannerContain">
                     <h1>Aide et contacts</h1>
                 </div>
-
                 <div id="tapeForSearch">
                     <input type="email" class="enterEmail" name="q" placeholder="recherche">
                     <button class="confirmSearch">ok</button>
                 </div>
-
                 <div id="delivery" class="bannerContain">
                     <img src="../store/bannerImage/car.png">
                 </div>
-
                 <div id="account" class="bannerContain">
                     <div class="bannerTexte">
                         <h1>Compte</h1>
@@ -55,7 +56,6 @@
                         <img src="../store/bannerImage/account.png" id="accountImg">
                     </div>
                 </div>
-
                 <div id="panier" class="bannerContain">
                     <div class="bannerTexte">
                         <h1>Panier </h1>
@@ -71,17 +71,16 @@
             <img id="logo" src="../assets/logo.jpg" alt="logo">
             <h1>Champagnes, Vins & Events</h1>
             <h3>Expériences dédiées aux meilleurs vins</h3>
-
         </div>
         <div class="navbar">
             <div class="header_bottom">
-                <a href="../home/home.html" class="header__button">Accueil</a>
+                <a href="home.html" class="header__button">Accueil</a>
                 <a href="../store/store.html" id="store__button" class="header__button">Boutique</a>
                 <a href="#" id="experience__button" class="header__button">Degustations & Expériences</a>
                 <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
                 <a href="#" id="conciergerie__button" class="header__button">Conciergerie</a>
-                <a href="Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
-                <a href="../home/about.html" id="infos__button" class="header__button">Qui sommes nous ?</a>
+                <a href="../Partenariat/Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
+                <a href="about.html" id="infos__button" class="header__button">Qui sommes nous ?</a>
                 <a href="../contact/contact.html" id="contact__button" class="header__button">Contacts</a>
 
             </div>    
@@ -131,32 +130,100 @@
                 <a href="#" class="popup__button">Patriwine</a>
                 <a href="#" class="popup__button">Terra Hominis</a>
                 <a href="#" class="popup__button">Cookcoeur</a>
-                <a href="#" class="popup__button">Villa M</a>
-                <a href="#" class="popup__button">Cookie Bazart</a>
-                <a href="#" class="popup__button">Rugby Club</a>
                 <a href="#" class="popup__button">Boutique Versailles</a>
                 <a href="#" class="popup__button">Vignerons disponibles</a>
             </div>
             <div id="contact__popup">
-                <a href="../contact/contact.html#formulaire" class="popup__button">Formulaire</a>
+                <a href="#" class="popup__button">Formulaire</a>
                 <a href="#" class="popup__button">Adresse1</a>
                 <a href="#" class="popup__button">Adresse2</a>
                 <a href="#" class="popup__button">Adresse3</a>
                 <a href="#" class="popup__button">Téléphone</a>
             </div>
             <div id="infos__popup">
-                <a href="about.html" class="popup__button">Histoire de l'aventure</a>
                 <a href="about.html" class="popup__button">Portrait</a>
                 <a href="#" class="popup__button">Comité de sélection</a>
             </div>
         </div>
-    </div>
-    
+    </div>   
 
+    <!--here we put the global container for our page-->
+    <div class="global__container">
+
+        <div class="movember_content">
+
+            <div class="movember__container">
+                <div class="movember__baseline">
+                    <h1>DoYouMovember</h1>
+                </div>
+            </div>
+        
+        
+             
+            <div class="content_logoMov">
+
+                <div class="movember__container_right">
+                    <div class="movember__baseline_right">
+                        <h2>Présentation</h2>
+                    </div>
+                </div>
+
+                <div class="logoMovember">
+                    <img src="../assets/LogoMovember.png" alt="logoMovember" height="17%" width="17%">
+                </div>
+
+                <div class="descript_logoMov">
+                    <p>
+                        DoYouMovember est l’équipe Movember associée de CerHom et Gustave Roussy.<br>
+                        Movember, autrefois connu sous le nom de novembre, est le mois durant lequel les
+                        hommes et femmes du monde entier se mobilisent pour la santé masculine et se font
+                        pousser la moustache.<br><br>Afin de sensibiliser leur entourage et de récolter des dons 
+                        pour la recherche contre le cancer de la prostate, le cancer des testicules ainsi
+                        que la santé mentale et la prévention du suicide.
+                    </p>
+                </div>
+
+            </div>
+            
+            <div class="content_SB">
+
+                <div class="movember__container_left">
+                    <div class="movember__baseline_left">
+                        <h2>CERHOM & DoYouMovember</h2>
+                    </div>
+                </div>
+
+                <div class="steph_bruno">            
+                    <div class="descript_contact">
+                        <p>
+                            CERHOM (Fin du canCER et début de l’HOMme) est une association née sous l’impulsion du Professeur FIZAZI Oncologue, 
+                            chef de service de l’Institut Gustave Roussy de Villejuif.L’association a lancé le premier centre d’écoute dédié 
+                            aux cancers masculins.<br><br>
+                            Il est ouvert le lundi de 19 heures à 22 heures<br>Soit pour échanger sur le cancer du testicule 
+                            (Test’écoute - 07.82.33.15.72)<br>Soit sur celui de la prostate (Prost’écoute - 06.41.22.41.51)<br>Le mercredi, aux mêmes
+                            horaires (07.82.33.15.72)<br><br> Ce sont des médecins et oncologues spécialistes des cancers de l’homme qui sont au bout du
+                            fil et apportent des réponses médicales : <a href="http://cerhom.fr/">www.cerhom.fr</a>
+                        </p>
+                    </div>
+
+                    <figure class="snip">
+                        <figcaption>
+                        <h4>Stéphane & Bruno</h4>
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </figcaption>
+                        <img src="../assets/Steph & Bruno 1.JPG" alt="Steph&bruno">
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <!--here we put the footer-->
-    
+
 <footer class="pageFooter">
     <div class="legislation">
         <img id="legislationLogo" src="../assets/Logo_de_la_Republique_française_(1999).svg.png" alt="Logo de la République française">
@@ -223,24 +290,28 @@
                     <img class="socialLogo" src="../assets/logo_instagram.png" alt="Instagram">
                     Instagram
                 </a>
+                
             </li>
             <li>
                 <a href="#" class="footerBtn">
                     <img class="socialLogo" src="../assets/logo_linkedin.png" alt="Linkedin">
                     Linkedin
                 </a>
+                
             </li>
             <li>
                 <a href="#" class="footerBtn">
                     <img class="socialLogo" src="../assets/logo_facebook.png" alt="Facebook">
                     Facebook
                 </a>
+                
             </li>
             <li>
                 <a href="#" class="footerBtn">
                     <img class="socialLogo" src="../assets/logo_twitter.png" alt="Twitter">
                     Twitter
                 </a>
+                
             </li>
         </ul>
     </div>
@@ -273,11 +344,8 @@
     </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-<script type="text/javascript" src="../style_script/contact.js"></script>
 <script type="text/javascript" src="../style_script/navbar.js"></script>
-<script type="text/javascript" src="../style_script/slideshow.js"></script>
-<script type="text/javascript" src="../style_script/Partenariat.js"></script>
-    
-    
+<script type="text/javascript" src="../style_script/about.js"></script>
+
+
 </html>

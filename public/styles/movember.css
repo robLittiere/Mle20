@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+  }
+  
+body {
+margin: 0;
+font-family: 'Prata';
+background-color: white;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.global__container{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    margin-top: 8em;
+    height: 100%;
+}
+
+.movember__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movember__baseline{
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(124, 19, 19);
+    margin-bottom: 10%;
+}
+
+.movember__baseline h1{
+    font-size: 3em;
+    color: black;
+    font-weight: 400;
+}
+
+.logoMovember{
+    margin-bottom: -20%;
+    margin-top: 10%;
+}
+
+.content_logoMov{
+    margin-top: 2%;
+    margin-bottom: 14%;
+    margin-left: 15%;
+}
+
+.descript_logoMov{
+    margin-left: 20%;
+    margin-top: -16%;
+    margin-bottom: 3%;
+    font-family: 'Lato';
+    font-size: medium;
+    max-width: 60%;
+    
+}
+.descript_contact{
+    margin-left: 10%;
+    margin-top: -5%;
+    margin-bottom: 3%;
+    font-family: 'Lato';
+    font-size: medium;
+    max-width: 55%;
+    
+}
+.descript_logoMov p{
+    padding: 1%;
+    text-align: justify;
+    border: 1px solid rgb(124, 19, 19);
+    color: rgb(78, 76, 76);
+    text-align: justify;
+    flex: 0.6;
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20%;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 1.4em;
+    padding: 3%;
+}
+
+.descript_contact p{
+    padding: 1%;
+    text-align: justify;
+    border: 1px solid rgb(124, 19, 19);
+    text-align: justify;
+    flex: 0.6;
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 20%;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 1.4em;
+    color: rgb(78, 76, 76);
+    padding: 3%;
+}
+.movember__container_left{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 55%;
+
+}
+
+.movember__baseline_left{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
+  margin-bottom: 15%;
+}
+
+.movember__baseline_left h2{
+  font-weight: 25%;
+  color: black;
+}
+
+.movember__container_right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 48%;
+    margin-bottom: -11%;
+}
+
+.movember__baseline_right{
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(124, 19, 19);
+    margin-bottom: 10%;
+}
+
+.movember__baseline_right h2{
+    font-weight: 25%;
+    color: black;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+
+.snip {
+  font-family: 'Lato';
+  position: relative;
+  margin: 62% 125%;
+  min-width: 20%;
+  max-width: 23%;
+  min-height: 220px;
+  width: 100%;
+  color: #000000;
+  float: right;
+  margin-right: 8%;
+  margin-top: -30%;
+  
+}
+.snip * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip img {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  opacity: 1;
+  width: 100%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+.snip figcaption {
+  position: absolute;
+  width: 70%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-top: 33%;
+}
+.snip h4,
+.snip p {
+  margin: 0%;
+  width: 100%;
+  -webkit-transform: translateX(15%);
+  transform: translateX(15%);
+  opacity: 0;
+}
+.snip h4 {
+  font-family: 'Prata';
+}
+.snip:hover img,
+.snip.hover img {
+  width: 60%;
+  right: -10%;
+}
+.snip:hover figcaption h4,
+.snip.hover figcaption h4,
+.snip:hover figcaption p,
+.snip.hover figcaption p {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  max-width: 70%;
+  margin-top: 5%;
+  margin-right: 4%;
+  opacity: 1;
+}
