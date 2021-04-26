@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Prata';
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+menu bar
+*/
+
+.menuBar {
+  width: 80%;
+  margin: 0% 10% 0%;
+  padding: 0.5% 0% 0.5%;
+
+  display: flex;
+  justify-content: space-around;
+
+  transition: 1s ease;
+  border-bottom: 1px solid rgb(192, 184, 184);
+  cursor: default;
+}
+
+.menuBar:hover {
+  border-bottom: 1px solid white;
+}
+
+.menuBarContent {
+  transition: 1s ease;
+  border-bottom: 1px solid white;
+  color: #777474;
+}
+
+.menuBarContent:hover {
+  padding-top: 0.5%;
+
+  color: rgb(134, 131, 131);
+  border-bottom: 1px solid rgb(165, 25, 25);
+}
+
+/*
+the page content
+*/
+
+.pageContent {
+  display: none;
+}
+
+.atelierDegustationContent {
+  margin-top: 5%;
+}
+
