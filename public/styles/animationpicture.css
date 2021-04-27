@@ -8,7 +8,7 @@
     width: 100%;
     color: #000000;
     float: right;
-    margin-right: 6%;
+    margin-right: 4%;
     margin-top: -23%;
   }
   .snip_SB * {
@@ -71,7 +71,7 @@
     width: 100%;
     color: #000000;
     float: left;
-    margin-left: 0%;
+    margin-left: -2%;
     margin-top: 4%;
   }
   .snip_VM * {
@@ -136,7 +136,7 @@
     color: #000000;
     float: right;
     margin-right: 8%;
-    margin-top: -22%;
+    margin-top: -22.5%;
   }
   .snip_bottle * {
     -webkit-box-sizing: border-box;
@@ -149,7 +149,7 @@
     right: 0%;
     top: 50%;
     opacity: 1;
-    width: 60%;
+    width: 80%;
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
   }
@@ -175,8 +175,8 @@
   }
   .snip_bottle:hover img,
   .snip_bottle.hover img {
-    width: 40%;
-    right: -2%;
+    width: 50%;
+    right: -8%;
   }
   .snip_bottle:hover figcaption h4,
   .snip_bottle.hover figcaption h4,
@@ -186,6 +186,6 @@
     transform: translateX(0%);
     max-width: 70%;
     margin-top: 5%;
-    margin-right: 4%;
+    margin-right: 6%;
     opacity: 1;
   }

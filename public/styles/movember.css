@@ -26,14 +26,14 @@ background-color: white;
 .movember__baseline{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 8%;
+  margin-bottom: 4%;
 }
 .movember__baseline h1{
   font-size: 3em;
   color: black;
   font-weight: 400;
 }
-/*div title*/
+/*div title for logoMov title*/
 .movember__container_logoMov{
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@ background-color: white;
 .movember__baseline_logoMov{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 11%;
+  margin-bottom: 0.5%;
 }
 
 .movember__baseline_logoMov h2{
@@ -53,7 +53,7 @@ background-color: white;
 /* Presentation div with logo and description*/
 .content_logoMov{
   margin-left: 15%;
-  margin-bottom: 12%;
+  margin-bottom: 6%;
 }
 .logoMovember{
   margin-bottom: -25%;
@@ -82,9 +82,26 @@ background-color: white;
   line-height: 1.4em;
   padding: 3%;
 }
+/*div title for sb title*/
+.movember__container_SB{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 55.5%;
+}
+.movember__baseline_SB{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
+  margin-bottom: 4%;
+}
+
+.movember__baseline_SB h2{
+  font-weight: 25%;
+  color: black;
+}
 /* contact div with Stephane&Bruno image*/
 .content_SB{
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 .descript_contact{
   margin-left: 10%;
@@ -108,10 +125,27 @@ background-color: white;
   color: rgb(78, 76, 76);
   padding: 3%;
 }
+/*div title for VM title*/
+.movember__container_VM{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 54%;
+}
+.movember__baseline_VM{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
+  margin-bottom: 1%;
+}
+
+.movember__baseline_VM h2{
+  font-weight: 25%;
+  color: black;
+}
 /* presentation of partner with mle20 div with VM image*/
 .content_VM{
   margin-left: 15%;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 .descript_VM{
   margin-left: 20%;
@@ -136,11 +170,28 @@ background-color: white;
   line-height: 1.4em;
   padding: 3%;
 }
-/* service of partner div with bottle img */
-.content_bottle{
+/*div title for product title*/
+.movember__container_bottle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 74%;
+}
+.movember__baseline_bottle{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
   margin-bottom: 8%;
 }
-.descript_service{
+
+.movember__baseline_bottle h2{
+  font-weight: 25%;
+  color: black;
+}
+/* service of partner div with bottle img */
+.content_bottle{
+  margin-bottom: 6%;
+}
+.descript_product{
   margin-left: 10%;
   margin-top: 0%;
   margin-bottom: 3%;
@@ -148,7 +199,7 @@ background-color: white;
   font-size: medium;
   max-width: 55%;  
 }
-.descript_service p{
+.descript_product p{
   padding: 1%;
   text-align: justify;
   border: 1px solid rgb(124, 19, 19);
