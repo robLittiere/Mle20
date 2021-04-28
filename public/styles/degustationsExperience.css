@@ -50,9 +50,108 @@ the page content
 
 .pageContent {
   display: none;
+  margin-top: 2%;
+  margin-bottom: 20%;
 }
 
-.atelierDegustationContent {
+.pageContentTitleContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.pageContentTitle {
+  border-bottom: 1px solid rgb(165, 25, 25);
+}
+
+.baladeGustativeContent {
+  display: block;
+  justify-content: space-evenly;
+
+}
+
+.atelierDegustationContainer {
   margin-top: 5%;
 }
+
+.verticaleHorizontale {
+  margin-top: 2%;
+  display: flex;
+}
+
+.verticale {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.verticaleText {
+  width: 50%;
+}
+
+.horizontale {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.horizontalText {
+  width: 50%;
+}
+
+.verticaleHorizontaleText {
+  display: flex;
+}
+
+.verticaleText {
+  margin-top: 2%;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.horizontalText {
+  margin-top: 2%;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.verticalHorizontaleContainer {
+  width: 100%;
+}
+
+.verticaleHorizontaleContent {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.verticalHorizontaleElement {
+  display: block;
+  text-align: center;
+}
+
+.title {
+  border-bottom: 1px solid rgb(165, 25, 25);
+}
+
+.verticalHorizontaleElementTitle {
+  margin-bottom: 5%;
+  color: rgb(165, 25, 25);
+}
+
+.improbable {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
 
