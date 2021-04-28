@@ -20,9 +20,9 @@
   .snip_SB img {
     position: absolute;
     right: 0%;
-    top: 50%;
+    top: 25%;
     opacity: 1;
-    width: 100%;
+    width: 110%;
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
   }
@@ -32,7 +32,7 @@
     left: 0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    margin-top: 33%;
+    margin-top: 17%;
   }
   .snip_SB h4,
   .snip_SB p {
@@ -82,17 +82,17 @@
   }
   .snip_VM img {
     position: absolute;
-    left: 0%;
-    top: 50%;
+    right: 0%;
+    top: 65%;
     opacity: 1;
-    width: 90%;
+    width: 45%;
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
   }
   .snip_VM figcaption {
     position: absolute;
     width: 70%;
-    left: 0;
+    right: 0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: 35%;
@@ -111,8 +111,8 @@
   }
   .snip_VM:hover img,
   .snip_VM.hover img {
-    width: 60%;
-    left: -20%;
+    width: 40%;
+    right: -20%;
   }
   .snip_VM:hover figcaption h4,
   .snip_VM.hover figcaption h4,
@@ -122,7 +122,7 @@
     transform: translateX(0%);
     max-width: 70%;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-right: 10%;
     opacity: 1;
   }
   /* animation for picture of bottle */
@@ -136,7 +136,7 @@
     color: #000000;
     float: right;
     margin-right: 8%;
-    margin-top: -22.5%;
+    margin-top: -18.5%;
   }
   .snip_bottle * {
     -webkit-box-sizing: border-box;

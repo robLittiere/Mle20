@@ -22,11 +22,12 @@ background-color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: -4%;
 }
 .movember__baseline{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 .movember__baseline h1{
   font-size: 3em;
@@ -35,50 +36,50 @@ background-color: white;
 }
 /*div title for logoMov title*/
 .movember__container_logoMov{
-  display: flex;
+  display: flex;  
   align-items: center;
   flex-direction: column;
-  margin-left: 68%;
 }
 .movember__baseline_logoMov{
+  padding-left: 80%;
+  margin-bottom: 2%;
+}
+.movember__baseline_logoMov h2{
+  margin-bottom: 5%;
+  color: black;
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 0.5%;
 }
 
-.movember__baseline_logoMov h2{
-  font-weight: 25%;
-  color: black;
-}
 /* Presentation div with logo and description*/
 .content_logoMov{
-  margin-left: 15%;
-  margin-bottom: 6%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .logoMovember{
-  margin-bottom: -25%;
-  margin-left: -8%;
-
+  width: 33%;
+}
+.logoMovember img{
+  padding: 28% 33% 33% 23%;
+  width: 50%;
 }
 .descript_logoMov{
-  margin-left: 20%;
-  margin-bottom: 3%;
+  width: 50%;
+  padding-top: 4%;
+
   font-family: 'Lato';
   font-size: medium;
-  max-width: 60%;
 }
 .descript_logoMov p{
-  padding: 1%;
-  text-align: justify;
   border: 1px solid rgb(124, 19, 19);
   color: rgb(78, 76, 76);
-  text-align: justify;
-  flex: 0.6;
-  width: 100%;
+
   font-size: 1.2em;
-  margin-left: 12%;
   font-weight: 300;
   letter-spacing: 0.2px;
+
+  text-align: justify;
+  flex: 0.6;
   line-height: 1.4em;
   padding: 3%;
 }
@@ -92,7 +93,7 @@ background-color: white;
 .movember__baseline_SB{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .movember__baseline_SB h2{
@@ -101,21 +102,21 @@ background-color: white;
 }
 /* contact div with Stephane&Bruno image*/
 .content_SB{
-  margin-bottom: 6%;
+  margin-top: -2%;
 }
-.descript_contact{
+.descript_contact {
   margin-left: 10%;
   margin-top: 0%;
   margin-bottom: 3%;
   font-family: 'Lato';
-  font-size: medium;
-  max-width: 55%;  
+  font-size: small;
+  max-width: 45%;  
 }
-.descript_contact p{
+
+.descript_contact {
   padding: 1%;
   text-align: justify;
   border: 1px solid rgb(124, 19, 19);
-  text-align: justify;
   flex: 0.6;
   width: 100%;
   font-size: 1.2em;
@@ -125,19 +126,26 @@ background-color: white;
   color: rgb(78, 76, 76);
   padding: 3%;
 }
+
+.contactCenter{
+  text-align: center;
+}
+
+.logoCerhom{
+  margin-left: 80%;
+}
 /*div title for VM title*/
 .movember__container_VM{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-left: 54%;
+  margin-left: 55%;
 }
 .movember__baseline_VM{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
-
 .movember__baseline_VM h2{
   font-weight: 25%;
   color: black;
@@ -145,30 +153,33 @@ background-color: white;
 /* presentation of partner with mle20 div with VM image*/
 .content_VM{
   margin-left: 15%;
-  margin-bottom: 6%;
+  margin-bottom: 2%;
+}
+.Vincent_moustache{
+  margin-left:-5%;
+}
+.logo_mle20{
+  margin-top: 8%;
+  float: left
 }
 .descript_VM{
-  margin-left: 20%;
-  margin-top: 2%;
   margin-bottom: 3%;
   font-family: 'Lato';
-  font-size: medium;
-  max-width: 60%;  
-}
-.descript_VM p{
-  padding: 1%;
-  text-align: justify;
+  max-width: 60%; 
   border: 1px solid rgb(124, 19, 19);
   color: rgb(78, 76, 76);
   text-align: justify;
   flex: 0.6;
   width: 100%;
   font-size: 1.2em;
-  margin-left: 12%;
+  margin-left: 25%;
   font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 1.4em;
   padding: 3%;
+}
+.VMcenter{
+  text-align: center;
 }
 /*div title for product title*/
 .movember__container_bottle{
@@ -180,7 +191,7 @@ background-color: white;
 .movember__baseline_bottle{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 8%;
+  margin-bottom: 2%;
 }
 
 .movember__baseline_bottle h2{
@@ -189,17 +200,17 @@ background-color: white;
 }
 /* service of partner div with bottle img */
 .content_bottle{
-  margin-bottom: 6%;
+  margin-bottom: 2%;
 }
 .descript_product{
   margin-left: 10%;
   margin-top: 0%;
-  margin-bottom: 3%;
   font-family: 'Lato';
   font-size: medium;
   max-width: 55%;  
 }
-.descript_product p{
+
+.descript_product {
   padding: 1%;
   text-align: justify;
   border: 1px solid rgb(124, 19, 19);
@@ -213,3 +224,27 @@ background-color: white;
   color: rgb(78, 76, 76);
   padding: 3%;
 }
+
+.productCenter{
+  text-align: center;
+}
+
+/* div for dym event*/
+
+.dymEvent{
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-bottom: 5%;
+}
+
+.dym__baseline_logoMov h2{
+  margin-bottom: 2% ;
+  margin-left: 75%;
+  width: min-content;
+
+  border-bottom: 1px solid rgb(124, 19, 19);
+}
+
+
+
