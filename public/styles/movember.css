@@ -26,57 +26,39 @@ background-color: white;
 .movember__baseline{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 8%;
+  margin-bottom: 4%;
 }
 .movember__baseline h1{
   font-size: 3em;
   color: black;
   font-weight: 400;
 }
-/*div title left*/
-.movember__container_left{
+/*div title for logoMov title*/
+.movember__container_logoMov{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-right: 55%;
+  margin-left: 68%;
 }
-
-.movember__baseline_left{
+.movember__baseline_logoMov{
   padding-bottom: 1em;
   border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 15%;
+  margin-bottom: 0.5%;
 }
 
-.movember__baseline_left h2{
-  font-weight: 25%;
-  color: black;
-}
-/*div title right*/
-.movember__container_right{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 70%;
-}
-
-.movember__baseline_right{
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 2%;
-}
-
-.movember__baseline_right h2{
+.movember__baseline_logoMov h2{
   font-weight: 25%;
   color: black;
 }
 /* Presentation div with logo and description*/
 .content_logoMov{
   margin-left: 15%;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 .logoMovember{
-  margin-bottom: -20%;
-  margin-top: 2%;
+  margin-bottom: -25%;
+  margin-left: -8%;
+
 }
 .descript_logoMov{
   margin-left: 20%;
@@ -100,13 +82,30 @@ background-color: white;
   line-height: 1.4em;
   padding: 3%;
 }
+/*div title for sb title*/
+.movember__container_SB{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 55.5%;
+}
+.movember__baseline_SB{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
+  margin-bottom: 4%;
+}
+
+.movember__baseline_SB h2{
+  font-weight: 25%;
+  color: black;
+}
 /* contact div with Stephane&Bruno image*/
 .content_SB{
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 .descript_contact{
   margin-left: 10%;
-  margin-top: -5%;
+  margin-top: 0%;
   margin-bottom: 3%;
   font-family: 'Lato';
   font-size: medium;
@@ -126,12 +125,29 @@ background-color: white;
   color: rgb(78, 76, 76);
   padding: 3%;
 }
-/* service of partner div with bottle img */
-.content_bottle{
-  margin-left: 15%;
-  margin-bottom: 8%;
+/*div title for VM title*/
+.movember__container_VM{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 54%;
 }
-.descript_service{
+.movember__baseline_VM{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
+  margin-bottom: 1%;
+}
+
+.movember__baseline_VM h2{
+  font-weight: 25%;
+  color: black;
+}
+/* presentation of partner with mle20 div with VM image*/
+.content_VM{
+  margin-left: 15%;
+  margin-bottom: 6%;
+}
+.descript_VM{
   margin-left: 20%;
   margin-top: 2%;
   margin-bottom: 3%;
@@ -139,7 +155,7 @@ background-color: white;
   font-size: medium;
   max-width: 60%;  
 }
-.descript_service p{
+.descript_VM p{
   padding: 1%;
   text-align: justify;
   border: 1px solid rgb(124, 19, 19);
@@ -154,19 +170,36 @@ background-color: white;
   line-height: 1.4em;
   padding: 3%;
 }
-/* presentation of partner with mle20 div with VM image*/
-.content_VM{
+/*div title for product title*/
+.movember__container_bottle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 74%;
+}
+.movember__baseline_bottle{
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(124, 19, 19);
   margin-bottom: 8%;
 }
-.descript_VM{
+
+.movember__baseline_bottle h2{
+  font-weight: 25%;
+  color: black;
+}
+/* service of partner div with bottle img */
+.content_bottle{
+  margin-bottom: 6%;
+}
+.descript_product{
   margin-left: 10%;
-  margin-top: -5%;
+  margin-top: 0%;
   margin-bottom: 3%;
   font-family: 'Lato';
   font-size: medium;
   max-width: 55%;  
 }
-.descript_VM p{
+.descript_product p{
   padding: 1%;
   text-align: justify;
   border: 1px solid rgb(124, 19, 19);
@@ -179,195 +212,4 @@ background-color: white;
   line-height: 1.4em;
   color: rgb(78, 76, 76);
   padding: 3%;
-}
-/* animation for picture of Steph&Bruno */
-.snip_SB {
-  font-family: 'Lato';
-  position: relative;
-  min-width: 20%;
-  max-width: 23%;
-  min-height: 220px;
-  width: 100%;
-  color: #000000;
-  float: right;
-  margin-right: 6%;
-  margin-top: -22%;
-}
-.snip_SB * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.snip_SB img {
-  position: absolute;
-  right: 0%;
-  top: 50%;
-  opacity: 1;
-  width: 100%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-}
-.snip_SB figcaption {
-  position: absolute;
-  width: 70%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-top: 33%;
-}
-.snip_SB h4,
-.snip_SB p {
-  margin: 0%;
-  width: 100%;
-  -webkit-transform: translateX(15%);
-  transform: translateX(15%);
-  opacity: 0;
-}
-.snip_SB h4 {
-  font-family: 'Prata';
-}
-.snip_SB:hover img,
-.snip_SB.hover img {
-  width: 60%;
-  right: -10%;
-}
-.snip_SB:hover figcaption h4,
-.snip_SB.hover figcaption h4,
-.snip_SB:hover figcaption p,
-.snip_SB.hover figcaption p {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
-  max-width: 70%;
-  margin-top: 5%;
-  margin-right: 4%;
-  opacity: 1;
-}
-/* animation for picture of bottle */
-.snip_bottle {
-  font-family: 'Lato';
-  position: relative;
-  min-width: 20%;
-  max-width: 23%;
-  min-height: 220px;
-  width: 100%;
-  color: #000000;
-  float: left;
-  margin-left: 0%;
-  margin-top: 4%;
-}
-.snip_bottle * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.snip_bottle img {
-  position: absolute;
-  left: 0%;
-  top: 50%;
-  opacity: 1;
-  width: 75%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-}
-.snip_bottle figcaption {
-  position: absolute;
-  width: 70%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-top: 35%;
-  margin-left: 40%;
-}
-.snip_bottle h4,
-.snip_bottle p {
-  margin: 0%;
-  width: 90%;
-  -webkit-transform: translateX(15%);
-  transform: translateX(15%);
-  opacity: 0;
-}
-.snip_bottle h4 {
-  font-family: 'Prata';
-}
-.snip_bottle:hover img,
-.snip_bottle.hover img {
-  width: 60%;
-  left: -20%;
-}
-.snip_bottle:hover figcaption h4,
-.snip_bottle.hover figcaption h4,
-.snip_bottle:hover figcaption p,
-.snip_bottle.hover figcaption p {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
-  max-width: 70%;
-  margin-top: 5%;
-  margin-left: 10%;
-  opacity: 1;
-}
-/*animation for picture of Vincent moustache*/
-.snip_VM {
-  font-family: 'Lato';
-  position: relative;
-  min-width: 20%;
-  max-width: 23%;
-  min-height: 220px;
-  width: 100%;
-  color: #000000;
-  float: right;
-  margin-right: 8%;
-  margin-top: -18%;
-}
-.snip_VM * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.snip_VM img {
-  position: absolute;
-  right: 0%;
-  top: 50%;
-  opacity: 1;
-  width: 60%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-}
-.snip_VM figcaption {
-  position: absolute;
-  width: 70%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-top: 33%;
-}
-.snip_VM h4,
-.snip_VM p {
-  margin: 0%;
-  margin-left: 15%;
-  width: 100%;
-  -webkit-transform: translateX(15%);
-  transform: translateX(15%);
-  opacity: 0;
-}
-.snip_VM h4 {
-  font-family: 'Prata';
-}
-.snip_VM:hover img,
-.snip_VM.hover img {
-  width: 40%;
-  right: -2%;
-}
-.snip_VM:hover figcaption h4,
-.snip_VM.hover figcaption h4,
-.snip_VM:hover figcaption p,
-.snip_VM.hover figcaption p {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
-  max-width: 70%;
-  margin-top: 5%;
-  margin-right: 4%;
-  opacity: 1;
 }
