@@ -17,55 +17,30 @@ background-color: white;
   margin-top: 8em;
   height: 100%;
 }
-/*div title*/
-.movember__container{
+.line1{
+  display: flex ;
+}
+.line2{
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: -4%;
-}
-.movember__baseline{
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 1%;
-}
-.movember__baseline h1{
-  font-size: 3em;
-  color: black;
-  font-weight: 400;
-}
-/* div title logoMov*/
-.movember__container_logoMov{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.movember__baseline_logoMov{
-  padding-bottom: 1%;
-  margin-bottom: 6%;
-  border-bottom: 1px solid rgb(124, 19, 19);
-}
-.movember__baseline_logoMov h2{
-  font-size: 20px;
-  color: black;
 }
 /*div presentation*/
 .content_logoMov{
   padding: 2%;
+  min-width: 43%;
 }
 .logomovember{
   float: left;
+  padding: 2%;
   max-width: 30%;
 }
 .logomovember img{
-  width: 100%;
+  width: 90%;
 }
 .block_logoMov{
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  max-width:45%;
-  padding: 3%;
+  padding: 3.4%;
 }
 .descript_logoMov p{
   text-align: justify;
@@ -74,21 +49,6 @@ background-color: white;
   font-size: 1.2em;
   letter-spacing: 0.2px;
   line-height: 1.4em;
-}
-/* div title logoCerhom*/
-.movember__container_cerhom{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.movember__baseline_cerhom{
-  padding-bottom: 1%;
-  margin-bottom: 6%;
-  border-bottom: 1px solid rgb(124, 19, 19);
-}
-.movember__baseline_cerhom h2{
-  font-size: 20px;
-  color: black;
 }
 /*div CerHom X DoYouMovember*/
 .content_cerhom{
@@ -105,7 +65,6 @@ background-color: white;
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  max-width:45%;
   padding: 3%;
 }
 .descript_cerhom p{
@@ -116,37 +75,23 @@ background-color: white;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
-/* div title mle20*/
-.movember__container_mle20{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.movember__baseline_mle20{
-  padding-bottom: 1%;
-  margin-bottom: 6%;
-  border-bottom: 1px solid rgb(124, 19, 19);
-}
-.movember__baseline_mle20 h2{
-  font-size: 20px;
-  color: black;
-}
 /*div MLe20 X DoYouMovember*/
 .content_mle20{
   padding: 2%;
+  min-width: 43%;
 }
 .logoMle20{
   float: left;
+  padding: 2%;
   max-width: 30%;
 }
 .logoMle20 img{
-  width: 100%;
+  width: 80%;
 }
 .block_mle20{
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  max-width:45%;
   padding: 3%;
 }
 .descript_mle20 p{
@@ -157,24 +102,10 @@ background-color: white;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
-/* div title Produit*/
-.movember__container_bottle{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.movember__baseline_bottle{
-  padding-bottom: 1%;
-  margin-bottom: 6%;
-  border-bottom: 1px solid rgb(124, 19, 19);
-}
-.movember__baseline_bottle h2{
-  font-size: 20px;
-  color: black;
-}
-/*div Produit*/
+/*div Bottle*/
 .content_bottle{
   padding: 2%;
+  min-width: 40%;
 }
 .bottle_picture{
   float: left;
@@ -187,7 +118,6 @@ background-color: white;
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  max-width:45%;
   padding: 3%;
 }
 .descript_bottle p{
@@ -198,24 +128,10 @@ background-color: white;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
-/* div title Evenement DoYouMovember*/
-.movember__container_event{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.movember__baseline_event{
-  padding-bottom: 1%;
-  margin-bottom: 6%;
-  border-bottom: 1px solid rgb(124, 19, 19);
-}
-.movember__baseline_event h2{
-  font-size: 20px;
-  color: black;
-}
 /*div Evenements DoYouMovember*/
 .content_event{
-  padding: 2%;
+  padding: 2% 0% 4% 25%;
+  max-width: 50%;
 }
 .VM_picture{
   float: left;
@@ -228,7 +144,6 @@ background-color: white;
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  max-width:45%;
   padding: 3%;
 }
 .descript_event p{
