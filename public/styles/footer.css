@@ -18,6 +18,9 @@ footer li{
     color: white;
     font-size: small;
 }
+footer ul{
+    padding-inline-start: 2%;
+}
 .footerBtn{
     padding: 2px;
     color: rgb(255, 255, 255);
@@ -29,32 +32,34 @@ footer li{
 .footerColumn{
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 1%;
+    justify-content: space-between;
     max-width: 13%;
-    padding: 3px;
+    padding: 0% 1% 2% 1%;
+}
+.footerColumnSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 10%;
+    padding: 0% 1% 2% 1%;
 }
 footer label{
     color: rgb(180, 180, 180);
 }
 .footerColumnNews{
     display: flex;
-    flex-direction: row;
-    margin: 5px;
-    margin-top: 10px;
-    margin-left: 1.5%;
-    max-width: 30%;
-    padding: 3px;
+    flex-direction: column;
+    max-width: 20%;
+    padding: 0% 1% 2% 1%;
 }
 /* Newsletter part */
+.news{
+    padding: 10% 0% 0% 0%;
+}
 .newsLetter{
     outline: none;
-    margin-left: -35%;
     border-radius: 3px;
-    margin-top: 10%;
-    margin-bottom: 45%;
+    max-height: 100%;
     border: 0px;
     font-size: medium;
     background-color: rgb(255, 255, 255);
@@ -65,8 +70,7 @@ footer ::placeholder{
 .confirmNews{
     transition: all 0.3s ease-in-out;
     font-size: medium;
-    margin-top: 10%;
-    margin-bottom: 45%;
+    max-height: 100%;
     margin-left: 5px;
     max-width: 20%;
     border: 1px solid rgb(0, 0, 0);
@@ -85,9 +89,6 @@ footer ::placeholder{
     flex-direction: row;
     background-color: white;
     max-width: 18%;
-    margin-left: 1%;
-    margin-bottom: 2.5%;
-    margin-top: 1%;
     height: 10%;
     font-size: small;
     border: 1px solid black;
