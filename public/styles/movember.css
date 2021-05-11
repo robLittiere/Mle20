@@ -26,12 +26,11 @@ background-color: white;
 /*div presentation*/
 .content_logoMov{
   padding: 2%;
-  min-width: 43%;
+  max-width: 45%;
 }
 .logomovember{
   float: left;
-  padding: 2%;
-  max-width: 30%;
+  width: 30%;
 }
 .logomovember img{
   width: 90%;
@@ -53,40 +52,55 @@ background-color: white;
 /*div CerHom X DoYouMovember*/
 .content_cerhom{
   padding: 2%;
+  max-width: 45%;
 }
-.logoCerhom{
+
+.BSpicture{
   float: left;
-  max-width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 40%;
+}
+
+.BSpicture img{
+  width: 90%;
+}
+
+.logoCerhom{
+  float: right;
+  padding-top: 1%;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 25%;
 }
 .logoCerhom img{
-  width: 100%;
+  width: 60%;
 }
 .block_cerhom{
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  padding: 3%;
+  padding: 2%;
 }
 .descript_cerhom p{
   text-align: justify;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
 /*div MLe20 X DoYouMovember*/
 .content_mle20{
   padding: 2%;
-  min-width: 43%;
+  max-width: 45%;
 }
 .logoMle20{
   float: left;
-  padding: 2%;
-  max-width: 30%;
+  max-width: 35%;
 }
 .logoMle20 img{
-  width: 80%;
+  width: 90%;
 }
 .block_mle20{
   display: flex;
@@ -98,14 +112,14 @@ background-color: white;
   text-align: justify;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
 /*div Bottle*/
 .content_bottle{
   padding: 2%;
-  min-width: 40%;
+  max-width: 45%;
 }
 .bottle_picture{
   float: left;
@@ -124,7 +138,7 @@ background-color: white;
   text-align: justify;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
@@ -135,7 +149,7 @@ background-color: white;
 }
 .VM_picture{
   float: left;
-  max-width: 30%;
+  max-width: 35%;
 }
 .VM_picture img{
   width: 80%;
@@ -150,7 +164,7 @@ background-color: white;
   text-align: justify;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 0.2px;
   line-height: 1.4em;
 }
