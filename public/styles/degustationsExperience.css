@@ -1,5 +1,6 @@
 * {
-    margin: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 body {
@@ -44,10 +45,6 @@ menu bar
   border-bottom: 1px solid rgb(165, 25, 25);
 }
 
-.prestige_dropdown {
-  display: none;
-}
-
 /*
 the page content
 */
@@ -74,14 +71,41 @@ the page content
 
 #prestige_Verticale_horizontale {
   width: 100%;
+}
+
+#prestige_Verticale_horizontale_underTitle_container {
+  width: 80%;
+  height: 40%;
+
   display: flex;
+  justify-content: space-evenly;
+
+  margin: 4% 10% 4% 10%;
+  align-items: center;
+}
+
+#prestige_Verticale_horizontale_underTitle {
+  display: flex;
+  justify-content: center;
+
+  white-space:nowrap;
+}
+#prestige_Verticale_horizontale_underTitle p{
+  background-color: rgb(165, 25, 25);
+  color: white;
+  padding: 5%;
+}
+
+.underTitle_sideBorder {
+  width: 20%;
+  border-bottom: 1px solid rgb(240, 209, 33);
 }
 
 #prestige_Verticale_horizontale_title {
   display: flex;
   justify-content: space-evenly;
 
-  margin: 2% 0% 2% 0%;
+  margin: 0% 0% 4% 0%;
   width: 100%;
 }
 
@@ -93,6 +117,57 @@ the page content
 #prestige_verticale_underTitle, #prestige_horizontale_underTitle {
   color: #777474;
 }
+
+.prestige_element {
+  margin-bottom: 2%;
+  display: flex;
+
+  font-size: 15px;
+  white-space:nowrap;
+}
+.prestige_element_text {
+  text-align: start;
+  padding: 0 2% 0% 2%;
+}
+
+.prestige_element_title {
+  color: rgb(165, 25, 25);
+  margin-bottom: 2%;
+}
+
+.prestige_contain {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-bottom: 3%;
+}
+
+#vinFr {
+  width: 80%;
+  margin: 4% 10% 4% 10%;
+}
+#vinFr_contain {
+  width: 80%;
+  margin: 4% 10% 4% 10%;
+
+  display: flex;
+  justify-content: center;
+}
+.vinFr_baseline {
+  text-align: center;
+  border: 1px solid rgb(165, 25, 25);
+  padding: 2%;
+  
+  display: flex;
+  justify-content: center;
+
+  width: min-content;
+  white-space:nowrap;
+}
+
+
+
+
 
 
 
