@@ -11,3 +11,19 @@ function showIt(element) {
 
     div.style.display = "block";
 }
+
+function dropdownDisplay(element) {
+    let children = element.children;
+
+    for (let index = 0; index < children.length; index++) {
+        children[index].style.display = "block"
+    }
+}
+
+function dropdownHide(element) {
+    let children = element.children;
+
+    for (let index = 0; index < children.length; index++) {
+        children[index].style.display = "none"
+    }
+}
