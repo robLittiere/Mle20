@@ -81,7 +81,7 @@ background-color: white;
   transition: all 0.25s linear;
 }
 .snip img {
-  width: calc(90%);
+  width: calc(75%);
   backface-visibility: hidden;
   vertical-align: top;
 }
@@ -150,7 +150,17 @@ background-color: white;
   margin-bottom: 12%;
 }
 
+.partner_container2{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8%;
+}
+
 #logoBulleDeLAube img{
-  width: 70%;
+  width: 65%;
   height: auto;
+}
+
+#logopatriwine{
+  margin-top: 4%;
 }

@@ -17,234 +17,154 @@ background-color: white;
   margin-top: 8em;
   height: 100%;
 }
-/*div title*/
-.movember__container{
+.line1{
+  display: flex ;
+}
+.line2{
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: -4%;
 }
-.movember__baseline{
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 1%;
-}
-.movember__baseline h1{
-  font-size: 3em;
-  color: black;
-  font-weight: 400;
-}
-/*div title for logoMov title*/
-.movember__container_logoMov{
-  display: flex;  
-  align-items: center;
-  flex-direction: column;
-}
-.movember__baseline_logoMov{
-  padding-left: 80%;
-  margin-bottom: 2%;
-}
-.movember__baseline_logoMov h2{
-  margin-bottom: 5%;
-  color: black;
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-}
-
-/* Presentation div with logo and description*/
+/*div presentation*/
 .content_logoMov{
+  padding: 2%;
+  max-width: 45%;
+}
+.logomovember{
+  float: left;
+  width: 30%;
+}
+.logomovember img{
+  width: 90%;
+}
+.block_logoMov{
   display: flex;
-  justify-content: space-evenly;
-}
-.logoMovember{
-  width: 33%;
-}
-.logoMovember img{
-  padding: 28% 33% 33% 23%;
-  width: 50%;
-}
-.descript_logoMov{
-  width: 50%;
-  padding-top: 4%;
-
-  font-family: 'Lato';
-  font-size: medium;
+  justify-content: center;
+  border: 1px solid rgb(124, 19, 19);
+  padding: 3.4%;
 }
 .descript_logoMov p{
-  border: 1px solid rgb(124, 19, 19);
-  color: rgb(78, 76, 76);
-
-  font-size: 1.2em;
-  font-weight: 300;
-  letter-spacing: 0.2px;
-
   text-align: justify;
-  flex: 0.6;
-  line-height: 1.4em;
-  padding: 3%;
-}
-/*div title for sb title*/
-.movember__container_SB{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-right: 55.5%;
-}
-.movember__baseline_SB{
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 2%;
-}
-
-.movember__baseline_SB h2{
-  font-weight: 25%;
-  color: black;
-}
-/* contact div with Stephane&Bruno image*/
-.content_SB{
-  margin-top: -2%;
-}
-.descript_contact {
-  margin-left: 10%;
-  margin-top: 0%;
-  margin-bottom: 3%;
   font-family: 'Lato';
-  font-size: small;
-  max-width: 45%;  
-}
-
-.descript_contact {
-  padding: 1%;
-  text-align: justify;
-  border: 1px solid rgb(124, 19, 19);
-  flex: 0.6;
-  width: 100%;
+  color: rgb(78, 76, 76);
   font-size: 1.2em;
-  font-weight: 300;
   letter-spacing: 0.2px;
   line-height: 1.4em;
-  color: rgb(78, 76, 76);
-  padding: 3%;
+}
+/*div CerHom X DoYouMovember*/
+.content_cerhom{
+  padding: 2%;
+  max-width: 45%;
 }
 
-.contactCenter{
-  text-align: center;
+.BSpicture{
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 40%;
+}
+
+.BSpicture img{
+  width: 90%;
 }
 
 .logoCerhom{
-  margin-left: 80%;
-}
-/*div title for VM title*/
-.movember__container_VM{
+  float: right;
+  padding-top: 1%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 55%;
+  justify-content: flex-end;
+  max-width: 25%;
 }
-.movember__baseline_VM{
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 2%;
+.logoCerhom img{
+  width: 60%;
 }
-.movember__baseline_VM h2{
-  font-weight: 25%;
-  color: black;
-}
-/* presentation of partner with mle20 div with VM image*/
-.content_VM{
-  margin-left: 15%;
-  margin-bottom: 2%;
-}
-.Vincent_moustache{
-  margin-left:-5%;
-}
-.logo_mle20{
-  margin-top: 8%;
-  float: left
-}
-.descript_VM{
-  margin-bottom: 3%;
-  font-family: 'Lato';
-  max-width: 60%; 
+.block_cerhom{
+  display: flex;
+  justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  color: rgb(78, 76, 76);
+  padding: 2%;
+}
+.descript_cerhom p{
   text-align: justify;
-  flex: 0.6;
-  width: 100%;
-  font-size: 1.2em;
-  margin-left: 25%;
-  font-weight: 300;
+  font-family: 'Lato';
+  color: rgb(78, 76, 76);
+  font-size: 1em;
   letter-spacing: 0.2px;
   line-height: 1.4em;
+}
+/*div MLe20 X DoYouMovember*/
+.content_mle20{
+  padding: 2%;
+  max-width: 45%;
+}
+.logoMle20{
+  float: left;
+  max-width: 35%;
+}
+.logoMle20 img{
+  width: 90%;
+}
+.block_mle20{
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(124, 19, 19);
   padding: 3%;
 }
-.VMcenter{
-  text-align: center;
+.descript_mle20 p{
+  text-align: justify;
+  font-family: 'Lato';
+  color: rgb(78, 76, 76);
+  font-size: 1em;
+  letter-spacing: 0.2px;
+  line-height: 1.4em;
 }
-/*div title for product title*/
-.movember__container_bottle{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-right: 74%;
-}
-.movember__baseline_bottle{
-  padding-bottom: 1em;
-  border-bottom: 1px solid rgb(124, 19, 19);
-  margin-bottom: 2%;
-}
-
-.movember__baseline_bottle h2{
-  font-weight: 25%;
-  color: black;
-}
-/* service of partner div with bottle img */
+/*div Bottle*/
 .content_bottle{
-  margin-bottom: 2%;
+  padding: 2%;
+  max-width: 45%;
 }
-.descript_product{
-  margin-left: 10%;
-  margin-top: 0%;
-  font-family: 'Lato';
-  font-size: medium;
-  max-width: 55%;  
+.bottle_picture{
+  float: left;
+  max-width: 30%;
 }
-
-.descript_product {
-  padding: 1%;
-  text-align: justify;
+.bottle_picture img{
+  width: 80%;
+}
+.block_bottle{
+  display: flex;
+  justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  text-align: justify;
-  flex: 0.6;
-  width: 100%;
-  font-size: 1.2em;
-  font-weight: 300;
-  letter-spacing: 0.2px;
-  line-height: 1.4em;
-  color: rgb(78, 76, 76);
   padding: 3%;
 }
-
-.productCenter{
-  text-align: center;
+.descript_bottle p{
+  text-align: justify;
+  font-family: 'Lato';
+  color: rgb(78, 76, 76);
+  font-size: 1em;
+  letter-spacing: 0.2px;
+  line-height: 1.4em;
 }
-
-/* div for dym event*/
-
-.dymEvent{
+/*div Evenements DoYouMovember*/
+.content_event{
+  padding: 2% 0% 4% 25%;
+  max-width: 50%;
+}
+.VM_picture{
+  float: left;
+  max-width: 35%;
+}
+.VM_picture img{
+  width: 80%;
+}
+.block_event{
   display: flex;
-  justify-content: space-evenly;
-
-  margin-bottom: 5%;
+  justify-content: center;
+  border: 1px solid rgb(124, 19, 19);
+  padding: 3%;
 }
-
-.dym__baseline_logoMov h2{
-  margin-bottom: 2% ;
-  margin-left: 75%;
-  width: min-content;
-
-  border-bottom: 1px solid rgb(124, 19, 19);
+.descript_event p{
+  text-align: justify;
+  font-family: 'Lato';
+  color: rgb(78, 76, 76);
+  font-size: 1em;
+  letter-spacing: 0.2px;
+  line-height: 1.4em;
 }
-
-
-

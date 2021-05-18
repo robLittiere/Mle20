@@ -1,0 +1,92 @@
+/* div title logoMov*/
+.movember__container_logoMov{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .movember__baseline_logoMov{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+  }
+  .movember__baseline_logoMov h2{
+    font-size: 20px;
+    color: black;
+  }
+/*div title*/
+.movember__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4%;
+  }
+  .movember__baseline{
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(124, 19, 19);
+    margin-bottom: 5%;
+  }
+  .movember__baseline h1{
+    font-size: 3em;
+    color: black;
+    font-weight: 400;
+  }
+  /* div title logoCerhom*/
+.movember__container_cerhom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .movember__baseline_cerhom{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+  }
+  .movember__baseline_cerhom h2{
+    font-size: 20px;
+    color: black;
+  }
+  /* div title mle20*/
+.movember__container_mle20{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .movember__baseline_mle20{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+  }
+  .movember__baseline_mle20 h2{
+    font-size: 20px;
+    color: black;
+  }
+  /* div title Produit*/
+.movember__container_bottle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .movember__baseline_bottle{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+  }
+  .movember__baseline_bottle h2{
+    font-size: 20px;
+    color: black;
+  }
+  /* div title Evenement DoYouMovember*/
+.movember__container_event{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .movember__baseline_event{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+  }
+  .movember__baseline_event h2{
+    font-size: 20px;
+    color: black;
+  }
