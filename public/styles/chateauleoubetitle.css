@@ -1,0 +1,64 @@
+/*div title*/
+.chl__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4%;
+}
+.chl__baseline{
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(124, 19, 19);
+    margin-bottom: 5%;
+}
+.chl__baseline h1{
+    font-size: 3em;
+    color: black;
+    font-weight: 400;
+}
+/* div title logoMov*/
+.chl__container_logochl{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.chl__baseline_logochl{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+}
+.chl__baseline_logochl h2{
+    font-size: 20px;
+    color: black;
+}
+
+  /* div title logoCerhom*/
+.chl__container_why{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.chl__baseline_why{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+}
+.chl__baseline_why h2{
+    font-size: 20px;
+    color: black;
+}
+
+/* div title Evenement DoYouMovember*/
+.chl__container_mle20{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.chl__baseline_mle20{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+    border-bottom: 1px solid rgb(124, 19, 19);
+}
+.chl__baseline_mle20 h2{
+    font-size: 20px;
+    color: black;
+}

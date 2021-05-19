@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/banner.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/footerBanner.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/slider.css">
+    <link rel="stylesheet" href="../styles/patriwine.css">
+    <link rel="stylesheet" href="../styles/patriwinetitle.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Patriwine</title>
+</head>
+
+
+<body>
+    
+    <!--here we put the header-->
+    <div class="header__container">
+        <div class="header__top">
+            <!--top header-->
+            <div id="banner">
+                <div id="MLe20" class="bannerContain">
+                    <div>
+                        <img src="../store/bannerImage/info.png">
+                    </div>
+
+                    <div class="bannerTexte">
+                        <h1>Découvrir M Le 20</h1>
+                    </div>
+                </div>
+                <div id="help&contact" class="bannerContain">
+                    <h1>Aide et contacts</h1>
+                </div>
+                <div id="tapeForSearch">
+                    <input type="email" class="enterEmail" name="q" placeholder="recherche">
+                    <button class="confirmSearch">ok</button>
+                </div>
+                <div id="delivery" class="bannerContain">
+                    <img src="../store/bannerImage/car.png">
+                </div>
+                <div id="account" class="bannerContain">
+                    <div class="bannerTexte">
+                        <h1>Compte</h1>
+                    </div>
+                    <div>
+                        <img src="../store/bannerImage/account.png" id="accountImg">
+                    </div>
+                </div>
+                <div id="panier" class="bannerContain">
+                    <div class="bannerTexte">
+                        <h1>Panier </h1>
+                    </div>
+                    <div>
+                        <img src="../store/bannerImage/Cart.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo__container">
+            <img id="logo" src="../assets/logo.jpg" alt="logo">
+            <h1>Champagnes, Vins & Events</h1>
+            <h3>Expériences dédiées aux meilleurs vins</h3>
+        </div>
+        <div class="navbar">
+            <div class="header_bottom">
+                <a href="../home/home.html" class="header__button">Accueil</a>
+                <a href="../store/store.html" id="store__button" class="header__button">Boutique</a>
+                <a href="../degustationsExperience/degustationsExperience.html" id="experience__button" class="header__button">Degustations & Expériences</a>
+                <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
+                <a href="#" id="conciergerie__button" class="header__button">Conciergerie</a>
+                <a href="Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
+                <a href="../home/about.html" id="infos__button" class="header__button">Qui sommes nous ?</a>
+                <a href="../contact/contact.html" id="contact__button" class="header__button">Contacts</a>
+
+            </div>    
+
+
+            <div id="store__popup">
+                <a href="#" class="popup__button">Vin</a>
+                <a href="#" class="popup__button">Champagne</a>
+                <a href="#" class="popup__button">Coffret Cadeau</a>
+                <a href="#" class="popup__button">Evenement</a>
+                <a href="#" class="popup__button">Autres</a>
+            
+                
+            </div>
+            <div id="experience__popup">
+                <a href="#" class="popup__button">Atelier dégustation</a>
+                <a href="#" class="popup__button">Prestige</a>
+                <a href="#" class="popup__button">Improbable</a>
+                <a href="#" class="popup__button">Grands vins français</a>
+                <a href="#" class="popup__button">Privatiser (sur mesure)</a>
+                <a href="#" class="popup__button">Balades gustatives)</a>
+                <a href="#" class="popup__button">Soirée</a>
+                <a href="#" class="popup__button">Séminaire</a>
+                <a href="#" class="popup__button">Demande de devis</a>
+            </div>
+            <div id="company__popup">
+                <a href="#" class="popup__button">Idée cadeaux</a>
+                <a href="#" class="popup__button">Pack entreprise</a>
+                <a href="#" class="popup__button">Concept sur mesure</a>
+                <a href="#" class="popup__button">Etude de faisabilité</a>
+                <a href="#" class="popup__button">Voyage à thème : dégustation, gastronomie, sport</a>
+                <a href="#" class="popup__button">Ils nous font confiance</a>
+            </div>
+            <div id="conciergerie__popup">
+                <a href="#" class="popup__button">Conseil & Stratégie</a>
+                <a href="#" class="popup__button">Achat vin</a>
+                <a href="#" class="popup__button">Achat Primeur</a>
+                <a href="#" class="popup__button">Audit Cave</a>
+                <a href="#" class="popup__button">Expérience unique</a>
+                <a href="#" class="popup__button">Expérience VIP</a>
+                <a href="#" class="popup__button">Vins et millésimes rares</a>
+
+            </div>
+            <div id="partner__popup">
+                <a href="bulleDeLAube.html" class="popup__button">Bulles de l'Aube</a>
+                <a href="movember.html" class="popup__button">DoYouMovember</a>
+                <a href="#" class="popup__button">Patriwine</a>
+                <a href="#" class="popup__button">Terra Hominis</a>
+                <a href="#" class="popup__button">Cookcoeur</a>
+                <a href="#" class="popup__button">Boutique Versailles</a>
+                <a href="#" class="popup__button">Vignerons disponibles</a>
+            </div>
+            <div id="contact__popup">
+                <a href="../contact/contact.html" class="popup__button">Formulaire</a>
+                <a href="#" class="popup__button">Adresse1</a>
+                <a href="#" class="popup__button">Adresse2</a>
+                <a href="#" class="popup__button">Adresse3</a>
+                <a href="#" class="popup__button">Téléphone</a>
+            </div>
+            <div id="infos__popup">
+                <a href="../home/about.html" class="popup__button">Histoire de l'aventure</a>
+                <a href="../home/about.html" class="popup__button">Portrait</a>
+                <a href="#" class="popup__button">Comité de sélection</a>
+            </div>
+        </div>
+    </div>   
+
+    <!--here we put the global container for our page-->
+    <div class="global__container">
+        
+        <div class="prt__container">
+            <div class="prt__baseline">
+                <h1>Patriwine</h1>
+            </div>
+        </div>
+        <div class="line1">
+            <div class="content_logoprt">
+                <div class="block_logoprt">
+
+                    <div class="descript_logoprt">
+                        <div class="logoprt">
+                            <img src="../assets/logoPatriwine.png" alt="Logo patriwine">
+                        </div>
+
+                        <div class="prt__container_logoprt">
+                            <div class="prt__baseline_logoprt">
+                                <h2>Présentation</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.  deserunt necessitatibus nam ullam perferendis natus atque.<br><br>
+                            Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate,<br><br>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsa, quibusdam non architecto dignissimos asperiores consequatur laudantium.<br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="content_why">
+                <div class="block_why">
+
+                    <div class="descript_why">
+                        <div class="logoWhy">
+                            <img src=""  alt="">
+                        </div>
+            
+                        <div class="prt__container_why">
+                            <div class="prt__baseline_why">
+                                <h2>Pourquoi eux ?</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quia, maxime sint accusamus autem nesciunt cumque, sunt explicabo ullam neque pariatur libero corrupti excepturi, odit iste temporibus illo necessitatibus mollitia!<br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dignissimos alias cum rerum.<br><br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam vel nobis nesciunt repellat ipsum officiis deserunt aperiam quis, corrupti dicta ea soluta perspiciatis quibusdam quas debitis, veritatis quaerat saepe! Nisi.
+                            Rem optio aliquid odio, voluptatem ipsa.Rem optio aliquid odio, voluptatem ipsa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_mle20">
+            <div class="block_mle20">
+                <div class="descript_mle20">
+                    <div class="mle20_picture">
+                        <img src="" alt="">
+                    </div>
+                    <div class="prt__container_mle20">
+                        <div class="prt__baseline_mle20">
+                            <h2>Patriwine & M Le 20</h2>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero id placeat ullam. Eius, deserunt nostrum! Temporibus expedita repudiandae officiis illo cum ex corporis. Perferendis maxime error qui laboriosam sapiente.<br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate.<br>
+                        Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--here we put the footer-->
+<footer class="pageFooter">
+    <div class="legislation">
+        <img id="legislationLogo" src="../assets/Logo_de_la_Republique_française_(1999).svg.png" alt="Logo de la République française">
+        
+        <p id="law">L'abus d'alcool est dangereux pour la santé, consommez avec modération.</p>
+    </div>
+    <div class="footerColumn">
+        <ul>
+            <li>
+                <h2 class="footerTitle">A propos de M Le 20</h2>
+            </li>
+            <li>
+                <a href="../home/about.html" class="footerBtn">Qui sommes-nous ?</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Aide & contact</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Actualité</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Plan du site</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Questions les plus fréquentes</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Partenaires</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerColumn">
+        <ul>
+            <li>
+                <h2 class="footerTitle">Boutique & Services</h2>
+            </li>
+            <li>
+                <a href="../store/store.html" class="footerBtn">Nos vins</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Parrainage & bons d'achats</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Espace entreprise</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Conciergerie</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Livraison</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Paiement</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerColumnSocial">
+        <ul>
+            <li>
+                <h2 class="footerTitle">Suivez-nous</h2>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">
+                    <img class="socialLogo" src="../assets/logo_instagram.png" alt="Instagram">
+                    Instagram
+                </a>
+                
+            </li>
+            <li>
+                <a href="#" class="footerBtn">
+                    <img class="socialLogo" src="../assets/logo_linkedin.png" alt="Linkedin">
+                    Linkedin
+                </a>
+                
+            </li>
+            <li>
+                <a href="#" class="footerBtn">
+                    <img class="socialLogo" src="../assets/logo_facebook.png" alt="Facebook">
+                    Facebook
+                </a>
+                
+            </li>
+            <li>
+                <a href="#" class="footerBtn">
+                    <img class="socialLogo" src="../assets/logo_twitter.png" alt="Twitter">
+                    Twitter
+                </a>
+                
+            </li>
+        </ul>
+    </div>
+    <div class="footerColumn">
+        <ul>
+            <li>
+                <h2 class="footerTitle">Juridique</h2>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Conditions générales</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Mentions légales</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Confidentialité & Cookies</a>
+            </li>
+            <li>
+                <a href="#" class="footerBtn">Admin</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerColumnNews">
+        <h2 class="footerTitle">Newsletter</h2>
+        <div class="news">
+            <input type="email" class="newsLetter" name="q" placeholder="Entrez votre mail..">
+            <button class="confirmNews">ok</button>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="../style_script/navbar.js"></script>
+<script type="text/javascript" src="../style_script/about.js"></script>
+
+
+</html>
