@@ -104,4 +104,6 @@
     flex-direction: column;
     justify-content: center;
 }
-
+#banner a{
+    color: rgb(255, 255, 255);
+}
