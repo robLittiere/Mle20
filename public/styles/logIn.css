@@ -36,6 +36,7 @@ form {
 #title_outline{
     padding: 4% 25% 4% 25%;
     border: 1px solid rgb(185, 13, 13);
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 10%);
 
     width: min-content;
     white-space: nowrap;
