@@ -38,3 +38,20 @@ function disableScroll() {
 function enableScroll() { 
   window.onscroll = function() {fix_navbar()}; 
 } 
+
+/*banner*/
+
+let account = document.getElementById("account");
+let account_slider = document.getElementById("account_slider");
+account.addEventListener("click", slider_display);
+
+
+function slider_display() {
+  account_slider.style.width = "30%";
+  account_slider.style.padding = "1% 0% 0% 0%";
+}
+
+function slider_hide() {
+  account_slider.style.width = "0";
+  account_slider.style.padding = "0";
+}

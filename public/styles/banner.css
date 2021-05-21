@@ -67,3 +67,41 @@
     border: 1px solid rgb(255, 255, 255);
     background-color: grey;
 }
+#slider_header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#account_slider {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+    overflow-x: hidden;
+    font-size: 20px;
+    color: #818181;
+
+
+    transition: 0.5s;
+    filter: none;
+}
+#slider_profil img{
+    width: 30%;
+}
+#profil_picture, #profil_username {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#close_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

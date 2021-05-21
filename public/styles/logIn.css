@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Prata';
+}
+
+form {
+    margin: 5% 10% 5% 10%;
+    padding: 1%;
+
+    width: 80%;
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 10%);
+
+    background-color: #fdfdfd;
+}
+
+#form_outline {
+    width: 100%;
+    border: 1px solid rgb(185, 13, 13);
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 10%);
+}
+
+#form_title {
+    width: 20%;
+    margin: 5% 40% 5% 40%;
+    padding: 1% 0% 1% 0%;
+
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 10%);
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+#title_outline{
+    padding: 4% 25% 4% 25%;
+    border: 1px solid rgb(185, 13, 13);
+
+    width: min-content;
+    white-space: nowrap;
+}
+
+#form_contain {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+
+#input_container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0% 30% 0% 30%;
+}
+
+#birthday_input {
+    display: flex;
+}
+
+
+/*
+    Input css
+*/
+.input_title {
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+
+    border-bottom: 1px solid #cbcaca;
+    font-size: 16px;
+    font-weight: bold;
+
+    width: min-content;
+    white-space: nowrap;
+}
+
+.input {
+    transition: 1s;
+    margin-bottom: 3%;
+    padding: 2%;
+    border: 1px solid #ffffff;
+
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(0 0 0 / 10%);
+}
+
+.input:focus {
+    transition: 1s;
+    border: 1px solid rgb(185, 13, 13);
+    box-shadow: 1 1 1px rgb(185, 13, 13);
+
+    outline-offset: 0px;
+    outline: none;
+}
+
+.bd {
+    width: 25%;
+}
+
+#month {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.button {
+    transition: 0.5s;
+    margin-bottom: 3%;
+    padding: 2%;
+
+    width: 25%;
+    border: 1px solid rgb(185, 13, 13);
+
+    background-color: rgb(185, 13, 13);
+    box-shadow: 0 1rem 1rem 0 rgb(0 0 0 / 10%);
+
+    text-align: center;
+    color: #ffffff;
+}
+.button:hover {
+    transition: 0.5s;
+    color: rgb(185, 13, 13); 
+    background-color: #ffffff;
+}
+
+
+
+
+
