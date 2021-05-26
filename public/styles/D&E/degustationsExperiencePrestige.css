@@ -3,7 +3,8 @@
   cursor: pointer;
 }
 
-body {
+htyml, body {
+  height: 100%;
   margin: 0;
   font-family: 'Prata';
 
@@ -53,10 +54,10 @@ the page content
   display: none;
   
   width: 100%;
-  height: 30%;
+  height: 100%;
 
   margin-top: 2%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 #prestige_title {
@@ -135,6 +136,11 @@ the page content
   margin-bottom: 2%;
 }
 
+#prestige_container {
+  width: 100%;
+  height: 100%;
+}
+
 .prestige_contain {
   display: flex;
   justify-content: space-evenly;
@@ -144,16 +150,19 @@ the page content
 
 .pretige_element_img {
   width: 50%;
-  height: 5%;
-}
-
-.pretige_element_img img{
-  height: 100%;
+  height: 45%;
 }
 
 .prestige_element {
   width: 30%;
 }
+
+.prestige_element img{
+  height: 30%;
+  box-shadow: 0.19rem 0.19rem 0 rgb(00 00 00 / 10%);
+  border: 1px solid rgb(185, 13, 13);
+}
+
 
 
 
