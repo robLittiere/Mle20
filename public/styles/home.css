@@ -171,7 +171,12 @@ body {
   letter-spacing: 0.2px;
   line-height: 1.4em;
   color: rgb(78, 76, 76);
-  padding: 8px 8px 8px 0;
+
+}
+
+
+.content__description p{
+  padding-top: 6%;
 }
 
 .content__button{
@@ -180,8 +185,8 @@ body {
 }
 
 .content__button a:hover{
-  color: black;
-  background-color: #ffa1a1;
+  color: white;
+  background-color: rgb(144, 12, 63);
 
 
 }
