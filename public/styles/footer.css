@@ -5,12 +5,14 @@
     border-top: 1px solid rgb(182, 174, 174);;
     background-color: rgb(190, 190, 190);
     display: flex;
+    justify-content: space-evenly;
 }
 .footerTitle{
     padding: 1px;
     font-size: 18px;
     color: rgb(255, 255, 255);
     line-height: 130%;
+    white-space: nowrap;
 }
 footer li{
     line-height: 150%;
