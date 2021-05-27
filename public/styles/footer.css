@@ -1,116 +1,133 @@
 /* Footer */
 .pageFooter{
-    padding-top: 3em;
+    padding: 1em;
     border-top: 1px solid rgb(182, 174, 174);
-    border-top: 1px solid rgb(182, 174, 174);;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(42, 42, 42);
     display: flex;
     justify-content: space-evenly;
 }
-.footerTitle{
-    padding: 1px;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    line-height: 130%;
+
+/* Column part*/
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    
     white-space: nowrap;
-}
-footer li{
-    line-height: 150%;
-    list-style :none;
     color: white;
-    font-size: small;
 }
-footer ul{
-    padding-inline-start: 2%;
+
+.Column_title {
+    padding: 2%;
+    margin-bottom: 10%;
+
+    font-size: 15px;
+    width: min-content;
+
+    border-bottom: 1px solid rgb(165, 25, 25);
+    font-weight: 900;
 }
-.footerBtn{
-    padding: 2px;
-    color: rgb(255, 255, 255);
-    font-size: small;
+
+.Column_content {
+    font-size: 12px;
 }
-.footerBtn:hover{
-    color: rgb(209, 54, 54);
+
+.Column_logo {
+    display: flex;
+    width: min-content;
+
+    white-space: nowrap;
+    margin-bottom: 10%;
 }
-.footerColumn{
+
+.Column_logo img {
+    width: 50%;
+    margin-right: 10%;
+}
+
+.footer_logo {
+    width: 5%;
+}
+
+/* Left footer part*/
+
+.block_footer_left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 13%;
-    padding: 0% 1% 2% 1%;
+    justify-content: space-evenly;
+
+    max-width: 25%;
+    margin-bottom: 3%;
 }
-.footerColumnSocial{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 10%;
-    padding: 0% 1% 2% 1%;
-}
-footer label{
-    color: rgb(180, 180, 180);
-}
-.footerColumnNews{
-    display: flex;
-    flex-direction: column;
-    max-width: 20%;
-    padding: 0% 1% 2% 1%;
-}
-/* Newsletter part */
-.news{
-    padding: 10% 0% 0% 0%;
-}
-.newsLetter{
-    outline: none;
-    border-radius: 3px;
-    max-height: 100%;
-    border: 0px;
-    font-size: medium;
-    background-color: rgb(255, 255, 255);
-}
-footer ::placeholder{
-    color: rgb(180, 180, 180);
-}
-.confirmNews{
-    transition: all 0.3s ease-in-out;
-    font-size: medium;
-    max-height: 100%;
-    margin-left: 5px;
-    max-width: 20%;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: black;
-    color: rgb(255, 255, 255);
-}
-.confirmNews:hover{
-    border-radius: 2px;
-    margin-left: 5px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(119, 38, 38);
-}
+
+
 /* Legislation part */
 .legislation{
     display: flex;
     flex-direction: row;
+    padding: 0.5%;
+    margin-bottom: 5%;
+    width: 100%;
+
     background-color: white;
-    max-width: 18%;
-    height: 10%;
-    font-size: small;
-    border: 1px solid black;
-}
-#law{
-    margin-top: 2%;
-    margin-left: 2%;
+    font-size: 12px;
+    box-shadow: 0.19rem 0.19rem 0 rgb(182, 174, 174 / 10%);
 }
 
 #legislationLogo{
-    height: 45%;
-    width: 45%;
+    width: 30%;
     border: none;
     padding: 5px;
     object-fit: cover;
 }
-/* Contact part */
-.socialLogo {
-    height: 15%;
-    width: 15%;
-    margin-top: 5px;
-    margin-left: 5px;
+
+#law {
+    align-self: center;
+}
+
+/* newsletter part*/
+.newsletter {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.newsletter_title {
+    width: min-content;
+    white-space: nowrap;
+
+    color: white;
+}
+
+.newsletter_input {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.newsletter_input input {
+    width: 60%;
+    border: none;
+
+    background-color: rgb(42, 42, 42);
+    border-bottom: 1px solid rgb(165, 25, 25);
+}
+
+.newsletter_input input:focus {
+    outline: none;
+}
+
+.newsletter_input button {
+    width: 30%;
+    padding: 1.5%;
+    border: none;
+
+    box-shadow: 0.19rem 0.19rem 0 rgb(00 00 00 / 10%);
+    background-color: white;
+    color: black;
+}
+
+::placeholder {
+    color: white;
 }
