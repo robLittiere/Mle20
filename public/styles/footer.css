@@ -27,8 +27,9 @@
     font-weight: 900;
 }
 
-.Column_content {
+.Column_content a{
     font-size: 12px;
+    color: white;
 }
 
 .Column_logo {
