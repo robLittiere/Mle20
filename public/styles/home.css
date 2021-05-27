@@ -185,8 +185,8 @@ body {
 }
 
 .content__button a:hover{
-  color: black;
-  background-color: #ffa1a1;
+  color: white;
+  background-color: rgb(144, 12, 63);
 
 
 }
