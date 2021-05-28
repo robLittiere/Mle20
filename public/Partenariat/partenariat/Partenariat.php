@@ -32,7 +32,7 @@
 
         <!-- here is the logo -->
         <?php 
-            include "../../../public/element/php/logo.php";
+            include "../../../public/element/php/Logo.php";
             echo $logo;
         ?>
 
@@ -145,8 +145,8 @@
 ?>
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-<script type="text/javascript" src="../element/js/navbar.js"></script>
-<script type="text/javascript" src="../element/js/slideshow.js"></script>
+<script type="text/javascript" src="../../element/js/navbar.js"></script>
+<script type="text/javascript" src="../../element/js/slideshow.js"></script>
 <script type="text/javascript" src="../style_script/Partenariat.js"></script>
 
 

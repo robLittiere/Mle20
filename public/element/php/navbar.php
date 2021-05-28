@@ -6,7 +6,7 @@ $navbar = <<<EOD
                 <a href="../../degustationsExperience\html\degustationsExperience.php" id="experience__button" class="header__button">Degustations & Expériences</a>
                 <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
                 <a href="../../Conciergerie/html/conciergerie.php" id="conciergerie__button" class="header__button">Conciergerie</a>
-                <a href="../../Partenariat/Partenariat/Partenariat.php" id="partner__button" class="header__button">Partenaires</a>
+                <a href="../../Partenariat/partenariat/Partenariat.php" id="partner__button" class="header__button">Partenaires</a>
                 <a href="../../store/html/store.php" id="store__button" class="header__button">Boutique</a>
                 <a href="../../about/html/about.php" id="infos__button" class="header__button">Qui sommes nous ?</a>
                 <a href="../../contact/html/contact.php" id="contact__button" class="header__button">Contacts</a>
@@ -47,12 +47,12 @@ $navbar = <<<EOD
                 <a href="#" class="popup__button">Vins et millésimes rares</a>
             </div>
             <div id="partner__popup">
-                <a href="../../Partenariat/bulleDeLAube.html" class="popup__button">Bulles de l'Aube</a>
-                <a href="../../Partenariat/movember.html" class="popup__button">DoYouMovember</a>
-                <a href="../../Partenariat/patriwine.html" class="popup__button">Patriwine</a>
-                <a href="../../Partenariat/chateauleoube.html" class="popup__button">Château Léoube</a>
+                <a href="../../Partenariat/bulleDeLaube/bulleDeLAube.php" class="popup__button">Bulles de l'Aube</a>
+                <a href="../../Partenariat/movember/movember.php" class="popup__button">DoYouMovember</a>
+                <a href="../../Partenariat/patriwine/patriwine.php" class="popup__button">Patriwine</a>
+                <a href="../../Partenariat/chateauLeoube/chateauleoube.php" class="popup__button">Château Léoube</a>
                 <a href="#" class="popup__button">Terra Hominis</a>
-                <a href="../../Partenariat/cookcoeur.html" class="popup__button">Cookcoeur</a>
+                <a href="../../Partenariat/cookcoeur/cookcoeur.php" class="popup__button">Cookcoeur</a>
                 <a href="#" class="popup__button">Boutique Versailles</a>
                 <a href="#" class="popup__button">Vignerons disponibles</a>
             </div>
