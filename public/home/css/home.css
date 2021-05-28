@@ -91,6 +91,7 @@ body {
   color: rgb(185, 13, 13);
   font-size: 18px;
 }
+/*-------------------------------------*/
 .baseline__container{
   width: 100%;
   display: flex;
@@ -98,7 +99,7 @@ body {
   align-items: center;
   font-family: 'Lato';
   font-weight: 300;
-  padding-top: 9em;
+  padding-top: 4em;
 }
 
 .small__title{
@@ -136,7 +137,7 @@ body {
 }
 
 .baseline__divider{
-  padding-bottom: 5em;
+  padding-bottom: 2em;
   align-self: center;
   width: 80%;
   border-bottom: 1px solid rgb(224, 224, 224);
@@ -148,8 +149,8 @@ body {
   font-family: "Lato light";
   width: 70%;
   height: 360px;
-  margin-top: 6em;
-  padding-bottom: 10em;
+  margin-top: 3em;
+  padding-bottom: 6em;
 }
 
 .content__title{
