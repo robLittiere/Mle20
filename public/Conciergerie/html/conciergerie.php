@@ -80,26 +80,8 @@
                     </div>
                 </div>
             </div>
-            <div class="content__corner scrollImage__anchor">
-                <div class="corner_img"> 
-                    <img src="../../assets/strat unplash.jpg"  alt="img">
-                    <div class="centered">Centered</div>
-                </div>
-
-                <div class="corner_img"> 
-                    <img src="../../assets/strat unplash.jpg"  alt="img">
-                    <div class="centered">Centered</div>
-                </div>
-
-                <div class="corner_img"> 
-                    <img src="../../assets/strat unplash.jpg"  alt="img">
-                    <div class="centered">Centered</div>
-                </div>
-
-                <div class="corner_img"> 
-                    <img src="../../assets/strat unplash.jpg"  alt="img">
-                    <div class="centered">Centered</div>
-                </div>
+            <div class="content__right scrollImage__anchor">
+                <img  src="../../assets/strat unplash.jpg"  alt="img">
             </div>
         </div>
 
@@ -119,7 +101,7 @@
                     </P>
 
                     <div class="content__button">
-                        <a href="/Mle20/public/contact/html/contact.html" class="brk-btn">CONTACTEZ-NOUS</a>
+                        <a href="../../contact/html/contact.php" class="brk-btn">CONTACTEZ-NOUS</a>
                     </div>
 
                 </div>
