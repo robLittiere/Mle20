@@ -68,18 +68,16 @@
         <div class="content__container">
             <div class="content__left scrollContent__anchor">
                 <div class="content__title">
-                    <h2>CONSEILS & STRATEGIE</h2>
+                    <h2>Conseils & Stratégie</h2>
                 </div>
                 <div class="content__description">
                    <p>Vous nous allouer un budget annuel et en fonction de vos gouts nous précédons à l'achat de vos vins 	
-                    de la sélection à la livraison.<br>	 	
-                    Rédiger un questionnaire que les habitudes de conso, budget & gouts qui nous permet d'établir l'oreintation des achats.<br>	
-                    Voici des exemples:<br>	
-                    - Anthony G 1000 €/an<br>	
-                    - Caroline M 5000 €/an<br>		
-                    - Bruno P au cout par coup<br>		
-                    - Stéphanie F les vins de mon mariage	
+                    de la sélection à la livraison.<br>	 		
+                    Voici un questionnaire pour connaître vos goûts.<br>
                     </p>
+                    <div class="content__button">
+                        <a href="#" class="brk-btn">RÉPONDRE AU QUESTIONNAIRE</a>
+                    </div>
                 </div>
             </div>
             <div class="content__corner scrollImage__anchor">
@@ -106,65 +104,53 @@
         </div>
 
 
-
-
-
         <div class="content__container">
             <div class="content__right">
                 <img src="../../assets/achat vin.jpg" alt="img">
             </div>
             <div class="content__leftInverted scrollContent__anchor">
                 <div class="content__title">
-                    <h2>ACHAT VIN</h2>
+                    <h2>Achar Vin</h2>
                 </div>
                 <div class="content__description">
                     <P>
                         Vous recherchez un vin absent de notre site Faites nous part de votre recherche,<br> 
                         nous reviendrons vers vous pour vous dire si oui ou non nous pouvons le trouver sur le marché.
                     </P>
+
+                    <div class="content__button">
+                        <a href="/Mle20/public/contact/html/contact.html" class="brk-btn">CONTACTEZ-NOUS</a>
+                    </div>
+
                 </div>
+
             </div>
         </div>
 
 
-        <div class="content__container">
+         <div class="content__container">
             <div class="content__left scrollContent__anchor">
                 <div class="content__title">
-                    <h2>ACHAT PRIMEUR</h2>
+                    <h2>Audit Cave</h2>
                 </div>
                 <div class="content__description">
                    <p>
-                    Vous voulez acheter des vins en primeurs,<br> 
-                    le temps vous manque donnez vos instructions nous nous chargeons de tous 10 % de com ? 
+                    Nous étudions le contenu de votre cave, afin de la compléter sur listing il manque quoi vous avez besoin de quoi.<br>		
+                    Vous nous transmettez un listing au format excel, nous étudions le contenu de votre cave.<br>		
+                    Nous vous proposons un ajustement selon vos goûts et le manque que nous constatons.	
                    </p>
                 </div>
             </div>
             <div class="content__right scrollImage__anchor">
-                <img  src="../../assets/primeur vin unsplash.jpg"  alt="img primeur">
+                <img src="../../assets/cav vin unsplash.jpg" alt="img Cave">
             </div>
         </div>
-
 
         <div class="content__container">
             <div class="content__right">
-                <img src="../../assets/cav vin unsplash.jpg" alt="img Cave">
+                <img  src="../../assets/verre ecran.jpg"  alt="img exception">
             </div>
             <div class="content__leftInverted scrollContent__anchor">
-                <div class="content__title">
-                    <h2>AUDIT CAVE</h2>
-                </div>
-                <div class="content__description">
-                    <P>
-                    Nous étudions le contenu de votre cave, afin de la compléter sur listing il manque quoi vous avez besoin de quoi.<br>		
-                    Vous nous transmettez un listing au format excel, nous étudions le contenu de votre cave.<br>		
-                    Nous vous proposons un ajustement selon vos goûts et le manque que nous constatons.		
-                    </P>
-                </div>
-            </div>
-        </div>
-
-        <div class="content__container">
-            <div class="content__left scrollContent__anchor">
                 <div class="content__title">
                     <h2>Exception VIP</h2>
                 </div>
@@ -177,17 +163,10 @@
                    </p>
                 </div>
             </div>
-            <div class="content__right scrollImage__anchor">
-                <img  src="../../assets/exception vip unsplash.jpg"  alt="img exception">
-            </div>
         </div>
 
-
         <div class="content__container">
-            <div class="content__right">
-                <img src="../../assets/Yquem bouteille unsplash.jpg" alt="img Yquem bouteille">
-            </div>
-            <div class="content__leftInverted scrollContent__anchor">
+            <div class="content__left scrollContent__anchor">
                 <div class="content__title">
                     <h2>Vins & millésimes rares </h2>
                 </div>
@@ -200,7 +179,11 @@
                     </P>
                 </div>
             </div>
+            <div class="content__right scrollImage__anchor">
+                <img src="../../assets/Yquem bouteille unsplash.jpg" alt="img Yquem bouteille">
+            </div>
         </div>
+
 
      </div>
 

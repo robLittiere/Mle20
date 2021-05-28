@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../element/css/banner.css">
+    <link rel="stylesheet" href="../element/css/footer.css">
+    <link rel="stylesheet" href="../element/css/footerBanner.css">
+    <link rel="stylesheet" href="../element/css/navbar.css">
+    <link rel="stylesheet" href="../element/css/slider.css">
+    <link rel="stylesheet" href="../styles/bulleDeLAube.css">
+    <link rel="stylesheet" href="../styles/bulleDeLAubetitle.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Bulles de l'Aube</title>
+</head>
+
+
+<body>
+    
+    <!--here we put the header-->
+    <div class="header__container">
+        <div class="header__top">
+            <!--top header-->
+            <div id="banner">
+                <div id="MLe20" class="bannerContain">
+                    <div>
+                        <img src="../assets/bannerImage/info.png">
+                    </div>
+
+                    <div class="bannerTexte">
+                        <a href="../home/html/home.html"><h1>Découvrir M Le 20</h1></a>
+                    </div>
+                </div>
+                <div id="help&contact" class="bannerContain">
+                    <a href="../contact/html/contact.html"><h1>Aide et contacts</h1></a>
+                </div>
+                <div id="tapeForSearch">
+                    <input type="email" class="enterEmail" name="q" placeholder="recherche">
+                    <button class="confirmSearch">ok</button>
+                </div>
+                <div id="delivery" class="bannerContain">
+                    <img src="../assets/bannerImage/car.png">
+                </div>
+                <div id="account" class="bannerContain">
+                    <div class="bannerTexte">
+                        <h1>Compte</h1>
+                    </div>
+                    <div>
+                        <img src="../assets/bannerImage/account.png" id="accountImg">
+                    </div>
+                </div>
+                <div id="panier" class="bannerContain">
+                    <div class="bannerTexte">
+                        <h1>Panier </h1>
+                    </div>
+                    <div>
+                        <img src="../assets/bannerImage/Cart.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo__container">
+            <img id="logo" src="../assets/logo.jpg" alt="logo">
+            <h1>Champagnes, Vins & Events</h1>
+            <h3>Expériences dédiées aux meilleurs vins</h3>
+        </div>
+        <div class="navbar">
+            <div class="header_bottom">
+                <a href="../../home/html/home.html" class="header__button">Accueil</a>
+                <a href="../../degustationsExperience/html/degustationsExperience.html" id="experience__button" class="header__button">Degustations & Expériences</a>
+                <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
+                <a href="../../Conciergerie/html/conciergerie.html" id="conciergerie__button" class="header__button">Conciergerie</a>
+                <a href="../../Partenariat/Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
+                <a href="../../store/html/store.html" id="store__button" class="header__button">Boutique</a>
+                <a href="about.html" id="infos__button" class="header__button">Qui sommes nous ?</a>
+                <a href="../../contact/html/contact.html" id="contact__button" class="header__button">Contacts</a>
+
+            </div>    
+
+
+            <div id="store__popup">
+                <a href="#" class="popup__button">Vin</a>
+                <a href="#" class="popup__button">Champagne</a>
+                <a href="#" class="popup__button">Coffret Cadeau</a>
+                <a href="#" class="popup__button">Evenement</a>
+                <a href="#" class="popup__button">Autres</a>
+            
+                
+            </div>
+            <div id="experience__popup">
+                <a href="#" class="popup__button">Atelier dégustation</a>
+                <a href="#" class="popup__button">Prestige</a>
+                <a href="#" class="popup__button">Improbable</a>
+                <a href="#" class="popup__button">Grands vins français</a>
+                <a href="#" class="popup__button">Privatiser (sur mesure)</a>
+                <a href="#" class="popup__button">Balades gustatives)</a>
+                <a href="#" class="popup__button">Soirée</a>
+                <a href="#" class="popup__button">Séminaire</a>
+                <a href="#" class="popup__button">Demande de devis</a>
+            </div>
+            <div id="company__popup">
+                <a href="#" class="popup__button">Idée cadeaux</a>
+                <a href="#" class="popup__button">Pack entreprise</a>
+                <a href="#" class="popup__button">Concept sur mesure</a>
+                <a href="#" class="popup__button">Etude de faisabilité</a>
+                <a href="#" class="popup__button">Voyage à thème : dégustation, gastronomie, sport</a>
+                <a href="#" class="popup__button">Ils nous font confiance</a>
+            </div>
+            <div id="conciergerie__popup">
+                <a href="#" class="popup__button">Conseil & Stratégie</a>
+                <a href="#" class="popup__button">Achat vin</a>
+                <a href="#" class="popup__button">Achat Primeur</a>
+                <a href="#" class="popup__button">Audit Cave</a>
+                <a href="#" class="popup__button">Expérience unique</a>
+                <a href="#" class="popup__button">Expérience VIP</a>
+                <a href="#" class="popup__button">Vins et millésimes rares</a>
+
+            </div>
+            <div id="partner__popup">
+                <a href="bulleDeLAube.html" class="popup__button">Bulles de l'Aube</a>
+                <a href="movember.html" class="popup__button">DoYouMovember</a>
+                <a href="patriwine.html" class="popup__button">Patriwine</a>
+                <a href="chateauleoube.html" class="popup__button">Château Léoube</a>
+                <a href="#" class="popup__button">Terra Hominis</a>
+                <a href="cookcoeur.html" class="popup__button">Cookcoeur</a>
+                <a href="#" class="popup__button">Boutique Versailles</a>
+                <a href="#" class="popup__button">Vignerons disponibles</a>
+            </div>
+            <div id="contact__popup">
+                <a href="../contact/html/contact.html" class="popup__button">Formulaire</a>
+                <a href="#" class="popup__button">Adresse1</a>
+                <a href="#" class="popup__button">Adresse2</a>
+                <a href="#" class="popup__button">Adresse3</a>
+                <a href="#" class="popup__button">Téléphone</a>
+            </div>
+            <div id="infos__popup">
+                <a href="../about/html/about.html" class="popup__button">Histoire de l'aventure</a>
+                <a href="../about/html/about.html" class="popup__button">Portrait</a>
+                <a href="../about/html/about.html" class="popup__button">Comité de sélection</a>
+            </div>
+        </div>
+    </div>   
+
+    <!--here we put the global container for our page-->
+    <div class="global__container">
+        
+        <div class="bda__container">
+            <div class="bda__baseline">
+                <h1>Bulles de l'Aube</h1>
+            </div>
+        </div>
+        <div class="line1">
+            <div class="content_logoBda">
+                <div class="block_logoBda">
+
+                    <div class="descript_logoBda">
+                        <div class="logobda">
+                            <img src="../assets/bullesdelaube.png" alt="Logo Bulles de l'Aube">
+                        </div>
+
+                        <div class="bda__container_logoBda">
+                            <div class="bda__baseline_logoBda">
+                                <h2>Présentation</h2>
+                            </div>
+                        </div>
+                        <p>
+                            La meilleure sélection de Champagnes en direct des producteurs<br><br>
+                            “A l’aube naissent de délicieuses bulles qui reposent tranquillement pour offrir des champagnes aux meilleurs prix.”<br><br>
+                            Équilibre, histoire, régularité et implication à l’image des 4 grandes Maisons: Devaux, Drappier, De barfontarc & Boulachin-Chaput, avec qui elles avancent chaque jour sont leur leitmotiv…<br><br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="content_why">
+                <div class="block_why">
+
+                    <div class="descript_why">
+                        <div class="logoWhy">
+                            <img src=""  alt="">
+                        </div>
+            
+                        <div class="bda__container_why">
+                            <div class="bda__baseline_why">
+                                <h2>Pourquoi eux ?</h2>
+                            </div>
+                        </div>
+                        <p>
+                            Contrairement à d’autres boutiques en ligne qui proposent des dizaines de références, Bulles de l’Aube a choisi de se différencier en sélectionnant des maisons de champagne de la Côte des Bar pour la qualité constante de leurs produits. Les grands guides confirment d’ailleurs cette sélection avec de nombreuses cuvées récompensées.<br>
+                            Autre gage de qualité : tous les champagnes disponibles sur bullesdelaube.com sont expédiés par les producteurs eux-mêmes, directement de leur cave à votre table, ce qui garantit une qualité maximale (pas de stockage en entrepôt, pas d’écarts de température…).<br><br>
+                            Bulles de l'Aube vous propose des nouvelles cuvées, des conseils, des champagnes en promotion tout au long de l'année
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_mle20">
+            <div class="block_mle20">
+                <div class="descript_mle20">
+                    <div class="mle20_picture">
+                        <img src="" alt="">
+                    </div>
+                    <div class="bda__container_mle20">
+                        <div class="bda__baseline_mle20">
+                            <h2>Bulles de l'Aube & M Le 20</h2>
+                        </div>
+                    </div>
+                    <p>
+                        Partenaire & Associées depuis novembre 2009. Une rencontre sous le signe de la bienveillance, du respect et de l’amitié. C'est à dire si ce lien qui nous uni est solide ! Trois filles de vin passionnées par les champagnes Aubois. Cette région champenoise plus confidentielle, que nous aimons tout particulièrement.<br>
+                        Nous mettons tout en œuvre pour la mettre en avant et ainsi partager les pépites découvertes lors de nos dégustations.<br>
+                        Notre objectif commun vous faire découvrir toute la subtilité du Pinot noir et les différentes interprétations des Maison que nous réprésentons.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--here we put the footer-->
+<footer class="pageFooter">
+
+    <div class="block_footer_left">
+
+        <div class="legislation">
+            <img id="legislationLogo" src="../assets/Logo_de_la_Republique_française_(1999).svg.png" alt="Logo de la République française">
+            <p id="law">L'abus d'alcool est dangereux pour la santé, consommez avec modération.</p>
+        </div>
+
+        <div class="newsletter">
+            <p class="newsletter_title"> Newsletter</p>
+            <div class="newsletter_input">
+                <input type="email" placeholder="Email">
+                <button>Valider</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>À PROPOS DE M LE 20</p>
+        </div>
+        <div class="Column_content">
+            <a><p>Notre histoire</p></a>
+            <a><p>Demande de renseignements</p></a>
+            <a><p>Plan du site</p></a>
+        </div>
+    </div>
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>Boutique & Services</p>
+        </div>
+        <div class="Column_content">
+            <a href="../store/html/store.html"><p>Nos vins</p></a>
+            <a><p>Parrainage & bons d'achats</p></a>
+            <a href="#"><p>Espaces entreprise</p></a>
+            <a><p>Conciergerie</p></a>
+            <a><p>Livraison</p></a>
+            <a><p>Paiement</p></a>
+        </div>
+    </div>
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>Juridique</p>
+        </div>
+        <div class="Column_content">
+            <a href="#"><p>Conditions générales</p></a>
+            <a href="#"><p>Mentions légales</p></a>
+            <a href="#"><p>Confidentialité & Cookies</p></a>
+            <a href="#"><p>Admin</p></a>
+        </div>
+    </div>
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>Suivez-nous</p>
+        </div>
+        <div class="Column_content">
+            <div class="Column_logo">
+                <img class="footer_logo" src="../assets/logo_facebook.png">
+                <a>Facebook</a>
+            </div>
+            <div class="Column_logo">
+                <img class="footer_logo" src="../assets/logo_instagram.png">
+                <a>Instagram</a>
+            </div>
+            <div class="Column_logo">
+                <img class="footer_logo" src="../assets/logo_linkedin.png">
+                <a>Linkedin</a>
+            </div>
+            <div class="Column_logo">
+                <img class="footer_logo"  src="../assets/logo_twitter.png">
+                <a>Twitter</a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script type="text/javascript" src="../element/js/navbar.js"></script>
+
+</html>
