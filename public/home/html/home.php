@@ -53,7 +53,7 @@
 
         <!-- here is the logo -->
         <?php 
-            include "../../../public/element/php/logo.php";
+            include "../../../public/element/php/Logo.php";
             echo $logo;
         ?>
 
@@ -171,7 +171,7 @@
 
         <div class="content__container">
             <div class="content__right scrollImage__anchor" >
-                <img src="../../assets/entreprise.jpg" alt="Degustation.jpg">
+                <img src="../../assets/entreprise.jpg" alt="entreprise.jpg">
             </div>
             <div class="content__leftInverted scrollContent__anchorInverted">
                 <div class="content__title">
@@ -211,14 +211,14 @@
             </div>
             
             <div class="content__right scrollImage__anchor">
-                <img src="../../assets/conciergerie.jpg" alt="Degustation.jpg">
+                <img src="../../assets/Conciergerie1.jpg" alt="conciergerie.jpg">
 
             </div>
         </div>
 
         <div class="content__container">
             <div class="content__right scrollImage__anchor" >
-                <img src="../../assets/boutique.jpg" alt="Degustation.jpg">
+                <img src="../../assets/boutique.jpg" alt="boutique.jpg">
             </div>
             <div class="content__leftInverted scrollContent__anchorInverted">
                 <div class="content__title">
@@ -226,10 +226,11 @@
                 </div>
                 <div class="content__description">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Soluta debitis dolore temporibus suscipit, explicabo 
-                        laborum non accusamus consectetur eligendi, accusantium 
-                        laboriosam ratione repudiandae minus, possimus nemo.   
+                        Nous sélectionnons nos vins pour le plaisir que nous avons à les déguster.<br> 
+                        Nous prêtons une grande attention à ce choix.<br>
+                        Il doit être conforme aux attentes que nous avons sur une appellation, un millésime, un cépage.<br>
+                        L'étiquette est une promesse que nous devons retrouver dans nos verres ...<br>
+                        <br>
                     </p>
                 </div>
 
