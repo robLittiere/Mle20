@@ -57,11 +57,65 @@
             echo $logo;
         ?>
 
+<<<<<<< Updated upstream:public/home/html/home.php
         <!-- here is the navbar -->
         <?php 
         include "../../../public/element/php/navbar.php"; 
         echo $navbar;
         ?>
+=======
+        </div>
+        <div class="navbar">
+            <div class="header_bottom">
+                <a href="../../home/html/home.html" class="header__button">Accueil</a>
+                <a href="../../degustationsExperience/html/degustationsExperience.html" id="experience__button" class="header__button">Degustations & Expériences</a>
+                <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
+                <a href="../../Conciergerie/html/conciergerie.html" id="conciergerie__button" class="header__button">Conciergerie</a>
+                <a href="../../Partenariat/Partenariat.html" id="partner__button" class="header__button">Partenaires</a>
+                <a href="../../store/html/store.html" id="store__button" class="header__button">Boutique</a>
+                <a href="about.html" id="infos__button" class="header__button">Qui sommes nous ?</a>
+                <a href="../../contact/html/contact.html" id="contact__button" class="header__button">Contacts</a>
+
+            </div>    
+
+
+            <div id="store__popup">
+                <a href="#" class="popup__button">Vin</a>
+                <a href="#" class="popup__button">Champagne</a>
+                <a href="#" class="popup__button">Coffret Cadeau</a>
+                <a href="#" class="popup__button">Evenement</a>
+                <a href="#" class="popup__button">Autres</a>
+            
+                
+            </div>
+            <div id="experience__popup">
+                <a href="#" class="popup__button">Atelier dégustation</a>
+                <a href="#" class="popup__button">Prestige</a>
+                <a href="#" class="popup__button">Improbable</a>
+                <a href="#" class="popup__button">Grands vins français</a>
+                <a href="#" class="popup__button">Privatiser (sur mesure)</a>
+                <a href="#" class="popup__button">Balades gustatives)</a>
+                <a href="#" class="popup__button">Soirée</a>
+                <a href="#" class="popup__button">Séminaire</a>
+                <a href="#" class="popup__button">Demande de devis</a>
+            </div>
+            <div id="company__popup">
+                <a href="#" class="popup__button">Idée cadeaux</a>
+                <a href="#" class="popup__button">Pack entreprise</a>
+                <a href="#" class="popup__button">Concept sur mesure</a>
+                <a href="#" class="popup__button">Etude de faisabilité</a>
+                <a href="#" class="popup__button">Voyage à thème : dégustation, gastronomie, sport</a>
+                <a href="#" class="popup__button">Ils nous font confiance</a>
+            </div>
+            <div id="conciergerie__popup">
+                <a href="#" class="popup__button">Conseil & Stratégie</a>
+                <a href="#" class="popup__button">Achat vin</a>
+                <a href="#" class="popup__button">Achat Primeur</a>
+                <a href="#" class="popup__button">Audit Cave</a>
+                <a href="#" class="popup__button">Expérience unique</a>
+                <a href="#" class="popup__button">Expérience VIP</a>
+                <a href="#" class="popup__button">Vins et millésimes rares</a>
+>>>>>>> Stashed changes:public/home/html/home.html
 
     </div>   
 

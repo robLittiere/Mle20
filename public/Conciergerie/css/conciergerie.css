@@ -26,7 +26,6 @@ background-color: white;
     align-items: center;
     font-family: 'Lato';
     font-weight: 300;
-    padding-top: 9em;
   }
   
   .small__title{
@@ -46,7 +45,7 @@ background-color: white;
   
   .baseline{
     padding: 20px;
-    padding-top: 2em;
+    padding-top: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +80,7 @@ background-color: white;
     width: 70%;
     height: 360px;
     margin-top: 6em;
-    padding-bottom: 10em;
+    padding-bottom: 3em;
   }
   
   .content__title{
@@ -143,7 +142,7 @@ background-color: white;
   }
   .content__button a:hover{
     color: black;
-    background-color: #ffa1a1;
+    background-color:rgb(144, 12, 63);
   
   
   }
