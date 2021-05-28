@@ -122,6 +122,9 @@ form {
     color: rgb(185, 13, 13); 
     background-color: #ffffff;
 }
+::placeholder {
+    color: black;
+}
 
 
 
