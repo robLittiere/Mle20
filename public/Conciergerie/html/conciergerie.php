@@ -82,8 +82,26 @@
                     </p>
                 </div>
             </div>
-            <div class="content__right scrollImage__anchor">
-                <img  src="../../assets/strat unplash.jpg"  alt="img">
+            <div class="content__corner scrollImage__anchor">
+                <div class="corner_img"> 
+                    <img src="../../assets/strat unplash.jpg"  alt="img">
+                    <div class="centered">Centered</div>
+                </div>
+
+                <div class="corner_img"> 
+                    <img src="../../assets/strat unplash.jpg"  alt="img">
+                    <div class="centered">Centered</div>
+                </div>
+
+                <div class="corner_img"> 
+                    <img src="../../assets/strat unplash.jpg"  alt="img">
+                    <div class="centered">Centered</div>
+                </div>
+
+                <div class="corner_img"> 
+                    <img src="../../assets/strat unplash.jpg"  alt="img">
+                    <div class="centered">Centered</div>
+                </div>
             </div>
         </div>
 
