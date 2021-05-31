@@ -275,11 +275,11 @@
                     
                     <div class="footerBanner__item">
                         <div class="text__icono">
-                            <h3>Satisfait ou remboursé</h3>
+                            <h3>Conciergerie</h3>
 
                         </div>
                         <div class="logo__icono">
-                            <span class="iconify" data-icon="bi:emoji-smile-fill" data-inline="false" width="30%"></span>
+                            <span class="iconify" data-icon="bx:bxs-bell-ring" data-inline="false" width="30%"></span>
                         </div>
                     </div>
                 </div>
