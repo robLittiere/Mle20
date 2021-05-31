@@ -2,7 +2,7 @@
 $navbar = <<<EOD
         <div class="navbar">    
             <div class="header_bottom">
-                <a href="../../home/html/home.php" class="header__button">Accueil</a>
+                <a href="../../../index.html" class="header__button">Accueil</a>
                 <a href="../../degustationsExperience\html\degustationsExperience.php" id="experience__button" class="header__button">Degustations & Expériences</a>
                 <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
                 <a href="../../Conciergerie/html/conciergerie.php" id="conciergerie__button" class="header__button">Conciergerie</a>

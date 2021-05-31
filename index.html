@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/element/css/banner.css">
+    <link rel="stylesheet" href="public/element/css/footer.css">
+    <link rel="stylesheet" href="public/element/css/footerBanner.css">
+    <link rel="stylesheet" href="public/element/css/navbar.css">
+    <link rel="stylesheet" href="public/element/css/slider.css">
+    <link rel="stylesheet" href="public/home/css/home.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Mle20</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            
+            <p>
+                <h2>MENTIONS LÉGALES</h2>
+                <br>La vente d’alcool à des mineurs est interdite,<br>conformément à la loi en vigueur.<br>
+                <br>En accédant à notre site de ventes,<br>vous déclarez avoir 18 ans révolus.<br>
+                <br>Vous acceptez l’utilisation de [Cookies ou autres traceurs]<br>pour réaliser des statistiques de visites.<br>
+                <br>
+                <h2>ÊTES-VOUS MAJEUR ?</h2>
+            </p>
+            
+            <button id="under18Years" class="confirmAge">Non, je suis mineur</button>
+            <button id="over18Years"  class="confirmAge">Oui, je suis majeur</button>
+        </div>
+
+    </div>
+
+    <!--here we put the header-->
+    <div class="header__container">
+
+        <!-- here is the top banner -->
+        <div class="header__top">
+            <!--top header-->
+            <div id="banner">
+                <div id="MLe20" class="bannerContain">
+                    <div>
+                        <img src="public/assets/bannerImage/info.png">
+                    </div>
+
+                    <div class="bannerTexte">
+                        <a href="public/about/html/about.html">
+                            <h1>Découvrir M Le 20</h1>
+                        </a>
+                    </div>
+                </div>
+                <div id="help&contact" class="bannerContain">
+                    <a href="public/contact/html/contact.html">
+                        <h1>Aide et contacts</h1>
+                    </a>
+                </div>
+
+                <div id="tapeForSearch">
+                    <input type="email" class="enterEmail" name="q" placeholder="recherche">
+                    <button class="confirmSearch">ok</button>
+                </div>
+
+                <div id="delivery" class="bannerContain">
+                    <img src="public/assets/bannerImage/car.png">
+                </div>
+
+                <div id="account" class="bannerContain">
+                    <div class="bannerTexte">
+                        <h1>Compte</h1>
+                    </div>
+                    <div>
+                        <img src="public/assets/bannerImage/account.png" id="accountImg">
+                    </div>
+                </div>
+
+                <div id="panier" class="bannerContain">
+                    <div class="bannerTexte">
+                        <h1>Panier </h1>
+                    </div>
+                    <div>
+                        <img src="public/assets/bannerImage/Cart.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- here is the logo -->
+        <div class="logo__container">
+            <img id="logo" src="public/assets/logo.jpg" alt="logo">
+            <h1>Champagnes, Vins & Events</h1>
+            <h3>Expériences dédiées aux meilleurs vins</h3>
+        </div>
+
+        <!-- here is the navbar -->
+        <div class="navbar">    
+            <div class="header_bottom">
+                <a href="#" class="header__button">Accueil</a>
+                <a href="public/degustationsExperience\html\degustationsExperience.php" id="experience__button" class="header__button">Degustations & Expériences</a>
+                <a href="#" id="company__button" class="header__button">Espace Entreprise</a>
+                <a href="public/Conciergerie/html/conciergerie.php" id="conciergerie__button" class="header__button">Conciergerie</a>
+                <a href="public/Partenariat/partenariat/Partenariat.php" id="partner__button" class="header__button">Partenaires</a>
+                <a href="public/store/html/store.php" id="store__button" class="header__button">Boutique</a>
+                <a href="public/about/html/about.php" id="infos__button" class="header__button">Qui sommes nous ?</a>
+                <a href="public/contact/html/contact.php" id="contact__button" class="header__button">Contacts</a>
+            </div>    
+            <div id="store__popup">
+                <a href="#" class="popup__button">Vin</a>
+                <a href="#" class="popup__button">Champagne</a>
+                <a href="#" class="popup__button">Coffret Cadeau</a>
+                <a href="#" class="popup__button">Evenement</a>
+                <a href="#" class="popup__button">Autres</a>
+            </div>
+            <div id="experience__popup">
+                <a href="#" class="popup__button">Atelier dégustation</a>
+                <a href="#" class="popup__button">Prestige</a>
+                <a href="#" class="popup__button">Improbable</a>
+                <a href="#" class="popup__button">Grands vins français</a>
+                <a href="#" class="popup__button">Privatiser (sur mesure)</a>
+                <a href="#" class="popup__button">Balades gustatives)</a>
+                <a href="#" class="popup__button">Soirée</a>
+                <a href="#" class="popup__button">Séminaire</a>
+                <a href="#" class="popup__button">Demande de devis</a>
+            </div>
+            <div id="company__popup">
+                <a href="#" class="popup__button">Idée cadeaux</a>
+                <a href="#" class="popup__button">Pack entreprise</a>
+                <a href="#" class="popup__button">Concept sur mesure</a>
+                <a href="#" class="popup__button">Etude de faisabilité</a>
+                <a href="#" class="popup__button">Voyage à thème : dégustation, gastronomie, sport</a>
+                <a href="#" class="popup__button">Ils nous font confiance</a>
+            </div>
+            <div id="conciergerie__popup">
+                <a href="#" class="popup__button">Conseil & Stratégie</a>
+                <a href="#" class="popup__button">Achat vin</a>
+                <a href="#" class="popup__button">Achat Primeur</a>
+                <a href="#" class="popup__button">Audit Cave</a>
+                <a href="#" class="popup__button">Expérience unique</a>
+                <a href="#" class="popup__button">Expérience VIP</a>
+                <a href="#" class="popup__button">Vins et millésimes rares</a>
+            </div>
+            <div id="partner__popup">
+                <a href="public/Partenariat/bulleDeLaube/bulleDeLAube.php" class="popup__button">Bulles de l'Aube</a>
+                <a href="public/Partenariat/movember/movember.php" class="popup__button">DoYouMovember</a>
+                <a href="public/Partenariat/patriwine/patriwine.php" class="popup__button">Patriwine</a>
+                <a href="public/Partenariat/chateauLeoube/chateauleoube.php" class="popup__button">Château Léoube</a>
+                <a href="#" class="popup__button">Terra Hominis</a>
+                <a href="public/Partenariat/cookcoeur/cookcoeur.php" class="popup__button">Cookcoeur</a>
+                <a href="#" class="popup__button">Boutique Versailles</a>
+                <a href="#" class="popup__button">Vignerons disponibles</a>
+            </div>
+            <div id="contact__popup">
+                <a href="public/contact/html/contact.html" class="popup__button">Formulaire</a>
+                <a href="#" class="popup__button">Adresse1</a>
+                <a href="#" class="popup__button">Adresse2</a>
+                <a href="#" class="popup__button">Adresse3</a>
+                <a href="#" class="popup__button">Téléphone</a>
+            </div>
+            <div id="infos__popup">
+                <a href="public/about/html/about.html" class="popup__button">Histoire de l'aventure</a>
+                <a href="public/about/html/about.html" class="popup__button">Portrait</a>
+                <a href="#" class="popup__button">Comité de sélection</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--here we put the global home container-->
+    <div id="account_slider">
+        <div id="slider_header">
+            <div id="close_btn">
+                <p onclick="slider_hide()">X</p>
+            </div>
+            <a href="public/login/html/logIn.html" class="icon">
+                <p>se connecter</p>
+                <span class="iconify" data-icon="ant-design:login-outlined" data-inline="false" width="12%"></span>
+            </a>
+        </div>
+        <div id="slider_profil">
+            <div id="profil_picture">
+                <img src="public/assets/bannerImage/account.png" id="accountImg">
+            </div>
+            <div id="profil_username">
+                <p>Nom d'utilisateur</p>
+            </div>
+        </div>
+    </div>
+
+     <div class="home__container">
+        <div class="slide__container">
+            <div id="image-slider" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="slide1">
+
+                                <img src="public/assets/slider.jpg">
+                                <div class="caption3">
+                                    <h2>M Le 20 célèbre le vin avec bonheur</h2>
+
+                                    <p>Vous en rêviez, nous l'avons fait !</p>
+                                </div>    
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="slide1">
+                                <img src="public/assets/wine_carousel.jpg">
+                                <div class="caption2">
+                                    <h2>Bien conseiller pour bien acheter</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="slide1">
+                                <img src="public/assets/glass_wine.jpg">
+                                <div class="caption1">
+                                    <h2>Au moins une fois dans ma vie !</h2>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        
+        
+        <div class="baseline__container">
+            <div class="baseline__divider">
+                <div class="small__title">
+                    <h1>BIENVENUE CHEZ M LE 20</h1>
+    
+                </div>
+                <div class="baseline">
+                    <div class="baseline__title">
+                        <p>M Le 20 célèbre les rencontres du vin avec bonheur </p>
+                    </div>
+                    <div class="baseline__description">
+                        <p>Le meilleur vin c'est celui qu'on partage </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="content__container">
+            <div class="content__left scrollContent__anchor">
+                <div class="content__title">
+                    <h2>DÉGUSTATION & EXPÉRIENCE</h2>
+                </div>
+                <div class="content__description">
+                    <p>
+                        Au fil du temps nous vous proposons des dégustation selon l'actualité de nos producteurs.<br>
+                        Vous découvrez, partagez, les vins et autres pépites de notre boutique.
+                    </p>
+                </div>
+                <div class="content__button">
+                    <a href="public/degustationsExperience/html/degustationsExperience.html" class="brk-btn">DECOUVREZ NOS DEGUSTATIONS</a>
+                </div>
+            </div>
+            
+            <div class="content__right scrollImage__anchor">
+                <img src="public/assets/degustation.jpg" alt="Degustation.jpg">
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="content__container">
+            <div class="content__right scrollImage__anchor" >
+                <img src="public/assets/entreprise.jpg" alt="entreprise.jpg">
+            </div>
+            <div class="content__leftInverted scrollContent__anchorInverted">
+                <div class="content__title">
+                    <h2>Espace Entreprise</h2>
+                </div>
+                <div class="content__description">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Soluta debitis dolore temporibus suscipit, explicabo 
+                        laborum non accusamus consectetur eligendi, accusantium 
+                        laboriosam ratione repudiandae minus, possimus nemo.   
+                    </p>
+                </div>
+
+                <div class="content__button">
+                    <a href="#" class="brk-btn">DECOUVREZ NOTRE BOUTIQUE</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content__container">
+            <div class="content__left scrollContent__anchor">
+                <div class="content__title">
+                    <h2>Conciergerie</h2>
+                </div>
+                <div class="content__description">
+                    <p>
+                        Nulla vel sodales tellus, quis condimentum enim. Nunc porttitor 
+                        venenatis feugiat. Etiam quis faucibus erat, non accumsan leo. 
+                        Aliquam erat volutpat. Vestibulum ac faucibus eros. Cras ullamcorper 
+                        gravida tellus ut consequat.
+                    </p>
+                </div>
+                <div class="content__button">
+                    <a href="public/Conciergerie/html/conciergerie.html" class="brk-btn">DECOUVREZ NOS DEGUSTATIONS</a>
+                </div>
+            </div>
+            
+            <div class="content__right scrollImage__anchor">
+                <img src="public/assets/Conciergerie1.jpg" alt="conciergerie.jpg">
+
+            </div>
+        </div>
+
+        <div class="content__container">
+            <div class="content__right scrollImage__anchor" >
+                <img src="public/assets/boutique.jpg" alt="boutique.jpg">
+            </div>
+            <div class="content__leftInverted scrollContent__anchorInverted">
+                <div class="content__title">
+                    <h2>Vins & Champagnes</h2>
+                </div>
+                <div class="content__description">
+                    <p>
+                        Nous sélectionnons nos vins pour le plaisir que nous avons à les déguster.<br> 
+                        Nous prêtons une grande attention à ce choix.<br>
+                        Il doit être conforme aux attentes que nous avons sur une appellation, un millésime, un cépage.<br>
+                        L'étiquette est une promesse que nous devons retrouver dans nos verres ...<br>
+                        <br>
+                    </p>
+                </div>
+
+                <div class="content__button">
+                    <a href="#" class="brk-btn">DECOUVREZ NOTRE BOUTIQUE</a>
+                </div>
+            </div>
+        </div>
+
+        <!--here we put the banner on top of footer-->
+        <div class="footer__banner">
+            <div class="image_container">
+                <img src="public/assets/WineBanner.png" alt="Wine__bottle.jpg">
+                <div class="bannerText">
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="footerBanner__bottom">
+                <div class="footerBanner__title">
+                    <h1>NOS ENGAGEMENTS</h1>
+                </div>
+                <div class="footerBanner__icono">
+                    <div class="footerBanner__item">
+                        <div class="text__icono">
+                            <h3>Une livraison de qualité</h3>
+                        </div>
+                        <div class="logo__icono">
+                            <span class="iconify" data-icon="mdi:truck-delivery" data-inline="false" width="30%"></span>
+                        </div>
+                    </div>
+
+                    <div class="footerBanner__item">
+                        <div class="text__icono">
+                            <h3>Une selection exigente</h3>
+                        </div>
+                        <div class="logo__icono">
+                            <span class="iconify" data-icon="mdi:bottle-wine" data-inline="false" width="30%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="footerBanner__item">
+                        <div class="text__icono">
+                            <h3>Conciergerie</h3>
+
+                        </div>
+                        <div class="logo__icono">
+                            <span class="iconify" data-icon="bx:bxs-bell-ring" data-inline="false" width="30%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>     
+
+</div>
+
+
+</body>
+
+<!--here we put the footer-->
+<footer class="pageFooter">
+
+    <div class="block_footer_left">
+
+        <div class="legislation">
+            <img id="legislationLogo" src="public/assets/Logo_de_la_Republique_française_(1999).svg.png" alt="Logo de la République française">
+            <p id="law">L'abus d'alcool est dangereux pour la santé, consommez avec modération.</p>
+        </div>
+
+        <div class="newsletter">
+            <p class="newsletter_title"> Newsletter</p>
+            <div class="newsletter_input">
+                <input type="email" placeholder="Email">
+                <button>Valider</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>À PROPOS DE M LE 20</p>
+        </div>
+        <div class="Column_content">
+            <a><p>Notre histoire</p></a>
+            <a><p>Demande de renseignements</p></a>
+            <a><p>Plan du site</p></a>
+        </div>
+    </div>
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>Boutique & Services</p>
+        </div>
+        <div class="Column_content">
+            <a href="public/store/html/store.html"><p>Nos vins</p></a>
+            <a><p>Parrainage & bons d'achats</p></a>
+            <a href="#"><p>Espaces entreprise</p></a>
+            <a><p>Conciergerie</p></a>
+            <a><p>Livraison</p></a>
+            <a><p>Paiement</p></a>
+        </div>
+    </div>
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>Juridique</p>
+        </div>
+        <div class="Column_content">
+            <a href="#"><p>Conditions générales</p></a>
+            <a href="#"><p>Mentions légales</p></a>
+            <a href="#"><p>Confidentialité & Cookies</p></a>
+            <a href="#"><p>Admin</p></a>
+        </div>
+    </div>
+
+    <div class="footerColumn">
+        <div class="Column_title">
+            <p>Suivez-nous</p>
+        </div>
+        <div class="Column_content">
+            <div class="Column_logo">
+                <img class="footer_logo" src="public/assets/logo_facebook.png">
+                <a>Facebook</a>
+            </div>
+            <div class="Column_logo">
+                <img class="footer_logo" src="public/assets/logo_instagram.png">
+                <a>Instagram</a>
+            </div>
+            <div class="Column_logo">
+                <img class="footer_logo" src="public/assets/logo_linkedin.png">
+                <a>Linkedin</a>
+            </div>
+            <div class="Column_logo">
+                <img class="footer_logo"  src="public/assets/logo_twitter.png">
+                <a>Twitter</a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script type="text/javascript" src="public/home/js/home.js"></script>
+<script type="text/javascript" src="public/element/js/navbar.js"></script>
+<script type="text/javascript" src="public/element/js/slideshow.js"></script>
+<script type="text/javascript" src="public/home/js/homeScroll.js"></script>
+
+</html>
