@@ -32,8 +32,7 @@ a{
 
 .logo__container h3{
     font-family: 'Lato light';
-    padding-bottom: 6px;
-    margin-bottom: 20px;
+    padding-bottom: 12px;
     font-size: 1.3em;
 
     font-weight: 400;
@@ -46,7 +45,7 @@ a{
 #logo {
     align-self: center;
     width: 9%;
-    margin-bottom: 30px;
+    padding-bottom: 8px;
   }
 
 .header_bottom{

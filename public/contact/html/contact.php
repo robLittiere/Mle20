@@ -31,7 +31,7 @@
 
         <!-- here is the logo -->
         <?php 
-            include "../../../public/element/php/logo.php";
+            include "../../../public/element/php/Logo.php";
             echo $logo;
         ?>
 
