@@ -25,8 +25,8 @@ $footer = <<<EOD
             <p>À PROPOS DE M LE 20</p>
         </div>
         <div class="Column_content">
-            <a><p>Notre histoire</p></a>
-            <a><p>Demande de renseignements</p></a>
+            <a href="../../about/html/about.php"><p>Notre histoire</p></a>
+            <a href="../../contact/html/contact.php"><p>Demande de renseignements</p></a>
             <a><p>Plan du site</p></a>
         </div>
     </div>
@@ -36,10 +36,10 @@ $footer = <<<EOD
             <p>Boutique & Services</p>
         </div>
         <div class="Column_content">
-            <a href="../../store/html/store.html"><p>Nos vins</p></a>
+            <a href="../../store/html/store.php"><p>Nos vins</p></a>
             <a><p>Parrainage & bons d'achats</p></a>
             <a href="#"><p>Espaces entreprise</p></a>
-            <a><p>Conciergerie</p></a>
+            <a href="../../Conciergerie/html/conciergerie.php"><p>Conciergerie</p></a>
             <a><p>Livraison</p></a>
             <a><p>Paiement</p></a>
         </div>
