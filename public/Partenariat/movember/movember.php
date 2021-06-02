@@ -36,7 +36,7 @@
 
         <!-- here is the logo -->
         <?php 
-            include "../../../public/element/php/Logo.php";
+            include "../../../public/element/php/logo.php";
             echo $logo;
         ?>
 
@@ -194,7 +194,7 @@
                             <img src="../../assets/IMG_Boulachin DYMovember.jpg" alt="Bouteille DoYouMovember">
                         </div>
                         <div class="bottleléoube">
-                            <img src="../../assets/léoube.jpg"  alt="bottle leoube">
+                            <img src="../../assets/leoube.jpg"  alt="bottle leoube">
                         </div>
 
                     </div>      
