@@ -29,11 +29,12 @@ background-color: white;
   max-width: 45%;
 }
 .logomovember{
+  padding-top: 7%;
   float: left;
-  width: 30%;
+  width: 35%;
 }
 .logomovember img{
-  width: 90%;
+  width: 80%;
 }
 .block_logoMov{
   display: flex;
@@ -42,12 +43,11 @@ background-color: white;
   padding: 3.4%;
 }
 .descript_logoMov p{
-  text-align: justify;
+  text-align: center;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
-  font-size: 1.2em;
-  letter-spacing: 0.2px;
-  line-height: 1.4em;
+  font-size: 1em;
+  line-height: 1.2em;
 }
 /*div CerHom X DoYouMovember*/
 .content_cerhom{
@@ -66,36 +66,12 @@ background-color: white;
   width: 90%;
 }
 
-.logomov{
-  float: right;
-  padding-top: 1%;
-  display: flex;
-  justify-content: flex-end;
-  max-width: 25%;
-}
-
-.logomov img{
-  width: 55%;
-}
-
-.bottleléoube{
-  float: right;
-  padding-top: 1%;
-  display: flex;
-  justify-content: flex-end;
-  max-width: 25%;
-}
-
-.bottleléoube img{
-  width: 100%;
-}
-
 .logoCerhom{
   float: right;
-  padding-top: 1%;
+  padding: 2%;
   display: flex;
   justify-content: flex-end;
-  max-width: 25%;
+  max-width: 30%;
 }
 .logoCerhom img{
   width: 100%;
@@ -107,12 +83,11 @@ background-color: white;
   padding: 2%;
 }
 .descript_cerhom p{
-  text-align: justify;
+  text-align: center;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
   font-size: 1em;
-  letter-spacing: 0.2px;
-  line-height: 1.4em;
+  line-height: 1.3em;
 }
 /*div MLe20 X DoYouMovember*/
 .content_mle20{
@@ -120,25 +95,35 @@ background-color: white;
   max-width: 45%;
 }
 .logoMle20{
+  padding-top: 5%;
   float: left;
-  max-width: 35%;
+  max-width: 25%;
 }
 .logoMle20 img{
-  width: 90%;
+  width: 70%;
 }
 .block_mle20{
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  padding: 3%;
+  padding: 5%;
 }
 .descript_mle20 p{
-  text-align: justify;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
   font-size: 1em;
-  letter-spacing: 0.2px;
-  line-height: 1.4em;
+  line-height: 1.2em;
+}
+.logomov{
+  float: right;
+  padding-top: 9%;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 30%;
+}
+
+.logomov img{
+  width: 100%;
 }
 /*div Bottle*/
 .content_bottle{
@@ -147,10 +132,11 @@ background-color: white;
 }
 .bottle_picture{
   float: left;
-  max-width: 30%;
+  max-width: 25%;
+  padding-top: 5%;
 }
 .bottle_picture img{
-  width: 80%;
+  width: 83%;
 }
 .block_bottle{
   display: flex;
@@ -159,12 +145,21 @@ background-color: white;
   padding: 3%;
 }
 .descript_bottle p{
-  text-align: justify;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
   font-size: 1em;
-  letter-spacing: 0.2px;
-  line-height: 1.4em;
+  line-height: 1.2em;
+}
+.bottleléoube{
+  float: right;
+  padding-top: 5%;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 26%;
+}
+
+.bottleléoube img{
+  width: 80%;
 }
 /*div Evenements DoYouMovember*/
 .content_event{
@@ -196,10 +191,39 @@ background-color: white;
   padding: 3%;
 }
 .descript_event p{
-  text-align: justify;
+  text-align: center;
   font-family: 'Lato';
   color: rgb(78, 76, 76);
   font-size: 1em;
-  letter-spacing: 0.2px;
-  line-height: 1.4em;
+  line-height: 1.2em;
+}
+
+.descript_event::first-letter {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 400%;
+}
+
+.descript_cerhom::first-letter {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 400%;
+}
+
+.descript_bottle::first-letter {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 400%;
+}
+
+.descript_logoMov::first-letter {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 400%;
+}
+
+.descript_mle20::first-letter {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 400%;
 }
