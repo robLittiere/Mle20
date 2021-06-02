@@ -71,9 +71,13 @@
                     <h2>Conseils & Stratégie</h2>
                 </div>
                 <div class="content__description">
-                   <p>Vous nous allouer un budget annuel et en fonction de vos gouts nous précédons à l'achat de vos vins 	
-                    de la sélection à la livraison.<br>	 		
-                    Voici un questionnaire pour connaître vos goûts.<br>
+                   <p>  M Le 20 se charge de tout pour vous.<br>
+                        Sélection, achat, livraison dans votre cave.<br>
+                        Vous nous allouer un budget, en fonction de<br>
+                        <span>&#10003;</span> &nbsp  vos goûts<br>
+                        <span>&#10003;</span> &nbsp  vos directives<br>
+                        <span>&#10003;</span> &nbsp  vos choix<br>
+                        Nous faisons le reste selon vos envies.
                     </p>
                     <div class="content__button">
                         <a href="#" class="brk-btn">RÉPONDRE AU QUESTIONNAIRE</a>
@@ -92,12 +96,13 @@
             </div>
             <div class="content__leftInverted scrollContent__anchor">
                 <div class="content__title">
-                    <h2>Achar Vin</h2>
+                    <h2>Achat Vin</h2>
                 </div>
                 <div class="content__description">
                     <P>
-                        Vous recherchez un vin absent de notre site Faites nous part de votre recherche,<br> 
-                        nous reviendrons vers vous pour vous dire si oui ou non nous pouvons le trouver sur le marché.
+                    Vous recherchez un vin absent de notre boutique …<br>
+                    Faites-nous part de votre recherche.<br> 
+                    L’équipe M Le 20 étudie le marché,<br> afin de trouver votre pépite, le vin de vos rêves.
                     </P>
 
                     <div class="content__button">
@@ -117,9 +122,8 @@
                 </div>
                 <div class="content__description">
                    <p>
-                    Nous étudions le contenu de votre cave, afin de la compléter sur listing il manque quoi vous avez besoin de quoi.<br>		
-                    Vous nous transmettez un listing au format excel, nous étudions le contenu de votre cave.<br>		
-                    Nous vous proposons un ajustement selon vos goûts et le manque que nous constatons.	
+                    Nous étudions votre cave et vous aidons à la constituer.<br>
+                    Nous équilibrons, ajustons pour que la partition soit parfaite.
                    </p>
                 </div>
             </div>
@@ -134,14 +138,18 @@
             </div>
             <div class="content__leftInverted scrollContent__anchor">
                 <div class="content__title">
-                    <h2>Exception VIP</h2>
+                    <h2>Évenements VIP</h2>
                 </div>
                 <div class="content__description">
                    <p>
-                    Vous êtes un inconditionnel du château Margaux, du millésime 1995, des vieux champagnes ?<br>
-                    Vous ne visez que le millésime 2001.<br>
-                    Vous n'aimez que les grands contenants ? Jéroboam, Balthazar …<br>
-                    Notre priorité est de vous satisfaire.
+                    Vous rêvez de déguster, découvrir le …<br>
+                    <span>&#10003;</span> &nbsp Château Margaux<br>
+                    <span>&#10003;</span> &nbsp  Millésime 2005<br> 
+                    Vous avez une passion pour les …<br>
+                    <span>&#10003;</span> &nbsp  Grands contenants, Jéroboam, Balthazar<br>
+                    <span>&#10003;</span> &nbsp  Vieux champagnes<br>
+                    Notre priorité, toujours mieux satisfaire.<br>
+
                    </p>
                 </div>
             </div>
@@ -150,19 +158,43 @@
         <div class="content__container">
             <div class="content__left scrollContent__anchor">
                 <div class="content__title">
-                    <h2>Vins & millésimes rares </h2>
+                    <h2>Éxpérience unique</h2>
                 </div>
                 <div class="content__description">
                     <P>
-                    Nous recherchons la bouteille de vos rêves ...<br>
-                    Les 20 ans de votre enfant, les 40 ans de votre ami(e), les 50 ans du parrain ....<br> 
-                    Nous sommes à votre écoute pour vous aider à le dénicher.<br>
-                    La traçabilité sera irréprochable, nous ne saurons vos proposer un flacon qui ne sera pas la hauteur de vos espérances.<br>
+                    Dégustez, découvrez, partagez<br>
+                    <span>&#10003;</span> &nbsp Trois millésimes du château …<br>
+                    <span>&#10003;</span> &nbsp Cinq vins de l’appellation Saint-Julien<br>
+                    <span>&#10003;</span> &nbsp Evolution d’un millésime<br>
+                    Autant de thèmes gustatifs que nous pouvons imaginer avec vous 
+
                     </P>
                 </div>
             </div>
             <div class="content__right scrollImage__anchor">
-                <img src="../../assets/Yquem bouteille unsplash.jpg" alt="img Yquem bouteille">
+                <img src="../../assets/vin rouge allonger-unsplash.jpg" alt="img vin allonger">
+            </div>
+        </div>
+
+        <div class="content__container">
+            <div class="content__right">
+                <img  src="../../assets/Yquem bouteille unsplash.jpg"  alt="img Yquem bouteille ">
+            </div>
+            <div class="content__leftInverted scrollContent__anchor">
+                <div class="content__title">
+                    <h2>Vins & Millésimes rares</h2>
+                </div>
+                <div class="content__description">
+                   <p>
+                    A chaque fête sa bouteille …<br> 
+                    Nous recherchons les bouteilles pour vos événements<br>
+                    <span>&#10003;</span> &nbsp 20 ans de votre enfant<br>
+                    <span>&#10003;</span> &nbsp 40 ans de votre ami(e)<br>
+                    <span>&#10003;</span> &nbsp 50 ans du parrain<br>
+                    <span>&#10003;</span> &nbsp A vous d’imaginer la suite …<br>
+                    Nous sommes à votre écoute pour vous aider à dénicher la perle rare.
+                   </p>
+                </div>
             </div>
         </div>
 
