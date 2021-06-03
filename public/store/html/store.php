@@ -1,3 +1,13 @@
+<?php
+include "../../../connection.php";
+$btl_nbr_check  = $conn->prepare("SELECT product_id FROM product");
+$btl_nbr_check->execute();
+
+$get_product = $conn->prepare("SELECT * FROM product");
+$get_product->execute();
+$product = $get_product->fetchAll();
+
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -81,361 +91,43 @@
         </div>
 
         <div id="storeContain">
+            <?php for ($i=0; $i < $btl_nbr_check->rowCount(); $i++) { ?>
+                <div class="storeElement">
 
-            <div class="storeElement">
+                    <div class="elementImg">
+                        <img src="<?php echo $product[$i]["image"] ?>" class="image">
 
-                <div class="elementImg">
-                    <img src="../wineImg/Love by leoube rose.png" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
+                        <div class="imageButton">
+                            <a class="text">En savoir plus</a>
+                        </div>
                     </div>
+
+                    <div id="elementName" class="elementDescription">
+                        <div class="elementName">
+                            <p><?php echo $product[$i]["name"]." ".$product[$i]["format"] ?></p>
+                        </div>
+
+                        <div class="region">
+                            <p>Côtes de Provence</p>
+                        </div>
+
+                        <div class="elementAppellation">
+                            <p><?php echo $product[$i]["product_type"] ?></p>
+                        </div>
+
+                        <div id="elementVintage" class="elementVintage">
+                            <p><?php echo $product[$i]["millennials"] ?></p>
+                        </div>
+                    </div>
+
+
+                    <div id="elementPrice" class="elementPrice">
+                        <a class="btn"><?php echo $product[$i]["prize_ATI"] ?>€ / Ajouter au panier</a>
+                    </div>
+
                 </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>LOVE BY LÉOUBE ROSÉ 6x75cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin rosé bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2020</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">84,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div> 
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/love by leoube rouge.png" id="lvrouge" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>LOVE BY LÉOUBE ROUGE 6x75cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin rouge bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2019</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">84,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div> 
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/love by leoube blanc.png" id="lvblanc" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>LOVE BY LÉOUBE BLANC 6x75cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin blanc bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2020</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">84,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/rose de leoube.png" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>ROSÉ DE LÉOUBE 75cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2019</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">19,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/rouge de leoube.png" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>ROUGE DE LÉOUBE 75cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence rouge</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin rouge bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2018</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">21,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/blanc de leoube.png" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>BLANC DE LÉOUBE 75cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin blanc bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2020</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">21,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/Magnum rose leoube.png" id="Mrose" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>MAGNUM ROSÉ DE LÉOUBE 150cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2020</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">40,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/Magnum rouge leoube.png" id="Mrouge" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>MAGNUM ROUGE DE LÉOUBE 150cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin rouge bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2018</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">44,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/Magnum blanc leoube.png" id="Mblanc" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>MAGNUM BLANC DE LÉOUBE 150cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin blanc bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2019</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">44,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-
-            <div class="storeElement">
-
-                <div class="elementImg">
-                    <img src="../wineImg/jeroboam rose leoube.jpeg" id="Jrose" class="image">
-
-                    <div class="imageButton">
-                        <a class="text">En savoir plus</a>
-                    </div>
-                </div>
-
-                <div id="elementName" class="elementDescription">
-                    <div class="elementName">
-                        <p>JEROBOAM ROSÉ DE LÉOUBE 300cl</p>
-                    </div>
-
-                    <div class="region">
-                        <p>Côtes de Provence</p>
-                    </div>
-
-                    <div class="elementAppellation">
-                        <p>Vin bio</p>
-                    </div>
-
-                    <div id="elementVintage" class="elementVintage">
-                        <p>2019</p>
-                    </div>
-                </div>
-
-
-                <div id="elementPrice" class="elementPrice">
-                    <a class="btn">105,00 €/ Ajouter au panier</a>
-                </div>
-
-            </div>
-
-
+            <?php } ?>
         </div>
-
     </div>
 
    
