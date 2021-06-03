@@ -98,7 +98,7 @@ body {
   align-items: center;
   font-family: 'Lato';
   font-weight: 300;
-  padding-top: 4em;
+  padding-top: 2em;
 }
 
 .small__title{
@@ -146,8 +146,8 @@ body {
   font-family: "Lato light";
   width: 70%;
   height: 360px;
-  margin-top: 3em;
-  padding-bottom: 6em;
+  margin-top: 2em;
+  padding-bottom: 2em;
 }
 
 .content__title{
@@ -184,7 +184,7 @@ body {
 
 .content__button a:hover{
   color: white;
-  background-color: rgb(144, 12, 63);
+  background-color: rgb(185, 13, 13);
 
 
 }

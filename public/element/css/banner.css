@@ -81,7 +81,7 @@
     align-items: center;
 
     font-size: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .icon p{
     margin-right: 2%;
@@ -94,11 +94,11 @@
     top: 0;
     right: 0;
 
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
     overflow-x: hidden;
     font-size: 20px;
-    color: #818181;
+    color: #000000;
 
 
     transition: 0.5s;
