@@ -29,22 +29,21 @@ background-color: white;
   max-width: 45%;
 }
 .logomovember{
-  padding-top: 7%;
-  float: left;
   width: 35%;
 }
 .logomovember img{
   width: 80%;
+  padding-top: 13%;
 }
 .block_logoMov{
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  padding: 3.4%;
+  padding: 4%;
 }
 .descript_logoMov p{
   text-align: center;
-  font-family: 'Lato';
+  font-family: 'Lato light';
   color: rgb(78, 76, 76);
   font-size: 1em;
   line-height: 1.2em;
@@ -80,11 +79,11 @@ background-color: white;
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  padding: 2%;
+  padding: 4%;
 }
 .descript_cerhom p{
   text-align: center;
-  font-family: 'Lato';
+  font-family: 'Lato light';
   color: rgb(78, 76, 76);
   font-size: 1em;
   line-height: 1.3em;
@@ -109,10 +108,11 @@ background-color: white;
   padding: 5%;
 }
 .descript_mle20 p{
-  font-family: 'Lato';
+  font-family: 'Lato light';
   color: rgb(78, 76, 76);
   font-size: 1em;
   line-height: 1.2em;
+  padding-left: 4%;
 }
 .logomov{
   float: right;
@@ -133,7 +133,6 @@ background-color: white;
 .bottle_picture{
   float: left;
   max-width: 25%;
-  padding-top: 5%;
 }
 .bottle_picture img{
   width: 83%;
@@ -142,24 +141,25 @@ background-color: white;
   display: flex;
   justify-content: center;
   border: 1px solid rgb(124, 19, 19);
-  padding: 3%;
+  padding: 5%;
 }
 .descript_bottle p{
-  font-family: 'Lato';
+  font-family: 'Lato light';
   color: rgb(78, 76, 76);
   font-size: 1em;
   line-height: 1.2em;
+  padding-top: 17%;
+  padding-left: 4%;
 }
 .bottleléoube{
   float: right;
-  padding-top: 5%;
   display: flex;
   justify-content: flex-end;
-  max-width: 26%;
+  max-width: 24%;
 }
 
 .bottleléoube img{
-  width: 80%;
+  width: 77%;
 }
 /*div Evenements DoYouMovember*/
 .content_event{
@@ -192,7 +192,7 @@ background-color: white;
 }
 .descript_event p{
   text-align: center;
-  font-family: 'Lato';
+  font-family: 'Lato light';
   color: rgb(78, 76, 76);
   font-size: 1em;
   line-height: 1.2em;
@@ -200,30 +200,30 @@ background-color: white;
 
 .descript_event::first-letter {
   color: rgb(0, 0, 0);
-  font-family: cursive;
+  font-family: 'Lato light';
   font-size: 400%;
 }
 
 .descript_cerhom::first-letter {
   color: rgb(0, 0, 0);
-  font-family: cursive;
+  font-family: 'Lato light';
   font-size: 400%;
 }
 
 .descript_bottle::first-letter {
   color: rgb(0, 0, 0);
-  font-family: cursive;
+  font-family: 'Lato light';
   font-size: 400%;
 }
 
-.descript_logoMov::first-letter {
+.descript_logoMov p::first-letter {
   color: rgb(0, 0, 0);
-  font-family: cursive;
+  font-family: 'Lato light';
   font-size: 400%;
 }
 
 .descript_mle20::first-letter {
   color: rgb(0, 0, 0);
-  font-family: cursive;
+  font-family: 'Lato light';
   font-size: 400%;
 }

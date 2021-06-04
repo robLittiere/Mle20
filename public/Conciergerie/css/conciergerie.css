@@ -159,15 +159,11 @@ background-color: white;
   padding-left: 8em;
 }
 
-
-
 .content__right{
   flex: 0.5;
   display: flex;
   flex-grow: 1;
   overflow: hidden;
-  
-
 }
 .content__right img{
   transition: all 0.5s ease-in-out;
