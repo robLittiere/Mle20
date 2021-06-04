@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,8 +18,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <!--here we put the header-->
     <div class="header__container">
 
@@ -92,7 +94,7 @@
                         <p>Différents millésimes, autour d'un même <br> château, domaine...</p>
                     </div>
                 </div>
-    
+
                 <div id="prestige_horizontale_title">
                     <p>Horizontale</p>
                     <div id="prestige_horizontale_underTitle">
@@ -118,81 +120,78 @@
 
         <div id="prestige_container">
 
-            <div class="prestige_contain">   
-                <div class="prestige_element">
-                    <div class="element_img">
-                        <img src="../../assets/miguel-andrade-potCPE_Cw8A-unsplash.jpg">
-                        <div class="centered">
-                            <p class="element_title">Vin & Parfum</p>
-                            <p>
-                                Un nez issu de cet univers <br>
-                                merveilleux et un expert en vin <br>
-                                vous présentent l'analogie des sens
-                            </p>
-                        </div>
+            <div class="prestige_element">
+                <div class="element_img">
+                    <img src="../../assets/D&E/chloeColor.jpg">
+                    <div class="centered">
+                        <p class="element_title">Vin & Parfum</p>
+                        <p>
+                            Un nez issu de cet univers <br>
+                            merveilleux et un expert en vin <br>
+                            vous présentent l'analogie des sens
+                        </p>
                     </div>
-                   
-                </div>
-    
-                <div class="prestige_element">
-                    <div class="element_img">
-                        <img src="../../assets/oxa-roxa-6Z488fffa8E-unsplash.jpg">
-                        <div class="centered">
-                            <p class="element_title">Champagne & Luxe</p>
-                            <p>
-                                Champagne & Caviar <br>
-                                <br>
-                                Champagne & Foie Gras
-                            </p>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="prestige_element">
-                    <div class="element_img">
-                        <img src="../../assets/holly-stratton-KTP5X6SW_b4-unsplash.jpg">
-                        <div class="centered">
-                            <p class="element_title">Vin & Pâtisserie</p>
-                            <p>
-                                Accords judicieux avec les plus grands <br>
-                                pâtissiers Français <br>
-                                pour mettre en avant de grands vins <br>
-                                et inversement
-                            </p>
-                        </div>
-                    </div>   
                 </div>
             </div>
 
-            <div class="prestige_contain">
-                <div class="prestige_element">
-                    <div class="element_img">
-                        <img src="../../assets/tetiana-bykovets-H22N-9s8AUw-unsplash.jpg">
-                        <div class="centered">
-                            <p class="element_title">Vin & Chocolat</p>
-                            <p>
-                                Subtil mariage avec l'un des <br>
-                                meilleurs chocolatiers <br>
-                                Français
-                            </p>
-                        </div>
-                    </div>  
-                </div>
-    
-                <div class="prestige_element">
-                    <div class="element_img">
-                        <img src="../../assets/cyril-mazarin-WSvth_lwCi0-unsplash.jpg">
-                        <div class="centered">
-                            <p class="element_title">Paris by Wine</p>
-                            <p>
-                                Secret des plus grandes <br>
-                                caves Parisiennes
-                            </p>
-                        </div>
-                    </div>  
+            <div class="prestige_element">
+                <div class="element_img">
+                    <img src="../../assets/D&E/chocolat.jpg">
+                    <div class="centered">
+                        <p class="element_title">Vin & chocolat</p>
+                        <p>
+                            Subtil mariage avec l'un des <br>
+                            meilleurs chocolatiers <br>
+                            Français
+                        </p>
+                    </div>
                 </div>
             </div>
 
+            <div class="prestige_element">
+                <div class="element_img">
+                    <img src="../../assets/D&E/cookcoeurDraw.jpg">
+                    <div class="centered">
+                        <p class="element_title">Vin & pâtisserie</p>
+                        <p>
+                            Accords judicieux avec les plus grands <br>
+                            pâtissiers Français pour mettre en avant <br>
+                            de grands vins et inversement
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="prestige_container">
+
+            <div class="prestige_element">
+                <div class="element_img">
+                    <img src="../../assets/D&E/paris.jpg">
+                    <div class="centered">
+                        <p class="element_title">Paris by wine</p>
+                        <p>
+                            Secret des plus grandes <br>
+                            caves Parisiennes
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prestige_element">
+                <div class="element_img">
+                    <img src="../../assets/D&E/caviar.jpg">
+                    <div class="centered">
+                        <p class="element_title">Champagne & Luxe</p>
+                        <p>
+                            Champagne & Caviar <br>
+                            <br>
+                            Champagne & Foie Gras
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -257,7 +256,7 @@
     <div class="pageContent" id="baladeGustativeDiv">
         <div id="prestige_title">
             <p>
-                Nos expériences se déroulent en compagnie d'experts <br> 
+                Nos expériences se déroulent en compagnie d'experts <br>
                 reconnus dans leur domaine de compétences
             </p>
         </div>
@@ -272,15 +271,15 @@
 
         </div>
 
-        
+
     </div>
-    
+
     <div class="pageContent" id="soireeDiv">
     </div>
 
     <div class="pageContent" id="seminaireDiv">
     </div>
-    
+
     <div class="pageContent" id="incentiveDiv">
     </div>
 

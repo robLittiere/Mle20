@@ -54,10 +54,9 @@ the page content
   display: none;
   
   width: 100%;
-  height: 100%;
 
   margin-top: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #prestige_title {
@@ -76,7 +75,6 @@ the page content
 
 #prestige_Verticale_horizontale_underTitle_container {
   width: 80%;
-  height: 40%;
 
   display: flex;
   justify-content: space-evenly;
@@ -119,13 +117,7 @@ the page content
   color: #777474;
 }
 
-.prestige_element {
-  margin-bottom: 2%;
-  display: flex;
 
-  font-size: 15px;
-  white-space:nowrap;
-}
 .prestige_element_text {
   text-align: start;
   padding: 0 2% 0% 2%;
@@ -137,30 +129,26 @@ the page content
 }
 
 #prestige_container {
-  width: 100%;
-  height: 100%;
-}
-
-.prestige_contain {
   display: flex;
   justify-content: space-evenly;
-
-  margin-bottom: 3%;  
-}
-
-.pretige_element_img {
-  width: 50%;
-  height: 45%;
+  
+  width: 100%;
+  margin-bottom: 2%;
 }
 
 .prestige_element {
+  display: flex;
+
+  font-size: 15px;
+  white-space:nowrap;
+
   width: 30%;
 }
 
-.prestige_element img{
-  height: 30%;
+.element_img img{
   box-shadow: 0.19rem 0.19rem 0 rgb(00 00 00 / 10%);
   border: 1px solid rgb(185, 13, 13);
+  object-fit:cover;
 }
 
 
