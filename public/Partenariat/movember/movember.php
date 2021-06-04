@@ -61,11 +61,17 @@
                 <div class="block_logoMov">
 
                     <div class="descript_logoMov">
+
+                        <div class="logomovember">
+                            <img src="../../assets/logoDoyoumovember.png" alt="logoMovember">
+                        </div>
+                        
                         <div class="movember__container_logoMov">
                             <div class="movember__baseline_logoMov">
                                 <h2>DoYouMovember</h2>
                             </div>
                         </div>
+                        
                         <p>
                             DoYouMovember est l’équipe Movember associée de CerHom et Gustave Roussy.<br>
                             Movember, autrefois connu sous le nom de novembre, est le mois durant lequel les
@@ -75,13 +81,10 @@
                             que la santé mentale et la prévention du suicide.<br><br>
                          
                             Le site de <a href="https://fr.movember.com/">DoYouMovember</a>
-                            <br><br>
-                            <br><br>
                         </p>
-                        <div class="logomovember">
-                            <img src="../../assets/logoDoyoumovember.png" alt="logoMovember">
-                        </div>
-
+                        <br><br>
+                        <br><br>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -141,8 +144,8 @@
                             Chaque bouteille achetée permet de récolter des fonds pour l’association.<br>
                                 <font color='#0000CD'>"La Cuvée Bleue"</font><br><br>
 
-                            &nbsp&nbsp&nbsp&nbsp>Champagne Boulachin-Chaput,<br> 
-                            &nbsp&nbsp&nbsp&nbsp>Love By Léoube 2020, côtes de Provence bio<br><br>
+                            &nbsp&nbsp&nbsp&nbsp> Champagne Boulachin-Chaput,<br> 
+                            &nbsp&nbsp&nbsp&nbsp> Love By Léoube 2020, côtes de Provence bio<br><br>
                             Rejoignez-nous ! en vente via le lien &nbsp <font color='#0000CD'> <a href="https://cuvee-bleue.fr">https://cuvee-bleue.fr</a></font>
                         </p> 
 
@@ -162,12 +165,17 @@
 
                 <div class="block_bottle">            
                     <div class="descript_bottle">
+                        <div class="bottle_picture">
+                            <img src="../../assets/IMG_Boulachin DYMovember.jpg" alt="Bouteille DoYouMovember">
+                        </div>
+                        <div class="bottleléoube">
+                            <img src="../../assets/leoube.png"  alt="bottle leoube">
+                        </div>
                         <div class="movember__container_bottle">
                             <div class="movember__baseline_bottle">
                                 <h2>La Cuvée Bleue</h2>
                             </div>
                         </div>
-                        
                         <p>
                         Elle est produite en exclusivité pour DoYouMovember en édition limitée.<br> 
                         Nous sélectionnons chaque cuvée avec nos vignerons partenaires.<br>
@@ -189,14 +197,6 @@
 
                         Franco de port, en France métropolitaine, au-delà de 120 bouteilles livrées en un même lieu.<br><br> Passez vos commandes pour la bonne cause : <font color='#0000CD'> <a href="https://cuvee-bleue.fr">https://cuvee-bleue.fr</a></font>
                         </p>
-
-                        <div class="bottle_picture">
-                            <img src="../../assets/IMG_Boulachin DYMovember.jpg" alt="Bouteille DoYouMovember">
-                        </div>
-                        <div class="bottleléoube">
-                            <img src="../../assets/leoube.jpg"  alt="bottle leoube">
-                        </div>
-
                     </div>      
                 </div>
             </div>
