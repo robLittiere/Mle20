@@ -19,13 +19,14 @@ $users = $get_users->fetchAll();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link href="../css/admin.css" rel="stylesheet">
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
     <header>
         <h2>Pannel admin</h2>
     </header>
+
+    <div id="pop-up">
+    </div>
 
     <div class="pannel_container">
 
@@ -37,8 +38,7 @@ $users = $get_users->fetchAll();
                     <p><?php echo $bottle[$i]["name"] ?></p>
                     <p><?php echo $bottle[$i]["millennials"] ?></p>
                     <p>Stock: <?php echo $bottle[$i]["stock"] ?></p>
-                    <span class="iconify" data-icon="carbon:add-filled" data-inline="false"></span>
-                    <span class="iconify" data-icon="subway:subtraction" data-inline="false"></span>
+                    <span class="btn" onclick="pop_up_Display()">Modifier</span>
                 </div>
                 <?php } ?>
             </div>
@@ -63,4 +63,6 @@ $users = $get_users->fetchAll();
 
     </div>
 </body>
+
+<script type="text/javascript" src="../js/admin.js"></script>
 </html>
