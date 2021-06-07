@@ -54,12 +54,8 @@
     
                 </div>
                 <div class="baseline">
-                    <div class="baseline__title">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="baseline__description">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </div>
+                    <div class="baseline__title"> 
+                    </div>  
                 </div>
             </div>
         </div>

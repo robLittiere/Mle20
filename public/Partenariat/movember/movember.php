@@ -143,12 +143,12 @@
                             Vous pouvez la découvrir en Champagne & Côtes de Provence,<br> d’autres suivront dans les prochains mois …<br>
                             Chaque bouteille achetée permet de récolter des fonds pour l’association.<br>
                                 <font color='#0000CD'>"La Cuvée Bleue"</font><br><br>
-
+                            
                             &nbsp&nbsp&nbsp&nbsp> Champagne Boulachin-Chaput,<br> 
                             &nbsp&nbsp&nbsp&nbsp> Love By Léoube 2020, côtes de Provence bio<br><br>
                             Rejoignez-nous ! en vente via le lien &nbsp <font color='#0000CD'> <a href="https://cuvee-bleue.fr">https://cuvee-bleue.fr</a></font>
                         </p> 
-
+                        <br>
                         <div class="logoMle20">
                                 <img src="../../assets/LogoMle20.png" alt="Logo Mle20">
                         </div>
@@ -157,6 +157,7 @@
                         <div class="logomov">
                             <img src="../../assets/logoDoyoumovember.png"  alt="logo movember">
                         </div>
+                       
                     </div>
                 </div>    
             </div>

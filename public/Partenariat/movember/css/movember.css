@@ -131,11 +131,13 @@ background-color: white;
   max-width: 45%;
 }
 .bottle_picture{
-  float: left;
-  max-width: 25%;
+  position: absolute;
+  top: 183%;
+  left: 87%;
+  max-width: 8%;
 }
 .bottle_picture img{
-  width: 83%;
+  width: 50%;
 }
 .block_bottle{
   display: flex;
@@ -148,18 +150,17 @@ background-color: white;
   color: rgb(78, 76, 76);
   font-size: 1em;
   line-height: 1.2em;
-  padding-top: 17%;
   padding-left: 4%;
 }
 .bottleléoube{
-  float: right;
-  display: flex;
-  justify-content: flex-end;
-  max-width: 24%;
+  position: absolute;
+  top: 195%;
+  left: 87%;
+  max-width: 7%;
 }
 
 .bottleléoube img{
-  width: 77%;
+  width: 50%;
 }
 /*div Evenements DoYouMovember*/
 .content_event{
