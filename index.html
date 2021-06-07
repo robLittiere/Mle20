@@ -83,7 +83,7 @@
                     </div>
                 </div>
 
-                <div id="panier" class="bannerContain">
+                <div id="cart" class="bannerContain">
                     <div class="bannerTexte">
                         <h1>Panier </h1>
                     </div>
@@ -177,7 +177,7 @@
     <div id="account_slider">
         <div id="slider_header">
             <div id="close_btn">
-                <p onclick="slider_hide()">X</p>
+                <p onclick="sliderAccount_hide()">X</p>
             </div>
             <a href="public/login/html/logIn.php" class="icon">
                 <p>se connecter</p>
@@ -190,6 +190,18 @@
             </div>
             <div id="profil_username">
                 <p>Nom d'utilisateur</p>
+            </div>
+        </div>
+    </div>
+    <div id="cart_slider">
+        <div id="slider_header">
+            <div id="close_btn">
+                <p onclick="sliderCart_hide()">X</p>
+            </div>
+        </div>
+        <div id="slider_cart">
+            <div id="cart_container">
+                <p>Panier</p>
             </div>
         </div>
     </div>
@@ -474,6 +486,8 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script type="text/javascript" src="public/element/js/account.js"></script>
+<script type="text/javascript" src="public/element/js/cart.js"></script>
 <script type="text/javascript" src="public/home/js/home.js"></script>
 <script type="text/javascript" src="public/element/js/navbar.js"></script>
 <script type="text/javascript" src="public/element/js/slideshow.js"></script>

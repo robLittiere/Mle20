@@ -39,6 +39,18 @@ $product = $get_product->fetchAll();
             echo $header_banner;
         ?>
 
+        <!-- here is the account -->
+        <?php 
+            include "../../../public/element/php/account.php";
+            echo $account;
+        ?>
+
+        <!-- here is the cart -->
+        <?php 
+            include "../../../public/element/php/cart.php";
+            echo $cart;
+        ?>
+
         <!-- here is the logo -->
         <?php 
             include "../../../public/element/php/logo.php";
@@ -47,8 +59,8 @@ $product = $get_product->fetchAll();
 
         <!-- here is the navbar -->
         <?php 
-        include "../../../public/element/php/navbar.php"; 
-        echo $navbar;
+            include "../../../public/element/php/navbar.php"; 
+            echo $navbar;
         ?>
 
     </div>    
@@ -140,6 +152,8 @@ $product = $get_product->fetchAll();
 ?>
 
     <script type="text/javascript" src="../js/store.js"></script>
+    <script type="text/javascript" src="../../element/js/account.js"></script>
+    <script type="text/javascript" src="../../element/js/cart.js"></script>
     <script type="text/javascript" src="../../element/js/navbar.js"></script>
     <script type="text/javascript" src="../../home/js/homeScroll.js"></script>
 
