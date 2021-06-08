@@ -13,7 +13,7 @@ background-color: white;
 }
 
 .home__container{
-  padding-top: 5%;
+  padding-top: 2%;
   margin-top: 1em;
   display: flex;
   flex-direction: column;
@@ -44,11 +44,7 @@ background-color: white;
 
 
 .baseline{
-  padding: 20px;
-  padding-top: 1em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .baseline__title {
@@ -67,7 +63,6 @@ background-color: white;
 }
 
 .baseline__divider{
-  padding-bottom: 5em;
   align-self: center;
   width: 80%;
   border-bottom: 1px solid rgb(224, 224, 224);
@@ -79,7 +74,7 @@ background-color: white;
   font-family: "Lato light";
   width: 70%;
   height: 360px;
-  margin-top: 6em;
+  margin-top: 2em;
   padding-bottom: 3em;
 }
 
@@ -141,7 +136,7 @@ background-color: white;
 }
 .content__button a:hover{
   color: black;
-  background-color:rgb(144, 12, 63);
+  background-color:rgb(185, 13, 13)
 
 
 }

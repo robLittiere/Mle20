@@ -120,3 +120,27 @@
 #banner a{
     color: rgb(255, 255, 255);
 }
+/* cart slider */
+#cart_slider {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    overflow-x: hidden;
+    font-size: 20px;
+    color: #000000;
+
+
+    transition: 0.5s;
+    filter: none;
+}
+#cart_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

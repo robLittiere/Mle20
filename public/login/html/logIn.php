@@ -81,6 +81,18 @@ if (isset($_POST["password1"]) || isset($_POST["password2"])) {
             echo $header_banner;
         ?>
 
+        <!-- here is the account -->
+        <?php 
+            include "../../../public/element/php/account.php";
+            echo $account;
+        ?>
+
+        <!-- here is the cart -->
+        <?php 
+            include "../../../public/element/php/cart.php";
+            echo $cart;
+        ?>
+
         <!-- here is the logo -->
         <?php 
             include "../../../public/element/php/logo.php";
@@ -129,6 +141,7 @@ if (isset($_POST["password1"]) || isset($_POST["password2"])) {
     include "../../../public/element/php/footer.php"; 
     echo $footer;
 ?>
-    
+<script type="text/javascript" src="../../element/js/account.js"></script>
+<script type="text/javascript" src="../../element/js/cart.js"></script>
 </body>
 </html>

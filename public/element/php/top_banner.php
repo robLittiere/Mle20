@@ -34,7 +34,7 @@ $header_banner = <<<EOD
         </div>
     </div>
 
-    <div id="panier" class="bannerContain">
+    <div id="cart" class="bannerContain">
         <div class="bannerTexte">
             <h1>Panier </h1>
         </div>

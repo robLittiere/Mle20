@@ -28,6 +28,18 @@
             echo $header_banner;
         ?>
 
+        <!-- here is the account -->
+        <?php 
+            include "../../../public/element/php/account.php";
+            echo $account;
+        ?>
+
+        <!-- here is the cart -->
+        <?php 
+            include "../../../public/element/php/cart.php";
+            echo $cart;
+        ?>
+
         <!-- here is the logo -->
         <?php 
             include "../../../public/element/php/logo.php";
@@ -36,8 +48,8 @@
 
         <!-- here is the navbar -->
         <?php 
-        include "../../../public/element/php/navbar.php"; 
-        echo $navbar;
+            include "../../../public/element/php/navbar.php"; 
+            echo $navbar;
         ?>
 
     </div>  
@@ -54,12 +66,8 @@
     
                 </div>
                 <div class="baseline">
-                    <div class="baseline__title">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                    <div class="baseline__description">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </div>
+                    <div class="baseline__title"> 
+                    </div>  
                 </div>
             </div>
         </div>
@@ -215,6 +223,8 @@
 ?>
 
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script type="text/javascript" src="../../element/js/account.js"></script>
+<script type="text/javascript" src="../../element/js/cart.js"></script>
 <script type="text/javascript" src="../../contact/js/contact.js"></script>
 <script type="text/javascript" src="../../element/js/navbar.js"></script>
 <script type="text/javascript" src="../../element/js/slideshow.js"></script>
