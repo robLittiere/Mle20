@@ -3,10 +3,10 @@
   cursor: pointer;
 }
 
-htyml, body {
+html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Prata';
+  font-family: 'lato';
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -52,7 +52,6 @@ the page content
 
 .pageContent {
   display: none;
-  
   width: 100%;
 
   margin-top: 2%;
@@ -117,40 +116,72 @@ the page content
   color: #777474;
 }
 
+/*-------------------------------------------------------------*/
 
-.prestige_element_text {
-  text-align: start;
-  padding: 0 2% 0% 2%;
-}
+.prestige_card_container {
+  width: 90%;
+  margin: 5%;
 
-.prestige_element_title {
-  color: rgb(165, 25, 25);
-  margin-bottom: 2%;
-}
-
-#prestige_container {
-  display: flex;
-  justify-content: space-evenly;
-  
-  width: 100%;
-  margin-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1%;
 }
 
 .prestige_element {
-  display: flex;
-
-  font-size: 15px;
-  white-space:nowrap;
-
-  width: 30%;
+  width: 100%;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
-.element_img img{
-  box-shadow: 0.19rem 0.19rem 0 rgb(00 00 00 / 10%);
-  border: 1px solid rgb(185, 13, 13);
-  object-fit:cover;
+.prestige_element:hover .img-container img{
+  filter: grayscale(1);
 }
 
+.prestige_element:hover .positioning{
+  opacity: 1;
+}
+
+.prestige_element:hover .button {
+  opacity: 1;
+}
+
+.prestige_btn {
+  margin-top: 40%;
+}
+
+.img-container img{
+  transition: 1s;
+  width: 100%;
+}
+
+.col-lg-3 img {
+  max-width: 100%;
+}
+.img-container {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.prestige_text_title {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.positioning{
+  transition: 1s;
+  width: 90%;
+  padding: 5%;
+  text-align: center;
+  position: absolute;
+
+  align-self: center;
+  background-color: red;
+  color: white;
+
+  opacity: 0;
+  font-size: 17px;
+  line-height: 18px;
+  z-index: 5;
+}
 
 
 

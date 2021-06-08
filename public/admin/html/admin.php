@@ -25,8 +25,19 @@ $users = $get_users->fetchAll();
         <h2>Pannel admin</h2>
     </header>
 
-    <div id="pop-up">
-    </div>
+    <?php if (isset($_GET['modify'])) { $i = $_GET["modify"] ?>
+        <div id="pop-up">
+            <div id="pop-up_content">
+                <p><?php echo $bottle[$i]["name"] ?></p>
+                <p><?php echo $bottle[$i]["millennials"] ?></p>
+                <p>Stock: <?php echo $bottle[$i]["stock"] ?></p>
+                <div class="btn_container">
+                    <span class="btn">+</span>
+                    <span class="btn">-</span>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
 
     <div class="pannel_container">
 
@@ -38,7 +49,7 @@ $users = $get_users->fetchAll();
                     <p><?php echo $bottle[$i]["name"] ?></p>
                     <p><?php echo $bottle[$i]["millennials"] ?></p>
                     <p>Stock: <?php echo $bottle[$i]["stock"] ?></p>
-                    <span class="btn" onclick="pop_up_Display()">Modifier</span>
+                    <span class="btn"><a href="admin.php?modify=<?php echo $i ?>">Modifier</a></span>
                 </div>
                 <?php } ?>
             </div>

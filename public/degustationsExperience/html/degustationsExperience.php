@@ -118,135 +118,138 @@
 
         </div>
 
-        <div id="prestige_container">
+        <div class="prestige_card_container">
 
             <div class="prestige_element">
-                <div class="element_img">
-                    <img src="../../assets/D&E/chloeColor.jpg">
-                    <div class="centered">
-                        <p class="element_title">Vin & Parfum</p>
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Vin & Parfum</p>
                         <p>
                             Un nez issu de cet univers <br>
                             merveilleux et un expert en vin <br>
                             vous présentent l'analogie des sens
                         </p>
                     </div>
+                    <button class="button prestige_btn">Vin & Parfum</button>
+                    <img src="../../assets/D&E/parfum.jpg">
                 </div>
             </div>
 
             <div class="prestige_element">
-                <div class="element_img">
-                    <img src="../../assets/D&E/chocolat.jpg">
-                    <div class="centered">
-                        <p class="element_title">Vin & chocolat</p>
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Vin & chocolat</p>
                         <p>
                             Subtil mariage avec l'un des <br>
                             meilleurs chocolatiers <br>
                             Français
                         </p>
                     </div>
+                    <button class="button prestige_btn">Vin & chocolat</button>
+                    <img src="../../assets/D&E/chocolat.jpg">
                 </div>
             </div>
 
             <div class="prestige_element">
-                <div class="element_img">
-                    <img src="../../assets/D&E/cookcoeurDraw.jpg">
-                    <div class="centered">
-                        <p class="element_title">Vin & pâtisserie</p>
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Vin & pâtisserie</p>
                         <p>
                             Accords judicieux avec les plus grands <br>
                             pâtissiers Français pour mettre en avant <br>
                             de grands vins et inversement
                         </p>
                     </div>
+                    <button class="button prestige_btn">Vin & pâtisserie</button>
+                    <img src="../../assets/D&E/patisserie.jpg">
                 </div>
             </div>
 
-        </div>
-
-        <div id="prestige_container">
-
             <div class="prestige_element">
-                <div class="element_img">
-                    <img src="../../assets/D&E/paris.jpg">
-                    <div class="centered">
-                        <p class="element_title">Paris by wine</p>
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Paris by wine</p>
                         <p>
                             Secret des plus grandes <br>
                             caves Parisiennes
                         </p>
                     </div>
+                    <button class="button prestige_btn">Paris by wine</button>
+                    <img src="../../assets/D&E/paris.jpg">
                 </div>
             </div>
 
             <div class="prestige_element">
-                <div class="element_img">
-                    <img src="../../assets/D&E/caviar.jpg">
-                    <div class="centered">
-                        <p class="element_title">Champagne & Luxe</p>
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Champagne & Luxe</p>
                         <p>
                             Champagne & Caviar <br>
                             <br>
                             Champagne & Foie Gras
                         </p>
                     </div>
+                    <button class="button prestige_btn">Champagne & Luxe</button>
+                    <img src="../../assets/D&E/caviar.jpg">
                 </div>
             </div>
 
         </div>
 
-    </div>
+    </div> 
 
     <div class="pageContent" id="improbableDiv">
 
-        <div id="improbable_content">
+        <div class="improbable_card_container">
 
-            <div class="improbable_element">
-
-                <div class="element_img">
-                    <img src="../../assets/steve-daniel-owBAs8Z0hzg-unsplash.jpg">
-                    <div class="centered">
-                        <p class="element_title">Bar à Champagne</p>
-                        <p class="element_text">Bar à champagne, découverte du champagne Aubois</p>
+            <div class="prestige_element">
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Bar à Champagne</p>
+                        <p> Bar à champagne, découverte du champagne Aubois </p>
                     </div>
+                    <button class="button improbable_btn">Bar à Champagne</button>
+                    <img src="../../assets/D&E/barChampagne.jpg">
                 </div>
-
             </div>
 
-            <div class="improbable_element">
-
-                <div class="element_img">
-                    <img src="../../assets/sanja-simic-U9-bDlyrI-o-unsplash.jpg">
-                    <div class="centered">
-                        <p class="element_title">Atelier de mixologie</p>
-                        <p class="element_text">Bololololo</p>
+            <div class="prestige_element">
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Atelier de mixologie</p>
+                        <p>
+                            Bololololo
+                        </p>
                     </div>
+                    <button class="button improbable_btn">Atelier de mixologie</button>
+                    <img src="../../assets/D&E/mixologie.jpg">
                 </div>
-
             </div>
 
-            <div class="improbable_element">
-
-                <div class="element_img">
-                    <img src="../../assets/the-creative-exchange-Q5OpcL166e8-unsplash.jpg">
-                    <div class="centered">
-                        <p class="element_title">Champagnes et Fromages</p>
-                        <p class="element_text">Le champagne autour d'un grand fromage français</p>
+            <div class="prestige_element">
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Champagnes et Fromages</p>
+                        <p>
+                            Le champagne autour d'un grand fromage français
+                        </p>
                     </div>
+                    <button class="button improbable_btn">Champagnes et Fromages</button>
+                    <img src="../../assets/D&E/vinFromage.jpg">
                 </div>
-
             </div>
 
-            <div class="improbable_element">
-
-                <div class="element_img">
-                    <img src="../../assets/karelys-ruiz-_9z0iErDrdk-unsplash.jpg">
-                    <div class="centered">
-                        <p class="element_title">Sauternes & Fromage, pâte persillée</p>
-                        <p class="element_text">Le Sauternes autour d'une pâte persilléé</p>
+            <div class="prestige_element">
+                <div class="img-container">
+                    <div class="positioning">
+                        <p class="prestige_text_title">Sauternes & Fromage, pâte persillée</p>
+                        <p>
+                            Le Sauternes autour d'une pâte persilléé
+                        </p>
                     </div>
+                    <button class="button improbable_btn">Sauternes & Fromage, pâte persillée</button>
+                    <img src="../../assets/D&E/sauternePates.jpg">
                 </div>
-
             </div>
 
         </div>
