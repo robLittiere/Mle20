@@ -199,6 +199,8 @@ background-color: white;
   line-height: 1.2em;
 }
 
+
+/*first-letter*/
 .descript_event::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
