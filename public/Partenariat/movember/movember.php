@@ -113,7 +113,7 @@
                         </div>
 
                         <div class="BSpicture">
-                            <img src="../../assets/Steph & Bruno 1.JPG" alt="Steph & Bruno">
+                            <img src="../../assets/stephsupport.jpg" alt="steph support">
                         </div>
 
                             <P>

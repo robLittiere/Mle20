@@ -30,7 +30,6 @@ body {
     height: auto;
 }
 .logockc{
-    float: left;
     max-width: 30%;
 }
 .logockc img{
@@ -40,15 +39,14 @@ body {
     display: flex;
     justify-content: center;
     border: 1px solid rgb(124, 19, 19);
-    padding: 3.4%;
+    padding: 4%;
 }
 .descript_logockc p{
-    text-align: justify;
-    font-family: 'Lato';
+    text-align: center;
+    font-family: 'Lato light';
     color: rgb(78, 76, 76);
-    font-size: 1.2em;
-    letter-spacing: 0.2px;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.2em;
 }
 /*div CerHom X DoYouMovember*/
 .content_why{
@@ -69,10 +67,10 @@ body {
     padding: 3%;
 }
 .descript_why p{
-    text-align: justify;
-    font-family: 'Lato';
+    text-align: center;
+    font-family: 'Lato light';
     color: rgb(78, 76, 76);
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 0.2px;
     line-height: 1.4em;
 }
@@ -96,10 +94,10 @@ body {
     padding: 3%;
 }
 .descript_mle20 p{
-    text-align: justify;
-    font-family: 'Lato';
+    text-align: center;
+    font-family: 'Lato light';
     color: rgb(78, 76, 76);
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 0.2px;
     line-height: 1.4em;
 }

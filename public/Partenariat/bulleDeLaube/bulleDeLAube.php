@@ -86,7 +86,9 @@
                             La meilleure sélection de Champagnes en direct des producteurs<br><br>
                             “A l’aube naissent de délicieuses bulles qui reposent tranquillement pour offrir des champagnes aux meilleurs prix.”<br><br>
                             Équilibre, histoire, régularité et implication à l’image des 4 grandes Maisons: Devaux, Drappier, De barfontarc & Boulachin-Chaput, avec qui elles avancent chaque jour sont leur leitmotiv…<br><br>
-
+                        <br><br>
+                        <br><br>
+                        <br>
                         </p>
                     </div>
                 </div>

@@ -73,6 +73,7 @@
                 <div class="block_logockc">
 
                     <div class="descript_logockc">
+
                         <div class="logockc">
                             <img src="../../assets/logoCookcoeur.png" alt="Logo CookCoeur">
                         </div>
@@ -86,8 +87,10 @@
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.  deserunt necessitatibus nam ullam perferendis natus atque.<br><br>
                             Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate,<br><br>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsa, quibusdam non architecto dignissimos asperiores consequatur laudantium.<br>
-
                         </p>
+                        <br><br>
+                        <br><br>
+                        <br>
                     </div>
                 </div>
             </div>
