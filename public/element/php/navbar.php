@@ -19,7 +19,7 @@ $navbar = <<<EOD
                 <a href="#" class="popup__button">Autres</a>
             </div>
             <div id="experience__popup">
-                <a href="#" class="popup__button">Atelier dégustation</a>
+                <a href="#" class="popup__button"><font color=red>Atelier de dégustation<font></a>
                 <a href="#" class="popup__button">Prestige</a>
                 <a href="#" class="popup__button">Improbable</a>
                 <a href="#" class="popup__button">Grands vins français</a>
