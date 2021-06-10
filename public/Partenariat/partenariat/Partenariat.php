@@ -70,12 +70,7 @@
                 </div>
                 <div class="baseline">
                     <div class="baseline__title">
-                        <p>Découvrez ici nos partenaires !</p>
-                    </div>
-                    <div class="baseline__description">
-                        <p> 
-                            Des partenaires qui ont toute notre confiance.
-                        </p>
+                        <p>Découvrez ici nos partenaires !<br> Des partenaires qui ont toute notre confiance.</p>
                     </div>
                 </div>
             </div>
@@ -84,23 +79,12 @@
         <div class="partner_container">
 
             <figure id="movemberLogo" class="snip">
-                <img src="../../assets/LogoMov.png" alt="logoMovember">
+                <img src="../../assets/logoDoyoumovember.png" alt="logoMovember">
                 <figcaption>
                     <h3>DoYouMovember</h3>
                     <div class="partenaireBtn">
                         <p>Cliquez ici pour en savoir plus</p>
                         <a href="../movember/movember.php"></a>
-                    </div>
-                </figcaption>
-            </figure>
-
-            <figure id="leoubeLogo" class="snip">
-                <img src="../../assets/logoLeoube.png" alt="logoLeoube">
-                <figcaption>
-                    <h3>Château Léoube</h3>
-                    <div class="partenaireBtn">
-                        <p>Cliquez ici pour en savoir plus</p>
-                        <a href="../chateauLeoube/chateauleoube.php"></a>
                     </div>
                 </figcaption>
             </figure>
