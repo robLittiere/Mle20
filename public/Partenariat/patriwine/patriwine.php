@@ -124,7 +124,7 @@
                             <span>&#10003;</span> &nbsp Un dépôt de grands crus disponibles sur Paris & 92<br>
                             <span>&#10003;</span> &nbsp Vente à la bouteille, à la caisse et panachage possible<br> 
                             <span>&#10003;</span> &nbsp Dégustation privative de grands crus avec opportunité d’achat d’exception<br> 
-                            <span>&#10003;</span> &nbsp Cadeaux d’affaires, Evénements, d’entreprise, Club …<br>
+                            <span>&#10003;</span> &nbsp Cadeaux d’affaires, Evénements d’entreprise, Club …<br>
                             <br><br><br>
                         </p>
                         
@@ -151,14 +151,14 @@
                         <span>&#10003;</span> &nbsp Les Grands Châteaux Bordelais<br>
                         <span>&#10003;</span> &nbsp Les grands crus …<br>
                         Rien d’étonnant,  nous manquons tous de ce temps si précieux.
-                        C’est pourquoi se sont les grands châteaux qui viennent à vous à travers d’une dégustation
+                        C’est pourquoi se sont les grands châteaux qui viennent à vous au travers d’une dégustation
                         prestigieuse.<br><br> 
                         Cette expérience unique est à faire au moins une fois dans sa vie !<br> 
                         Vous dégustez les grands crus Bordelais<br>
                         <span>&#10003;</span> &nbsp Château Gruaud Larose 2016, 2015 Saint-Julien<br>
                         <span>&#10003;</span> &nbsp Château Larrivet Haut-Brion 2019 Pessac-Léognan<br>
                         <span>&#10003;</span> &nbsp Château Cos Labory 2019 Saint-Estèphe<br>  
-                        Avant d’en apprécier les qualités organoletptiques, vous avez l’extrême privilège d’être installé(e)<br> confortablement pour une mise en immersion au cœur du vignoble …<br><br>   
+                        Avant d’en apprécier les qualités organoletptiques, vous avez l’extrême privilège d’être installé(e)<br> confortablement pour immersion au cœur du vignoble …<br><br>   
                         Vous ne révez pas, grâce à la réalité virtuelle vous visitez, découvrez, appréciez …<br>
                         <span>&#10003;</span> &nbsp Les parcelles de vignes<br>
                         <span>&#10003;</span> &nbsp Le château<br>
@@ -169,9 +169,10 @@
                         <img src="../../assets/virtual reality.png"  alt="virtualreal">
                     </div>
                     <p>
-                        Laissez vous porter, écoutez l’histhoire et les anecdotes du château à travers le recit<br> 
-                        du propriétaire, du maître de chais ou encore deux l’œnologue.<br>
-                        Une éxpérience cisélée & fantastique qui vous plongera dans des conditions exceptionneles  pour apprécier les meilleurs vins du monde. Quel bonheur !<br>
+                        Laissez vous porter, écoutez l’histhoire et les anecdotes du château au travers des récits<br> 
+                        du propriétaire, du maître de chais ou encore l’œnologue.<br>
+                        Une éxpérience cisélée & fantastique qui vous plongera dans des conditions exceptionneles  pour apprécier les meilleurs vins du monde.<br>
+                        Quel bonheur !<br>
                     </p>
 
                 </div>
