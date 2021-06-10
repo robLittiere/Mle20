@@ -57,8 +57,8 @@ $navbar = <<<EOD
                 <a href="#" class="popup__button">Vignerons disponibles</a>
             </div>
             <div id="contact__popup">
-                <a href="../../contact/html/contact.html" class="popup__button">Formulaire</a>
-                <a href="#" class="popup__button">Téléphone</a>
+                <a href="contact.php" class="popup__button">Formulaire</a>
+                <a href="contact.php" class="popup__button">Téléphone</a>
             </div>
             <div id="infos__popup">
                 <a href="../../about/html/about.html" class="popup__button">Histoire de l'aventure</a>
