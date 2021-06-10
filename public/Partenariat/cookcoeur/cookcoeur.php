@@ -128,6 +128,7 @@
                         <div class="cookbout">
                             <img src="../../assets/bouteillecook.png"  alt="boutcook">
                         </div>
+                        <br>
             
                     </div>
                 </div>
