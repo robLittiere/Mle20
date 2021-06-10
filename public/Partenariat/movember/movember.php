@@ -178,12 +178,6 @@
 
                 <div class="block_bottle">            
                     <div class="descript_bottle">
-                        <div class="bottle_picture">
-                            <img src="../../assets/IMG_Boulachin DYMovember.jpg" alt="Bouteille DoYouMovember">
-                        </div>
-                        <div class="bottleléoube">
-                            <img src="../../assets/leoube.png"  alt="bottle leoube">
-                        </div>
                         <div class="movember__container_bottle">
                             <div class="movember__baseline_bottle">
                                 <h2>La Cuvée Bleue</h2>
