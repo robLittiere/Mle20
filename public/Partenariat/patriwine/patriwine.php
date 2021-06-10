@@ -83,10 +83,15 @@
                             </div>
                         </div>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.  deserunt necessitatibus nam ullam perferendis natus atque.<br><br>
-                            Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate,<br><br>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsa, quibusdam non architecto dignissimos asperiores consequatur laudantium.<br>
-
+                            Créée en 2010, Patriwine est spécialisé dans les Grands Crus Classés du Bordelais.<br> 
+                            En étant spécialisé, cela permet de mieux connaître son marché et d’offrir les meilleures conditions d’acquisition de ces vins.<br><br> 
+                            Patriwine stocke 100 000 bouteilles des plus grands crus du bordelais dans 2 des meilleurs entrepôts du monde :<br><br> 
+                            Bordeaux City Bond détenu majoritairement par la CCI de Bordeaux et Vinexpo ainsi que dans un local privatif du nouveau bâtiment des Ports Francs de Genève.<br>
+                            Patriwine bénéficie de l’expérience du négoce de Bordeaux dans les Grands Crus,<br> 
+                            afin de vous offrir les meilleurs crus avec une traçabilité et des qualités de conservations exceptionnelles.<br><br> 
+                            Le site de <a href="https://www.patriwine.fr/fr/">Patriwine</a><br>
+                            Tel +33 (0)5 57 29 20 20
+                            <br>
                         </p>
                     </div>
                 </div>
@@ -96,21 +101,33 @@
                 <div class="block_why">
 
                     <div class="descript_why">
-                        <div class="logoWhy">
-                            <img src=""  alt="">
+                        <div class="chai1">
+                            <img src="../../assets/chai 2 Gruaud Larose.png" alt="chai 2 gruaud">
                         </div>
             
                         <div class="prt__container_why">
                             <div class="prt__baseline_why">
-                                <h2>Pourquoi eux ?</h2>
+                                <h2>Patriwine & M Le 20</h2>
                             </div>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quia, maxime sint accusamus autem nesciunt cumque, sunt explicabo ullam neque pariatur libero corrupti excepturi, odit iste temporibus illo necessitatibus mollitia!<br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dignissimos alias cum rerum.<br><br>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam vel nobis nesciunt repellat ipsum officiis deserunt aperiam quis, corrupti dicta ea soluta perspiciatis quibusdam quas debitis, veritatis quaerat saepe! Nisi.
-                            Rem optio aliquid odio, voluptatem ipsa.Rem optio aliquid odio, voluptatem ipsa.
+                            Depuis le début, nous regardons Patriwine avancer, son parcours est vertigineux, sans ascension fulgurante.<br> 
+                            Il était donc légitime de nous rejoindre grâce à notre pas passion commune.<br><br><br>
+                            Elle nous permet aujourd’hui de vous présenter un très grand nombre de Grands Crus Bordelais à la traçabilté exceptionnelle.<br>
+                            <br> 
+                            Notre partenariat vous offres différentes possibilités :<br><br><br>
                         </p>
+                        <div class="chai2">
+                            <img src="../../assets/chai Gruaud Larose .png" alt="chai gruaud">
+                        </div>
+                        <p>
+                            <span>&#10003;</span> &nbsp Un dépôt de grands crus disponibles sur Paris & 92<br>
+                            <span>&#10003;</span> &nbsp Vente à la bouteille, à la caisse et panachage possible<br> 
+                            <span>&#10003;</span> &nbsp Dégustation privative de grands crus avec opportunité d’achat d’exception<br> 
+                            <span>&#10003;</span> &nbsp Cadeaux d’affaires, Evénements d’entreprise, Club …<br>
+                            <br><br><br>
+                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -118,19 +135,46 @@
         <div class="content_mle20">
             <div class="block_mle20">
                 <div class="descript_mle20">
-                    <div class="mle20_picture">
-                        <img src="" alt="">
-                    </div>
                     <div class="prt__container_mle20">
                         <div class="prt__baseline_mle20">
-                            <h2>Patriwine & M Le 20</h2>
+                            <h2>«Dégustation d’Anthologie» avec Patriwine & M Le 20</h2>
                         </div>
                     </div>
+
+
+                    <div class="chateau">
+                        <img src="../../assets/chateaugruaudlarose.png"  alt="chateaubrx">
+                    </div>
+                        
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero id placeat ullam. Eius, deserunt nostrum! Temporibus expedita repudiandae officiis illo cum ex corporis. Perferendis maxime error qui laboriosam sapiente.<br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate.<br>
-                        Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate.<br>
+                        Vous n’avez pas le temps de visiter<br>
+                        <span>&#10003;</span> &nbsp Les Grands Châteaux Bordelais<br>
+                        <span>&#10003;</span> &nbsp Les grands crus …<br>
+                        Rien d’étonnant,  nous manquons tous de ce temps si précieux.
+                        C’est pourquoi se sont les grands châteaux qui viennent à vous au travers d’une dégustation
+                        prestigieuse.<br><br> 
+                        Cette expérience unique est à faire au moins une fois dans sa vie !<br> 
+                        Vous dégustez les grands crus Bordelais<br>
+                        <span>&#10003;</span> &nbsp Château Gruaud Larose 2016, 2015 Saint-Julien<br>
+                        <span>&#10003;</span> &nbsp Château Larrivet Haut-Brion 2019 Pessac-Léognan<br>
+                        <span>&#10003;</span> &nbsp Château Cos Labory 2019 Saint-Estèphe<br>  
+                        Avant d’en apprécier les qualités organoletptiques, vous avez l’extrême privilège d’être installé(e)<br> confortablement pour immersion au cœur du vignoble …<br><br>   
+                        Vous ne révez pas, grâce à la réalité virtuelle vous visitez, découvrez, appréciez …<br>
+                        <span>&#10003;</span> &nbsp Les parcelles de vignes<br>
+                        <span>&#10003;</span> &nbsp Le château<br>
+                        <span>&#10003;</span> &nbsp Le chai<br><br>
+                        
                     </p>
+                    <div class="virtuelleimg">
+                        <img src="../../assets/virtual reality.png"  alt="virtualreal">
+                    </div>
+                    <p>
+                        Laissez vous porter, écoutez l’histhoire et les anecdotes du château au travers des récits<br> 
+                        du propriétaire, du maître de chais ou encore l’œnologue.<br>
+                        Une éxpérience cisélée & fantastique qui vous plongera dans des conditions exceptionneles  pour apprécier les meilleurs vins du monde.<br>
+                        Quel bonheur !<br>
+                    </p>
+
                 </div>
             </div>
         </div>

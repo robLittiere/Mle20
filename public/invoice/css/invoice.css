@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+}
+
+html ,body{
+  height: auto;
+  margin: 0;
+}
+
+header {
+    background-color: #B90D0D;
+    width: 100%;
+    height: 50px;
+}
+
+#titleHeader {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    align-items: center;
+}
+
+.informations{
+  display: flex;
+}
+.date_information{
+  display: flex;
+  width: 50%;
+  padding: 2% 6% 2% 2%;
+}
+.date_information p{
+  justify-content: space-evenly;
+}
+.mle20_information{
+  display: flex;
+  float: right;
+  width: 50%;
+  padding: 2% 8% 2% 2%;
+}
+.mle20_text{
+  width: 50%;
+}
+.logo{
+  width: 50%;
+}
+.logo_image{
+  display: block;
+  width: 60%;
+  padding: 0% 0% 0% 10%;
+  float: right;
+}
+.borderContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.border {
+  border-bottom: 1px solid #969696;
+  width: 80%;
+}
+
+#container{
+  display: flex;
+  height: 35%;
+}
+/*delivery container*/
+#deliveryAdresseContainer {
+  margin-top: 5%;
+  width: 35%;
+  
+  padding: 0% 0% 10% 10%;
+}
+#deliveryAdresse {
+  text-align: center;
+  border-bottom: 1px solid #313131;
+}
+
+#deliveryAdresseTitle {
+  color: white;
+  background-color: #313131;
+
+  padding: 5%;
+}
+
+#deliveryAdresseP {
+  padding: 2%;
+  text-align: left;
+}
+
+/*Buyer container*/
+#buyerAdresseContainer {
+  margin-top: 5%;
+  width: 35%;
+  padding: 0% 0% 0% 10%;
+}
+
+#buyerAdresse {
+  text-align: center;
+  border-bottom: 1px solid #313131;
+}
+
+#buyerAdresseTitle {
+  color: white;
+  background-color: #313131;
+
+  padding: 5%;
+}
+
+#buyerAdresseP {
+  padding: 2%;
+  text-align: left;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-column-gap: 5%;
+
+  margin: 5% 5% 0% 10%;
+}
+
+.recapTitle {
+  color: white;
+  align-items: center;
+  text-align: center;
+  
+  background-color: #313131;
+  padding: 5%;
+}
+
+.recapContain{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+
+.recapContainT{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.recapContain1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+.recapContain2{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+.recapContain3{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: right;
+}
+
+.border {
+  width: 80%;
+  border-bottom: 1px solid #B90D0D;
+  margin: 2% 10% 2% 10%;
+}
+
+#totalContainer {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+
+  grid-column-gap: 5%;
+  margin-left: 43%;
+}
+
+.totalContain {
+  text-align: end;
+  align-items: center;
+
+  margin-bottom: 10%;
+}

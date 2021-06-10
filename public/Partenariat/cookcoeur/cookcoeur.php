@@ -73,6 +73,7 @@
                 <div class="block_logockc">
 
                     <div class="descript_logockc">
+
                         <div class="logockc">
                             <img src="../../assets/logoCookcoeur.png" alt="Logo CookCoeur">
                         </div>
@@ -83,11 +84,21 @@
                             </div>
                         </div>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.  deserunt necessitatibus nam ullam perferendis natus atque.<br><br>
-                            Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate,<br><br>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ipsa, quibusdam non architecto dignissimos asperiores consequatur laudantium.<br>
-
+                        Cookcoeur c’est Jean-Philippe d’Hont, il est directeur artistique.<br>
+                        Passionné de dessin depuis petit, il croque depuis toujours ce qui l’inspire.<br><br> 
+                        Né dans une famille de boulanger pâtissier,<br> il s’amuse petit dans les coulisses de la pâtisserie familiale,<br>
+                        formant ses sens aux odeurs gourmandes de brioche tiède ou de crème vanille <br> tout juste montée et remplissant ses yeux de ce travail artisanal.<br><br>
+                        A travers ses créations, Cookcoeur met en valeur les talents de chefs pâtissiers tels que<br> Nicolas Bernardé, Yann Couvreur, Christophe Michalak,<br>
+                        Bryan Esposito, Pierre Hermé, François Perret, Kevin Lacote ...<br> 
+                        Son art nous permet d'entrer dans le monde des saveurs des chefs.<br><br>
+                        Le site : <a href="https://www.cookcoeur.fr">CookCoeur</a>
                         </p>
+                        <br><br>
+            
+                        <div class="perso1">
+                            <img src="../../assets/persocook.jpeg"  alt="persocook">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -96,21 +107,28 @@
                 <div class="block_why">
 
                     <div class="descript_why">
-                        <div class="logoWhy">
-                            <img src=""  alt="">
-                        </div>
-            
                         <div class="ckc__container_why">
                             <div class="ckc__baseline_why">
-                                <h2>Pourquoi eux ?</h2>
+                                <h2>Cookcoeur & M Le 20</h2>
                             </div>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quia, maxime sint accusamus autem nesciunt cumque, sunt explicabo ullam neque pariatur libero corrupti excepturi, odit iste temporibus illo necessitatibus mollitia!<br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dignissimos alias cum rerum.<br><br>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam vel nobis nesciunt repellat ipsum officiis deserunt aperiam quis, corrupti dicta ea soluta perspiciatis quibusdam quas debitis, veritatis quaerat saepe! Nisi.
-                            Rem optio aliquid odio, voluptatem ipsa.Rem optio aliquid odio, voluptatem ipsa.
+                        L’Art de mettre en avant nos vignerons<br>
+                        C’est à la fois une rencontre et la passion qui nous réunit sur ce projet.<br>
+                        Nous avons imaginé que le talent de Cookceour pouvait magnifié un vin, un champagne, un accord gustatif.<br>
+                        M Le 20 lui décrit le millésime, l’appellation, les couleurs, les odeurs, les saveurs…<br>
+                        Cookcoeur illustre à travers son oeuvre toute la quintessence olfactive et gustative d’une cuvée.<br>
+                        Nous pouvons imaginer<br>
+                        <span>&#10003;</span> &nbsp Un vin, une aquarelle<br>
+                        <span>&#10003;</span> &nbsp Une étiquette,  une aquarelle …<br>
+                        et bien d’autres choses auxquelles vous penserez certainement<br><br>
+
                         </p>
+
+                        <div class="cookbout">
+                            <img src="../../assets/bouteillecook.png"  alt="boutcook">
+                        </div>
+            
                     </div>
                 </div>
             </div>
@@ -118,19 +136,28 @@
         <div class="content_mle20">
             <div class="block_mle20">
                 <div class="descript_mle20">
-                    <div class="mle20_picture">
-                        <img src="" alt="">
+                    <div class="persocook2">
+                        <img src="../../assets/persocook2.jpeg"  alt="perso2">
                     </div>
                     <div class="ckc__container_mle20">
                         <div class="ckc__baseline_mle20">
-                            <h2>CookCoeur & M Le 20</h2>
+                            <h2>Evénements Cookcoeur & M Le 20</h2>
                         </div>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero id placeat ullam. Eius, deserunt nostrum! Temporibus expedita repudiandae officiis illo cum ex corporis. Perferendis maxime error qui laboriosam sapiente.<br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate.<br>
-                        Rem optio aliquid odio, voluptatem ipsa, quidem inventore pariatur animi at distinctio obcaecati modi cupiditate.<br>
+                    Vins & Pâtisseries <br>
+                    Nous imaginons des accords judicieux avec un grand chef pâtissier qui partage avec vous sa perception olfactive, <br>
+                    ses émotions gustatives, ses sensations Champagne. <br> 
                     </p>
+                    <div class="persocook3">
+                        <img src="../../assets/persocook3.jpeg"  alt="perso3">
+                    </div>
+                    <br><br><br>
+                    <p>
+                    Mousse de nougat cœur de caramel déglacé au champagne et brisures de cacahuète, enrobage chocolat noir et pâte sucrée au cacao <br>
+                    Un moment précieux, privilégié que le chef pâtissier n’accorde qu’exceptionnellement ! <br>
+                    </p>
+
                 </div>
             </div>
         </div>

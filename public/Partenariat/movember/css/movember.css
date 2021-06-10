@@ -154,7 +154,7 @@ background-color: white;
 }
 .bottleléoube{
   position: absolute;
-  top: 195%;
+  top: 194%;
   left: 87%;
   max-width: 7%;
 }
@@ -199,6 +199,8 @@ background-color: white;
   line-height: 1.2em;
 }
 
+
+/*first-letter*/
 .descript_event::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
