@@ -120,10 +120,11 @@ the page content
 
 .prestige_card_container {
   width: 90%;
-  margin: 5%;
+  margin: 2% auto;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, 500px);
+  justify-content: center;
   grid-gap: 1%;
 }
 
@@ -145,6 +146,10 @@ the page content
   opacity: 1;
 }
 
+.prestige_element:hover .img_overlay {
+  opacity: 0;
+}
+
 .prestige_btn {
   margin-top: 40%;
 }
@@ -152,6 +157,27 @@ the page content
 .img-container img{
   transition: 1s;
   width: 100%;
+}
+
+.img_overlay {
+  margin: auto;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.7;
+  width: 40%;
+  height: 40%;
+  background-color: rgb(165, 25, 25);
+  z-index: 999;
+}
+
+.iconify{
+  height: 40%;
+  margin: 17% auto;
 }
 
 .col-lg-3 img {
@@ -174,7 +200,7 @@ the page content
   position: absolute;
 
   align-self: center;
-  background-color: red;
+  background-color: rgb(165, 25, 25);
   color: white;
 
   opacity: 0;

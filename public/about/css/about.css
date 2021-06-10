@@ -1,16 +1,16 @@
 * {
     margin: 0;
-  }
-  
-body {
-margin: 0;
-font-family: 'Prata';
-background-color: white;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
 }
 
-.global__container{
+body {
+    margin: 0;
+    font-family: 'Lato';
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.global__container {
     display: flex;
     flex-direction: column;
     font-family: 'Lato';
@@ -19,84 +19,74 @@ background-color: white;
     height: 100%;
 }
 
-.about__container{
+.about__container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.about__baseline{
+.about__baseline {
     padding-bottom: 1%;
     border-bottom: 1px solid rgb(124, 19, 19);
 }
 
-.about__baseline h1{
+.about__baseline h1 {
     font-size: 3em;
     color: black;
     font-weight: 400;
 }
 
-.item__container{
+.item__container {
     padding-top: 5%;
     margin-bottom: 5%;
     align-self: center;
     width: 80%;
     height: 470px;
     display: flex;
-}     
+}
 
-.description__container{
+.description__container {
     width: 100%;
-    text-align: justify;   
+    text-align: justify;
 
 }
 
-.description__container{
+.description__container {
     padding-right: 2%;
     padding-left: 2%;
 }
 
-.description__text{
+.description__text {
     width: 80%;
 }
 
 
-.description__title{
+.description__title {
     padding-bottom: 2%;
 
 }
 
 
-.description__title h3{
+.description__title h3 {
     text-align: left;
     font-size: 2em;
     width: 80%;
     padding-bottom: 2%;
-    border-bottom: 1px solid rgb(124, 19, 19) ;
+    border-bottom: 1px solid rgb(124, 19, 19);
 }
 
-.image__container{
+.image__container {
     width: 100%;
     overflow: hidden;
 }
 
-.image__container img{
+.image__container img {
     transition: all 0.3s ease-in-out;
     width: 100%;
     height: 50%;
     overflow: hidden;
     object-fit: cover;
     display: block;
-}
-
-.profilePicture {
-    display: flex;
-    justify-content: center;
-}
-
-.Picture {
-    width: 60%;
-    height: auto;
 }
 
 .comite_de_selection {
@@ -108,11 +98,11 @@ background-color: white;
     margin-top: 2%;
 }
 
-.colaborateur_content{
+.colaborateur_content {
     padding: 1%;
 }
 
-.colaborateur{
+.colaborateur {
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
@@ -120,37 +110,27 @@ background-color: white;
 
 .profile_colaborateur {
     width: 15%;
+    margin: auto 0%;
 }
 
-.picture_colaborateur:hover .overlay{
+.picture_colaborateur:hover .overlay {
     opacity: 1;
 }
 
-.picture_profile_colaborateur{
-    padding-left: 20%;
-}
-
 .picture_colaborateur {
-    width: 70%;
+    width: 100%;
     height: auto;
-    margin-top: 35%;
-    margin-bottom: 30px;
-
     transition: 1s ease;
-    border-radius: 50%;
-
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .profile_description {
-    text-align: center;
-
+    text-align: start;
     font-size: 20px;
+    margin-bottom: 25px;
 }
 
-
-.profile_description p{
+.profile_description p {
+    white-space: pre-line;
     border-bottom: solid 1px rgb(124, 19, 19);
 }
 
@@ -160,36 +140,22 @@ background-color: white;
     text-align: left;
     text-justify: inter-word;
     padding: 2%;
-    margin: 3%;
 
     transition: 1s ease;
     border: 2px solid rgb(124, 19, 19);
 
-    background-color: rgb(36, 36, 36);
-    color: rgb(247, 242, 242);
-    border: 2px solid rgb(36, 36, 36);
-}
-
-.colaborateur:hover .picture_colaborateur{
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-}
-
-.colaborateur:hover .description_right{
-    background-color: white;
+    background-color: rgb(251, 251, 251);
     color: rgb(36, 36, 36);
-    border: 2px solid rgb(124, 19, 19);
 }
-
 
 /**
 *This is our media queries for responsive web
 **/
 @media (max-width: 900px) {
     .item__container {
-      height: 650px;
+        height: 650px;
     }
-  }
+}
 
 
 
@@ -197,14 +163,15 @@ background-color: white;
     .item__container {
         flex-direction: column;
     }
-    .image__container{
+
+    .image__container {
         order: 1;
         margin-bottom: 5%;
         height: 400px;
     }
 
-    .description__container{
+    .description__container {
         order: 2;
     }
 
-  }
+}

@@ -1,132 +1,143 @@
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body {
+body,
+html {
+  height: 100%;
   margin: 0;
-  font-family: 'Prata';
+  font-family: 'Lato';
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.store__container {
-  width: 100%;
-  display: flex;
-}
-
-#storeContain {
-  margin: 1.5% 5% 5% 5%;
+#store_grid {
+  max-width: 1300px;
   width: 90%;
+  height: auto;
+  margin: 70px auto;
 
   display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
   justify-content: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
+  grid-gap: 10px;
 }
 
-.storeElement {
-  display: flex;
-  flex-direction: column;
-
-  border: 1px solid white;
-	transition: .5s ease-in-out;
+.item {
+  transition: 1s;
+  height: 500px;
 }
 
-.storeElement:hover {
-  border-top: 1px solid rgb(182, 174, 174);
+.item_img:hover img {
+  opacity: 0.3;
 }
 
-/*map css*/
-
-.elementDescription {
-  font-size: 20px;
+.item:hover .img-overlay {
+  opacity: 1;
 }
 
-.elementName {
+.item_img {
+  transition: 1s;
+  position: relative;
+  height: 60%;
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
-
-  font-size: 17px;
-  font-weight: bold;
-  border-bottom: 1px solid rgb(240, 209, 33);
 }
 
-.region {
-  display: flex;
-  justify-content: center;
+.item_img img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+  margin: auto;
+  object-fit: cover;
+}
+
+.img-overlay {
+  transition: 1s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.item_img a {
+  transition: 1s;
+  width: 6.5%;
+  padding: 10px;
+
+  transition: .5s ease;
+  background-color: rgb(144, 12, 63);
+  color: white;
+
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.item_img a:hover {
+  background-color: white;
+  color: rgb(144, 12, 63);
+  border: 1px solid rgb(144, 12, 63);
+}
+
+.item_text {
+  margin: 10px;
+  text-align: center;
+  color: #555;
+}
+
+.prize_btn {
+  transition: 1s;
+  padding: 5px;
+  border: 1px solid rgb(144, 12, 63);
+  background-color: rgb(144, 12, 63);
+  color: white;
+}
+
+.prize_btn:hover {
+  text-decoration: none;
+  border: 1px solid rgb(144, 12, 63);
+  background-color: white;
+  color: rgb(144, 12, 63);
+
+  position: relative;
+  overflow: hidden;
+
   margin-bottom: 5px;
 }
 
-.elementAppellation {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5px;
+.prize_btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+
+  background-color: white;
+  color: black;
+  background: linear-gradient(120deg,
+      transparent,
+      rgba(144, 12, 63, 0.4),
+      transparent);
+  transition: all 650ms;
 }
 
-.elementVintage {
-  display: flex;
-  justify-content: center;
+/*product css*/
 
-  margin-top: 10px;
-
-  font-size: 20px;
-}
-
-.elementPrice {
-  display: flex;
-  justify-content: center;
-
-  margin-top: 10px;
-}
-
-#lvblanc{
-  width: 75%;
-  margin-left: 11%;
-}
-
-#lvrouge{
-  width: 75%;
-  margin-left: 11%;
-}
-
-#Mrose{
-  width: 45%;
-  margin-left: 28%;
-}
-
-#Mrouge{
-  width: 68%;
-  margin-left: 15%;
-}
-
-#Mblanc{
-  width: 68%;
-  margin-left: 15%;
-}
-
-#Jrose{
-  width: 50%;
-  margin-left: 24%;
-}
-
-.elementImg {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-  transition: .3s ease-in-out;
-  align-items: center;
-
-  margin-top: 30px;
-  min-width: 150px;
-}
-
-.storeElement img{
-  width: 325px;
-  height: 355px;
-}
 
 /* button css*/
 
@@ -147,37 +158,6 @@ body {
   margin-bottom: 5px;
 }
 
-.store__container .btn:hover {
-  text-decoration: none;
-  border: 2px solid rgb(144, 12, 63);
-  background-color: white;
-  color: rgb(144, 12, 63);
-
-  position: relative;
-  overflow: hidden;
-
-  margin-bottom: 5px;
-}
-
-.store__container .btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-
-  background-color: white;
-  color: black;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(144, 12, 63, 0.4),
-    transparent
-  );
-  transition: all 650ms;
-} 
-
 .store__container .btn:hover:before {
   left: 100%;
 }
@@ -197,7 +177,9 @@ body {
 }
 
 .elementPrice {
-  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* image button */
@@ -212,9 +194,12 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 
+  width: 35%;
+  margin-left: 32.5%;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  margin-left: 160px;
-  margin-top: -160px;
+  margin-top: 25%;
 
   text-align: center;
 }
@@ -227,86 +212,104 @@ body {
   opacity: 1;
 }
 
-.imageButton:hover .text{
+.imageButton:hover .text {
   transition: .5s ease;
   background-color: white;
   color: rgb(144, 12, 63);
   border: 1px solid rgb(144, 12, 63);
 }
 
-.text {
-  transition: .5s ease;
-
-  background-color: rgb(144, 12, 63);
-  color: white;
-  border: none;
-  cursor: pointer;
-
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
 /*know more pop-up*/
 
 #popup {
-  display: none; 
-  position: fixed; 
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto;
-  z-index: 999; 
+  position: absolute;
+  width: 100%;
+  height: 100%;
 
-  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
 }
 
-#popupImgContain {
-  width: 125px;
-  height: 155px;
-}
+.popupContent {
+  background-color: #fefefe;
+  border: 1px solid black;
 
-#popupText {
-  font-size: 12px;
-  margin: 5%;
-  margin-top: 10%;
-
-  display: block;
-  justify-content: space-around;
-}
-
-#popupDescription {
   display: flex;
+  width: 50%;
+  height: 40%;
+
+  margin: 15% 25% 25% 25%;
+  padding: 1%;
+  text-align: center;
+}
+
+.popup_img_container {
+  height: 100%;
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.popup_img_container img {
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+.popup_description_container {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  
+}
+
+.popup_description {
+  width: 100%;
+  height: 70%;
 }
 
 #popupTextName {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
   margin-bottom: 40px;
 
   font-weight: bold;
   font-size: 20px;
+}
+
+#popupTextName p {
+  width: min-content;
+  white-space: nowrap;
   border-bottom: 1px solid rgb(240, 209, 33);
+}
+
+.popup_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #popupBtn {
   transition: .5s ease;
+  width: 25%;
 
-  background-color: rgb(144, 12, 63);
   color: white;
   border: none;
   cursor: pointer;
 
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 1% 2%;
 
-  margin-left: 13%;
+  background-color: rgb(144, 12, 63);
+  color: white;
 }
 
-#closePopupBtn {
-  margin-top: 30px;
-}
 
 #popupBtn:hover {
   transition: .5s ease;
@@ -314,21 +317,6 @@ body {
   background-color: white;
   color: rgb(144, 12, 63);
   border: 1px solid rgb(144, 12, 63);
-}
-
-.popupContent {
-  background-color: #fefefe;
-  border: 1px solid black;
-
-  margin: auto;
-  padding: 35px;
-  width: 50%;
-  height: 40%;
-  text-align: center;
-}
-
-.popupImg { 
-  margin-top: 10%;
 }
 
 /* sidenav */
@@ -349,17 +337,17 @@ body {
   font-size: 20px;
 }
 
-#cartContain img{
+#cartContain img {
   width: 125px;
   height: 155px;
 }
 
-#cartContain{
+#cartContain {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-#cartContain a{
+#cartContain a {
   margin-top: 60px;
 }
 
@@ -411,8 +399,13 @@ body {
 }
 
 @media screen and (max-height: 650px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 #sidenavBlur {
@@ -426,7 +419,7 @@ body {
   overflow-x: hidden;
   font-size: 20px;
   color: #818181;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   filter: blur(4px);
 
 
