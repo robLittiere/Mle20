@@ -204,29 +204,29 @@ background-color: white;
 .descript_event::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
-  font-size: 400%;
+  font-size: 300%;
 }
 
 .descript_cerhom::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
-  font-size: 400%;
+  font-size: 300%;
 }
 
 .descript_bottle::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
-  font-size: 400%;
+  font-size: 300%;
 }
 
 .descript_logoMov p::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
-  font-size: 400%;
+  font-size: 300%;
 }
 
 .descript_mle20::first-letter {
   color: rgb(0, 0, 0);
   font-family: 'Lato light';
-  font-size: 400%;
+  font-size: 300%;
 }

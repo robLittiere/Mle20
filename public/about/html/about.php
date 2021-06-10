@@ -122,7 +122,7 @@
                 <div class="colaborateur">
                     <div class="description_right">
                         <div class="profile_description">
-                            <p>Bénédicte Pauly Sénéchal <br> Présidente, Fondatrice chez M LE 20 Wines & Events</p>
+                            <p>Bénédicte Pauly Sénéchal <br> Présidente, Fondatrice chez M Le 20 Wines & Events</p>
                         </div>
                         <p>
                             Experte en Vins & médias Communication & Développement 25 ans d’expérience, passionnée par

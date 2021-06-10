@@ -103,14 +103,22 @@ body {
 }
 
 .colaborateur {
+    margin-left: 10%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
 }
 
 .profile_colaborateur {
-    width: 15%;
+    height: 224px;
+    width: 224px;
     margin: auto 0%;
+}
+
+.profile_colaborateur img{
+    height: 100%;
+    width: 100%;
 }
 
 .picture_colaborateur:hover .overlay {
@@ -135,17 +143,40 @@ body {
 }
 
 .description_right {
+    overflow: auto;
     font-size: 15px;
     width: 50%;
+    min-height: 200px;
+    height: 200px;
     text-align: left;
     text-justify: inter-word;
-    padding: 2%;
+    padding: 10px;
 
     transition: 1s ease;
     border: 2px solid rgb(124, 19, 19);
 
     background-color: rgb(251, 251, 251);
     color: rgb(36, 36, 36);
+}
+
+.description_right::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px #F5F5F5;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.description_right::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: #F5F5F5;
+}
+
+.description_right::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px #F5F5F533;
+	background-color: rgb(124, 19, 19);
 }
 
 /**

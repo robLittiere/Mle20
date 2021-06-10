@@ -146,7 +146,7 @@
                     <button class="button prestige_btn">Vin & Parfum</button>
                     <img src="../../assets/D&E/parfum.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="50%"></span>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                     <button class="button prestige_btn">Vin & chocolat</button>
                     <img src="../../assets/D&E/chocolat.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     <button class="button prestige_btn">Vin & pâtisserie</button>
                     <img src="../../assets/D&E/patisserie.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@
                     <button class="button prestige_btn">Paris by wine</button>
                     <img src="../../assets/D&E/paris.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
                     <button class="button prestige_btn">Champagne & Luxe</button>
                     <img src="../../assets/D&E/caviar.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@
                     <button class="button improbable_btn">Bar à Champagne</button>
                     <img src="../../assets/D&E/barChampagne.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -256,7 +256,7 @@
                     <button class="button improbable_btn">Atelier de mixologie</button>
                     <img src="../../assets/D&E/mixologie.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -272,7 +272,7 @@
                     <button class="button improbable_btn">Champagnes et Fromages</button>
                     <img src="../../assets/D&E/vinFromage.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
@@ -288,7 +288,7 @@
                     <button class="button improbable_btn">Sauternes & Fromage, pâte persillée</button>
                     <img src="../../assets/D&E/sauternePates.jpg">
                     <div class="img_overlay">
-                        <span class="iconify" data-icon="fluent:cursor-20-regular" data-inline="false"
+                        <span class="iconify" data-icon="fluent:cursor-20-filled" data-inline="false"
                             height="100%"></span> </div>
                 </div>
             </div>
