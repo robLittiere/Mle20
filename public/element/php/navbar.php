@@ -12,22 +12,22 @@ $navbar = <<<EOD
                 <a href="../../contact/html/contact.php" id="contact__button" class="header__button">Contacts</a>
             </div>    
             <div id="store__popup">
-                <a href="#" class="popup__button">Vin</a>
-                <a href="#" class="popup__button">Champagne</a>
-                <a href="#" class="popup__button">Coffret Cadeau</a>
-                <a href="#" class="popup__button">Evenement</a>
-                <a href="#" class="popup__button">Autres</a>
+                <a href="store.php" class="popup__button">Vin</a>
+                <a href="store.php" class="popup__button">Champagne</a>
+                <a href="store.php" class="popup__button">Coffret Cadeau</a>
+                <a href="store.php" class="popup__button">Evenement</a>
+                <a href="store.php" class="popup__button">Autres</a>
             </div>
             <div id="experience__popup">
-                <a href="#" class="popup__button"><font color=red>Atelier de dégustation</font></a>
-                <a href="#" class="popup__button">Prestige</a>
-                <a href="#" class="popup__button">Improbable</a>
-                <a href="#" class="popup__button">Grands vins français</a>
-                <a href="#" class="popup__button">Privatiser (sur mesure)</a>
-                <a href="#" class="popup__button">Balades gustatives)</a>
-                <a href="#" class="popup__button">Soirée</a>
-                <a href="#" class="popup__button">Séminaire</a>
-                <a href="#" class="popup__button">Demande de devis</a>
+                <a href="degustationsExperience.php" class="popup__button"><font color=red>Atelier de dégustation</font></a>
+                <a href="degustationsExperience.php" class="popup__button">Prestige</a>
+                <a href="degustationsExperience.php" class="popup__button">Improbable</a>
+                <a href="degustationsExperience.php" class="popup__button">Grands vins français</a>
+                <a href="degustationsExperience.php" class="popup__button">Privatiser (sur mesure)</a>
+                <a href="degustationsExperience.php" class="popup__button">Balades gustatives)</a>
+                <a href="degustationsExperience.php" class="popup__button">Soirée</a>
+                <a href="degustationsExperience.php" class="popup__button">Séminaire</a>
+                <a href="degustationsExperience.php" class="popup__button">Demande de devis</a>
             </div>
             <div id="company__popup">
                 <a href="#" class="popup__button">Idée cadeaux</a>
@@ -38,13 +38,13 @@ $navbar = <<<EOD
                 <a href="#" class="popup__button">Ils nous font confiance</a>
             </div>
             <div id="conciergerie__popup">
-                <a href="#" class="popup__button">Conseil & Stratégie</a>
-                <a href="#" class="popup__button">Achat vin</a>
-                <a href="#" class="popup__button">Achat Primeur</a>
-                <a href="#" class="popup__button">Audit Cave</a>
-                <a href="#" class="popup__button">Expérience unique</a>
-                <a href="#" class="popup__button">Expérience VIP</a>
-                <a href="#" class="popup__button">Vins et millésimes rares</a>
+                <a href="conciergerie.php" class="popup__button">Conseil & Stratégie</a>
+                <a href="conciergerie.php" class="popup__button">Achat vin</a>
+                <a href="conciergerie.php" class="popup__button">Achat Primeur</a>
+                <a href="conciergerie.php" class="popup__button">Audit Cave</a>
+                <a href="conciergerie.php" class="popup__button">Expérience unique</a>
+                <a href="conciergerie.php" class="popup__button">Expérience VIP</a>
+                <a href="conciergerie.php" class="popup__button">Vins et millésimes rares</a>
             </div>
             <div id="partner__popup">
                 <a href="../../Partenariat/bulleDeLaube/bulleDeLAube.php" class="popup__button">Bulles de l'Aube</a>
@@ -58,9 +58,6 @@ $navbar = <<<EOD
             </div>
             <div id="contact__popup">
                 <a href="../../contact/html/contact.html" class="popup__button">Formulaire</a>
-                <a href="#" class="popup__button">Adresse1</a>
-                <a href="#" class="popup__button">Adresse2</a>
-                <a href="#" class="popup__button">Adresse3</a>
                 <a href="#" class="popup__button">Téléphone</a>
             </div>
             <div id="infos__popup">
