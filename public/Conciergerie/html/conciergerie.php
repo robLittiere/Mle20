@@ -114,7 +114,7 @@
                     </P>
 
                     <div class="content__button">
-                        <a href="../../contact/html/contact.php" class="brk-btn">CONTACTEZ-NOUS</a>
+                        <a href="../../contact/html/contact.php" class="brk-btn">RECHERCHE VIN</a>
                     </div>
 
                 </div>
@@ -133,6 +133,9 @@
                     Nous étudions votre cave et vous aidons à la constituer.<br>
                     Nous équilibrons, ajustons pour que la partition soit parfaite.
                    </p>
+                   <div class="content__button">
+                        <a href="../../contact/html/contact.php" class="brk-btn">LANCER L'ÉTUDE</a>
+                    </div>
                 </div>
             </div>
             <div class="content__right scrollImage__anchor">
@@ -157,8 +160,11 @@
                     <span>&#10003;</span> &nbsp  Grands contenants, Jéroboam, Balthazar<br>
                     <span>&#10003;</span> &nbsp  Vieux champagnes<br>
                     Notre priorité, toujours mieux satisfaire.<br>
-
                    </p>
+
+                   <div class="content__button">
+                        <a href="../../contact/html/contact.php" class="brk-btn">DÉCOUVREZ NOS ÉVENEMENTS</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,8 +181,11 @@
                     <span>&#10003;</span> &nbsp Cinq vins de l’appellation Saint-Julien<br>
                     <span>&#10003;</span> &nbsp Evolution d’un millésime<br>
                     Autant de thèmes gustatifs que nous pouvons imaginer avec vous 
-
                     </P>
+
+                    <div class="content__button">
+                        <a href="../../contact/html/contact.php" class="brk-btn">DÉCOUVREZ NOS ÉXPÉRIENCE</a>
+                    </div>
                 </div>
             </div>
             <div class="content__right scrollImage__anchor">
@@ -202,6 +211,10 @@
                     <span>&#10003;</span> &nbsp A vous d’imaginer la suite …<br>
                     Nous sommes à votre écoute pour vous aider à dénicher la perle rare.
                    </p>
+
+                   <div class="content__button">
+                        <a href="../../contact/html/contact.php" class="brk-btn">VIN & MILLÉSIMES</a>
+                    </div>
                 </div>
             </div>
         </div>
