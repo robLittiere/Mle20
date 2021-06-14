@@ -119,8 +119,8 @@
                         M Le 20 lui décrit le millésime, l’appellation, les couleurs, les odeurs, les saveurs…<br>
                         Cookcoeur illustre à travers son oeuvre toute la quintessence olfactive et gustative d’une cuvée.<br>
                         Nous pouvons imaginer<br>
-                        <span>&#10003;</span> &nbsp Un vin, une aquarelle<br>
-                        <span>&#10003;</span> &nbsp Une étiquette,  une aquarelle …<br>
+                        <span>&#10148;</span> &nbsp Un vin, une aquarelle<br>
+                        <span>&#10148;</span> &nbsp Une étiquette,  une aquarelle …<br>
                         et bien d’autres choses auxquelles vous penserez certainement<br><br>
 
                         </p>
@@ -128,6 +128,7 @@
                         <div class="cookbout">
                             <img src="../../assets/bouteillecook.png"  alt="boutcook">
                         </div>
+                        <br>
             
                     </div>
                 </div>
